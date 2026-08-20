@@ -786,6 +786,197 @@
       font-size: 1.15rem;
     }
 
+  
+    /* ==========================================================================
+       ELIVAAS MOBILE PERFECTION & ZERO-LATENCY ENGINE
+       ========================================================================== */
+    @media (max-width: 768px) {
+      /* 1. Ultra-sleek mobile header */
+      .navbar-elivaas-exact {
+        padding: 12px 16px !important;
+      }
+      .logo-brand-txt {
+        font-size: 1.35rem !important;
+      }
+      .logo-exact-tagline {
+        font-size: 0.5rem !important;
+        letter-spacing: 0.18em !important;
+      }
+      .btn-exact-login-pill {
+        padding: 6px 14px !important;
+        font-size: 0.78rem !important;
+      }
+
+      /* 2. Mobile Hero Layout */
+      .hero-section-exact {
+        min-height: 540px !important;
+        height: auto !important;
+        padding-top: 80px !important;
+        padding-bottom: 24px !important;
+      }
+      .hero-content-exact-container {
+        min-height: 440px !important;
+        justify-content: flex-end !important;
+      }
+      
+      /* Mobile Floating Search Pill */
+      .search-widget-glass-exact {
+        background: rgba(255, 255, 255, 0.92) !important;
+        backdrop-filter: blur(20px) !important;
+        -webkit-backdrop-filter: blur(20px) !important;
+        border-radius: 18px !important;
+        padding: 12px 14px !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25) !important;
+        border: 1px solid rgba(255, 255, 255, 0.9) !important;
+      }
+      .search-label-small {
+        color: #6b7280 !important;
+        font-size: 0.68rem !important;
+      }
+      .search-val-bold {
+        color: #121212 !important;
+        font-size: 0.88rem !important;
+      }
+      .search-col-exact {
+        background: #f4f4f5 !important;
+        border-radius: 10px !important;
+        padding: 8px 12px !important;
+      }
+
+      /* 3. Section Titles on Mobile */
+      .escape-title, .venues-main-title, .hosted-corporates-txt, .stories-title-centered, h2 {
+        font-size: 1.65rem !important;
+        line-height: 1.25 !important;
+      }
+      .escape-subtitle, .venues-subtitle-txt, section p {
+        font-size: 0.86rem !important;
+      }
+
+      /* 4. Smooth Horizontal Swipe with Peek on Mobile */
+      .dest-2row-scroll-container,
+      .offers-cards-row-scroll {
+        padding: 4px 0 12px !important;
+        gap: 12px !important;
+        scroll-snap-type: x mandatory !important;
+        scroll-padding: 0 16px !important;
+      }
+      .dest-card-2row {
+        width: 148px !important;
+        height: 118px !important;
+        border-radius: 14px !important;
+        scroll-snap-align: start !important;
+      }
+      .offer-card-exact {
+        flex: 0 0 240px !important;
+        width: 240px !important;
+        min-height: 165px !important;
+        border-radius: 16px !important;
+        padding: 16px !important;
+        scroll-snap-align: start !important;
+      }
+      .offer-card-main-title {
+        font-size: 0.88rem !important;
+      }
+      .offer-card-desc-body {
+        font-size: 0.74rem !important;
+      }
+
+      /* 5. Mobile Villa Cards Swipe/Stack */
+      .rain-cards-grid, .venues-cards-grid-exact, .corp-venues-3grid {
+        display: flex !important;
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important;
+        scrollbar-width: none !important;
+        gap: 14px !important;
+        padding-bottom: 10px !important;
+      }
+      .rain-cards-grid::-webkit-scrollbar,
+      .venues-cards-grid-exact::-webkit-scrollbar,
+      .corp-venues-3grid::-webkit-scrollbar {
+        display: none !important;
+      }
+      .rain-villa-card, .venue-card-box, .corp-venue-card-item {
+        flex: 0 0 85vw !important;
+        max-width: 320px !important;
+        scroll-snap-align: center !important;
+        border-radius: 18px !important;
+      }
+      .rain-card-img-wrap, .venue-card-img-box, .corp-venue-img-wrap {
+        height: 185px !important;
+      }
+
+      /* 6. Event Cards Mobile Grid */
+      .events-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+      .wedding-card-exact {
+        border-radius: 20px !important;
+      }
+      .wedding-card-img-wrap {
+        height: 200px !important;
+      }
+
+      /* 7. Bento Grid Mobile */
+      .bento-assurances-grid-4 {
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+      }
+      .bento-card-exact {
+        min-height: 240px !important;
+        padding: 22px !important;
+        border-radius: 18px !important;
+      }
+
+      /* 8. Star-Studded Stays Reels Mobile */
+      .star-reels-scroll-row {
+        gap: 12px !important;
+        padding-bottom: 12px !important;
+      }
+      .star-reel-card {
+        flex: 0 0 170px !important;
+        width: 170px !important;
+        height: 280px !important;
+        border-radius: 16px !important;
+      }
+
+      /* 9. Floating action buttons mobile */
+      .floating-support-badges {
+        right: 14px !important;
+        bottom: 74px !important;
+        gap: 8px !important;
+      }
+      .float-btn-whatsapp, .float-btn-mail {
+        width: 42px !important;
+        height: 42px !important;
+        font-size: 1.2rem !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+      }
+
+      /* 10. Mobile Bottom Bar */
+      .mobile-bottom-nav-bar {
+        height: 56px !important;
+        padding: 4px 12px 6px !important;
+        border-top: 1px solid rgba(0,0,0,0.06) !important;
+      }
+      .mob-nav-item {
+        font-size: 0.65rem !important;
+      }
+      .mob-nav-item i {
+        font-size: 1.05rem !important;
+      }
+    }
+
+    /* Zero-latency image rendering optimizations */
+    img {
+      content-visibility: auto;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+
   </style>
 </head>
 <body>
