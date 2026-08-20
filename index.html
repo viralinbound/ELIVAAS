@@ -1,0 +1,3470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ELIVAAS | Luxury Private Pool Villas & Vacation Rentals in India</title>
+  <meta name="description" content="Discover handpicked luxury villas with private pools, personal chefs, and 5-star concierge in Goa, Lonavala, Kasauli, Udaipur, and across India.">
+  <link rel="icon" href="images/faviconelivaas_dbf00961c0.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --elivaas-red: #801426;
+      --elivaas-red-hover: #9c1c33;
+      --elivaas-copper: #a36b4f;
+      --elivaas-gold: #c5a880;
+      --elivaas-gold-light: #f5ede2;
+      --elivaas-dark: #121212;
+      --elivaas-dark-card: #1c1c1c;
+      --elivaas-text: #1a1a1a;
+      --elivaas-muted: #6b7280;
+      --elivaas-border: #e5e7eb;
+      --elivaas-bg-warm: #fcfbfa;
+      --elivaas-bg-card: #ffffff;
+      
+      --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-logo: 'Cinzel', 'Playfair Display', serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden !important;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--elivaas-bg-warm);
+      color: var(--elivaas-text);
+      line-height: 1.5;
+      overflow-x: hidden !important;
+      width: 100%;
+      max-width: 100%;
+      padding-bottom: 60px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; outline: none; }
+    input, select, textarea { font-family: inherit; outline: none; }
+
+    .container {
+      width: 100%;
+      max-width: 1340px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Bar */
+    .top-bar-notice {
+      background: #0a0a0a;
+      color: #ebd9c8;
+      font-size: 0.78rem;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(197, 168, 128, 0.2);
+    }
+    .top-bar-inner { display: flex; justify-content: space-between; align-items: center; }
+    .currency-select-top {
+      background: transparent; color: #ebd9c8; border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 4px; padding: 2px 6px; font-size: 0.75rem;
+    }
+
+    /* Transparent Nav */
+    .navbar {
+      position: absolute; top: 32px; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 40px; transition: all 0.3s ease;
+    }
+    .brand-logo-wrap { display: flex; align-items: center; gap: 10px; }
+    .brand-icon-box {
+      width: 38px; height: 38px; border: 2px solid #ffffff;
+      border-radius: 6px; display: flex; align-items: center; justify-content: center;
+    }
+    .brand-diamond {
+      width: 18px; height: 18px; border: 2px solid #ffffff;
+      border-radius: 3px; transform: rotate(45deg);
+    }
+    .brand-text-logo {
+      font-family: var(--font-logo); font-size: 1.6rem; font-weight: 700;
+      letter-spacing: 0.15em; color: #ffffff; text-transform: uppercase;
+    }
+    .nav-actions { display: flex; align-items: center; gap: 20px; }
+    .btn-partner-nav {
+      color: #ffffff; font-size: 0.9rem; font-weight: 500;
+      padding: 8px 16px; border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 9999px; backdrop-filter: blur(4px); transition: all 0.2s ease;
+    }
+    .btn-partner-nav:hover { background: rgba(255, 255, 255, 0.15); border-color: #ffffff; }
+    .phone-contact-nav {
+      display: flex; align-items: center; gap: 8px; color: #ffffff;
+      font-size: 0.9rem; font-weight: 600;
+    }
+    .btn-login-nav {
+      background: var(--elivaas-red); color: #ffffff; padding: 10px 22px;
+      border-radius: 9999px; font-weight: 600; font-size: 0.9rem;
+      display: flex; align-items: center; gap: 8px; transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(128, 20, 38, 0.4);
+    }
+    .btn-login-nav:hover { background: var(--elivaas-red-hover); transform: translateY(-1px); }
+
+    /* Hero Section */
+    .hero-section {
+      position: relative; min-height: 85vh; display: flex;
+      flex-direction: column; justify-content: center; align-items: center;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%),
+                  url('https://d31za8na64dkj7.cloudfront.net/Desktop_Hero_1_fa51574d6c.jpg') center/cover no-repeat;
+      padding: 140px 20px 80px; text-align: center; color: #ffffff;
+    }
+    .hero-title {
+      font-family: var(--font-serif); font-size: 3.5rem; font-weight: 600;
+      letter-spacing: -0.01em; line-height: 1.15; max-width: 900px; margin-bottom: 12px;
+    }
+    .hero-subtitle {
+      font-size: 1.15rem; font-weight: 300; color: #f3ece3;
+      max-width: 650px; margin-bottom: 40px; letter-spacing: 0.02em;
+    }
+
+    /* Floating Search Bar */
+    .search-widget-glass {
+      background: rgba(18, 18, 18, 0.85); backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 9999px;
+      padding: 8px 12px 8px 28px; display: flex; align-items: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35); max-width: 960px; width: 100%;
+    }
+    .search-col {
+      flex: 1; text-align: left; padding: 6px 16px;
+      border-right: 1px solid rgba(255, 255, 255, 0.15); cursor: pointer;
+    }
+    .search-col:last-of-type { border-right: none; }
+    .search-col-label {
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: #ebd9c8; font-weight: 600; margin-bottom: 2px;
+    }
+    .search-col-val {
+      font-size: 0.95rem; font-weight: 500; color: #ffffff;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .btn-search-red-circle {
+      background: var(--elivaas-red); color: #ffffff; width: 50px; height: 50px;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; box-shadow: 0 4px 14px rgba(128, 20, 38, 0.5);
+      transition: transform 0.2s ease, background 0.2s ease; flex-shrink: 0;
+    }
+    .btn-search-red-circle:hover { background: var(--elivaas-red-hover); transform: scale(1.05); }
+
+    /* Popover */
+    .search-popover-panel {
+      position: absolute; top: calc(100% + 14px); left: 0; right: 0;
+      background: #ffffff; border-radius: 20px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+      padding: 24px; color: #121212; display: none; z-index: 200; text-align: left;
+      border: 1px solid var(--elivaas-border);
+    }
+    .search-popover-panel.active { display: block; }
+    .popover-dest-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .dest-chip-btn {
+      padding: 8px 16px; border-radius: 9999px; border: 1px solid var(--elivaas-border);
+      background: #faf7f2; font-size: 0.88rem; font-weight: 600; color: #1a1a1a;
+      transition: all 0.2s ease;
+    }
+    .dest-chip-btn:hover { background: var(--elivaas-red); color: #ffffff; border-color: var(--elivaas-red); }
+
+    /* Destinations Showcase */
+    .section-destinations { padding: 60px 0 30px; }
+    .escape-header {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      margin-bottom: 24px; flex-wrap: wrap; gap: 16px;
+    }
+    .escape-title { font-family: var(--font-serif); font-size: 2.3rem; font-weight: 600; color: var(--elivaas-dark); }
+    .escape-title em { font-style: italic; color: var(--elivaas-copper); font-weight: 400; }
+    .escape-subtitle { font-size: 1rem; color: var(--elivaas-muted); margin-top: 4px; }
+    .dest-tabs-wrap { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+    .dest-tab-pill {
+      padding: 8px 18px; border-radius: 9999px; font-size: 0.88rem; font-weight: 600;
+      color: #4b5563; background: #ffffff; border: 1px solid var(--elivaas-border);
+      white-space: nowrap; transition: all 0.2s ease;
+    }
+    .dest-tab-pill.active, .dest-tab-pill:hover {
+      background: var(--elivaas-dark); color: #ffffff; border-color: var(--elivaas-dark);
+    }
+    .dest-carousel-track {
+      position: relative; display: flex; align-items: center;
+    }
+    .city-cards-grid {
+      display: flex; gap: 20px; overflow-x: auto; scrollbar-width: none;
+      padding: 10px 2px; width: 100%; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+    }
+    .city-cards-grid::-webkit-scrollbar { display: none; }
+    .dest-card {
+      flex: 0 0 280px; height: 360px; border-radius: 20px; overflow: hidden;
+      position: relative; cursor: pointer; scroll-snap-align: start;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: transform 0.3s ease;
+      content-visibility: auto; contain-intrinsic-size: 280px;
+    }
+    .dest-card:hover { transform: translateY(-6px); }
+    .dest-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+    .dest-card:hover .dest-card-img { transform: scale(1.08); }
+    .dest-card-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.85) 100%);
+      display: flex; flex-direction: column; justify-content: flex-end; padding: 22px; color: #ffffff;
+    }
+    .dest-card-title { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; margin-bottom: 2px; }
+    .dest-card-count { font-size: 0.82rem; color: #ebd9c8; font-weight: 500; }
+    .dest-nav-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px;
+      border-radius: 50%; background: #ffffff; border: 1px solid var(--elivaas-border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: flex; align-items: center;
+      justify-content: center; z-index: 10; color: #121212; cursor: pointer;
+    }
+    .dest-nav-arrow.prev { left: -18px; }
+    .dest-nav-arrow.next { right: -18px; }
+
+    /* Bank Offers Section */
+    .section-curated-offers { padding: 40px 0; }
+    .offers-main-title { font-family: var(--font-serif); font-size: 2.3rem; font-weight: 600; color: var(--elivaas-dark); }
+    .offers-subtitle { font-size: 1rem; color: var(--elivaas-muted); margin-top: 4px; }
+    .offers-emi-banner {
+      background: #fdf6ec; border: 1px solid #faeccd; border-radius: 16px;
+      padding: 12px 20px; display: flex; align-items: center; justify-content: space-between;
+      margin: 20px 0; flex-wrap: wrap; gap: 12px;
+    }
+    .emi-text-left { display: flex; align-items: center; gap: 10px; }
+    .emi-red-badge {
+      background: var(--elivaas-red); color: #ffffff; font-weight: 700;
+      font-size: 0.75rem; padding: 4px 10px; border-radius: 6px;
+    }
+    .emi-bank-logos-row { display: flex; align-items: center; gap: 12px; overflow-x: auto; scrollbar-width: none; }
+    .bank-pill-circle {
+      width: 34px; height: 34px; border-radius: 50%; background: #ffffff;
+      border: 1px solid #e5e7eb; display: flex; align-items: center; justify-content: center;
+      padding: 5px; flex-shrink: 0;
+    }
+    .offers-scroll-wrapper { position: relative; display: flex; align-items: center; }
+    .offers-cards-carousel {
+      display: flex; gap: 16px; overflow-x: auto; scrollbar-width: none;
+      padding: 10px 4px; width: 100%; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+    }
+    .offers-cards-carousel::-webkit-scrollbar { display: none; }
+    .offer-card {
+      flex: 0 0 270px; border-radius: 16px; padding: 18px 18px 14px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      min-height: 140px; cursor: pointer; scroll-snap-align: start;
+      border: 1px solid transparent; transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .offer-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+    .offer-card.lavender { background: #f5f3ff; border-color: #ede9fe; }
+    .offer-card.peach { background: #fff7ed; border-color: #ffedd5; }
+    .offer-card.rose { background: #fff1f2; border-color: #ffe4e6; }
+    .offer-card.blue { background: #eff6ff; border-color: #dbeafe; }
+    .offer-card.maroon { background: #fdf2f2; border-color: #fce7e7; }
+    .offer-card.green { background: #f0fdf4; border-color: #dcfce7; }
+    .offer-card-top-icon { height: 26px; margin-bottom: 8px; display: flex; align-items: center; }
+    .offer-card-title { font-size: 0.95rem; font-weight: 700; color: #1e293b; margin-bottom: 4px; }
+    .offer-card-desc { font-size: 0.78rem; color: #64748b; line-height: 1.35; }
+    .offer-learn-more-btn {
+      font-size: 0.76rem; font-weight: 700; color: var(--elivaas-red);
+      display: flex; align-items: center; gap: 4px; margin-top: 10px;
+    }
+
+    /* Featured Villas Section */
+    .section-villas { padding: 40px 0; }
+    .villas-filter-toolbar {
+      background: #ffffff; border: 1px solid var(--elivaas-border);
+      border-radius: 14px; padding: 12px 18px; display: flex;
+      justify-content: space-between; align-items: center; margin-bottom: 24px;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .toolbar-group { display: flex; align-items: center; gap: 12px; font-size: 0.85rem; font-weight: 600; color: #4b5563; }
+    .toolbar-select {
+      padding: 6px 12px; border-radius: 8px; border: 1px solid var(--elivaas-border);
+      background: #faf7f2; font-size: 0.85rem; font-weight: 600; color: #121212;
+    }
+    .villas-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    }
+    @media (max-width: 1024px) { .villas-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 640px) { .villas-grid { grid-template-columns: 1fr; } }
+    .villa-card {
+      background: #ffffff; border-radius: 18px; overflow: hidden;
+      border: 1px solid var(--elivaas-border); box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+      display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer; content-visibility: auto; contain-intrinsic-size: 360px;
+    }
+    .villa-card:hover { transform: translateY(-5px); box-shadow: 0 12px 28px rgba(0,0,0,0.09); }
+    .card-image-wrapper { position: relative; height: 220px; background: #f3f4f6; overflow: hidden; }
+    .card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .villa-card:hover .card-img { transform: scale(1.05); }
+    .card-brand-badge {
+      position: absolute; top: 12px; left: 12px; background: rgba(18, 18, 18, 0.85);
+      backdrop-filter: blur(4px); color: #ebd9c8; font-size: 0.68rem; font-weight: 800;
+      letter-spacing: 0.1em; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;
+    }
+    .wishlist-btn {
+      position: absolute; top: 12px; right: 12px; width: 32px; height: 32px;
+      border-radius: 50%; background: rgba(255, 255, 255, 0.9); display: flex;
+      align-items: center; justify-content: center; color: #4b5563; font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+    .wishlist-btn:hover { color: var(--elivaas-red); transform: scale(1.1); }
+    .wishlist-btn.active { color: var(--elivaas-red); background: #ffffff; }
+    .card-details { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+    .card-location-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+    .card-location { font-size: 0.82rem; font-weight: 700; color: var(--elivaas-copper); text-transform: uppercase; letter-spacing: 0.04em; }
+    .card-rating { font-size: 0.82rem; font-weight: 700; color: #121212; display: flex; align-items: center; gap: 4px; }
+    .card-rating i { color: #f59e0b; }
+    .card-title {
+      font-family: var(--font-serif); font-size: 1.18rem; font-weight: 700;
+      color: #121212; margin-bottom: 8px; line-height: 1.35;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-specs { display: flex; gap: 14px; color: #6b7280; font-size: 0.8rem; margin-bottom: 16px; flex-wrap: wrap; }
+    .card-specs span { display: flex; align-items: center; gap: 5px; }
+    .card-price-row {
+      margin-top: auto; display: flex; justify-content: space-between;
+      align-items: flex-end; padding-top: 14px; border-top: 1px solid #f3f4f6;
+    }
+    .price-night { font-size: 1.25rem; font-weight: 800; color: var(--elivaas-red); }
+    .tax-note { font-size: 0.75rem; color: var(--elivaas-muted); font-weight: 400; }
+    .emi-start-text { font-size: 0.72rem; color: #16a34a; font-weight: 600; }
+    .btn-book-now {
+      background: var(--elivaas-dark); color: #ffffff; padding: 8px 18px;
+      border-radius: 9999px; font-weight: 700; font-size: 0.82rem;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .btn-book-now:hover { background: var(--elivaas-red); transform: translateY(-1px); }
+
+    /* Reserve Banner */
+    .reserve-promo-banner-card {
+      background: #141414;
+      background-image: radial-gradient(circle at 10% 50%, #202020 0%, #101010 100%);
+      border-radius: 20px 140px 20px 20px;
+      padding: 34px 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 36px;
+      color: #ffffff;
+      border: 1px solid #2b2b2b;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      flex-wrap: wrap;
+    }
+    @media (max-width: 768px) {
+      .reserve-promo-banner-card { border-radius: 20px 60px 20px 20px; padding: 24px 20px; gap: 24px; }
+    }
+    .reserve-box-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1.5px solid rgba(255, 255, 255, 0.25);
+      border-radius: 16px;
+      padding: 24px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-width: 290px;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.04);
+    }
+    .reserve-tier-badges-row { display: flex; align-items: center; margin-top: 18px; }
+    .reserve-tier-medal {
+      width: 44px; height: 44px; border-radius: 50%; display: flex;
+      align-items: center; justify-content: center; margin-right: -7px;
+      position: relative; transition: transform 0.2s ease; cursor: pointer;
+    }
+    .reserve-tier-medal:hover { transform: translateY(-5px) scale(1.15); z-index: 12 !important; }
+    .medal-svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.4)); }
+    .reserve-tier-medal.blue { z-index: 5; }
+    .reserve-tier-medal.silver { z-index: 4; }
+    .reserve-tier-medal.gold { z-index: 3; }
+    .reserve-tier-medal.purple { z-index: 2; }
+    .reserve-tier-medal.ruby { z-index: 1; }
+    .reserve-promo-right-content {
+      flex: 1; max-width: 520px; display: flex; flex-direction: column;
+      align-items: flex-start; gap: 18px;
+    }
+    .reserve-promo-desc-txt { font-size: 0.92rem; color: #d1d5db; line-height: 1.6; }
+    .btn-reserve-join-white {
+      background: #ffffff; color: #121212; padding: 12px 32px; border-radius: 9999px;
+      font-weight: 700; font-size: 0.9rem; box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      transition: transform 0.2s ease, background 0.2s ease; cursor: pointer;
+    }
+    .btn-reserve-join-white:hover { background: #f3f4f6; transform: translateY(-2px); }
+
+    /* Spotlight */
+    .spotlight-cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; width: 100%;
+    }
+    @media (max-width: 900px) { .spotlight-cards-grid { grid-template-columns: 1fr; } }
+    .spotlight-card-item {
+      background: #ffffff; border-radius: 18px; overflow: hidden;
+      border: 1px solid var(--elivaas-border); box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+      display: flex; flex-direction: column; transition: transform 0.2s ease, box-shadow 0.2s ease;
+      contain: layout style; content-visibility: auto;
+    }
+    .spotlight-card-item:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,0.08); }
+    .spotlight-img-wrap { height: 220px; background: #f3f4f6; overflow: hidden; }
+    .spotlight-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    /* Star Stays Carousel */
+    .star-stays-carousel-track {
+      display: flex; gap: 20px; overflow-x: auto; scrollbar-width: none;
+      padding: 6px 2px 16px; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+    }
+    .star-stays-carousel-track::-webkit-scrollbar { display: none; }
+    .star-stay-card {
+      flex: 0 0 280px; background: #ffffff; border-radius: 18px; overflow: hidden;
+      border: 1px solid var(--elivaas-border); box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+      cursor: pointer; scroll-snap-align: start; transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex; flex-direction: column; content-visibility: auto; contain: layout style;
+    }
+    .star-stay-card:hover { transform: translateY(-5px); box-shadow: 0 12px 26px rgba(0,0,0,0.1); }
+    .star-stay-img-wrap { position: relative; height: 340px; background: #121212; overflow: hidden; }
+    .star-stay-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+    .star-stay-card:hover .star-stay-img-wrap img { transform: scale(1.04); }
+    .star-stay-play-btn {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      width: 48px; height: 48px; border-radius: 50%; background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center;
+      color: var(--elivaas-red); font-size: 1.15rem; padding-left: 3px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.3); transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .star-stay-card:hover .star-stay-play-btn { transform: translate(-50%, -50%) scale(1.12); background: #ffffff; }
+    .star-stay-info { padding: 16px 18px 20px; display: flex; flex-direction: column; align-items: flex-start; flex: 1; }
+    .star-stay-pill {
+      background: #121212; color: #ffffff; padding: 3px 10px; border-radius: 9999px;
+      font-size: 0.72rem; font-weight: 700; margin-bottom: 8px;
+    }
+    .star-stay-card-title { font-family: var(--font-serif); font-size: 1.18rem; font-weight: 700; color: #121212; margin-bottom: 4px; }
+    .star-stay-card-desc { font-size: 0.84rem; color: #6b7280; line-height: 1.45; }
+    .star-nav-arrow {
+      width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--elivaas-border);
+      background: #ffffff; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: #121212; font-size: 0.85rem; transition: background 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .star-nav-arrow:hover { background: #f3f4f6; border-color: #9ca3af; }
+
+    /* Events Grid */
+    .events-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    @media (max-width: 1024px) { .events-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .events-grid { grid-template-columns: 1fr; } }
+    .event-card-item {
+      border-radius: 18px; overflow: hidden; cursor: pointer; position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      content-visibility: auto;
+    }
+    .event-card-item:hover { transform: translateY(-5px); box-shadow: 0 12px 28px rgba(0,0,0,0.15); }
+    .event-img-wrap { position: relative; height: 380px; overflow: hidden; }
+    .event-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .event-card-item:hover .event-img-wrap img { transform: scale(1.06); }
+    .event-gradient-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+    }
+    .event-content-bottom { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 18px; color: #ffffff; }
+    .event-card-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 6px; color: #ffffff; }
+    .event-explore-btn { font-size: 0.78rem; font-weight: 700; color: #ebd9c8; display: flex; align-items: center; gap: 6px; }
+
+    /* Bento Grid */
+    .special-cards-bento-grid {
+      display: grid; grid-template-columns: 360px 1fr 1fr; grid-template-rows: auto auto; gap: 22px; width: 100%;
+    }
+    @media (max-width: 1024px) {
+      .special-cards-bento-grid { grid-template-columns: 1fr 1fr; }
+      .special-card.card-luxury { grid-column: span 2; grid-row: auto; }
+      .special-card.card-sustainable { grid-column: span 2; }
+    }
+    @media (max-width: 768px) {
+      .special-cards-bento-grid { grid-template-columns: 1fr; gap: 18px; }
+      .special-card.card-luxury, .special-card.card-sustainable { grid-column: span 1; }
+      .card-sustainable-inner { flex-direction: column !important; }
+      .card-sustainable-inner .wide-img { width: 100% !important; height: 200px !important; }
+    }
+    .special-card {
+      background: #fdf8f4; border: 1px solid #f3ece3; border-radius: 22px; overflow: hidden;
+      display: flex; flex-direction: column; justify-content: space-between;
+      transition: transform 0.25s ease, box-shadow 0.25s ease; box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+      content-visibility: auto;
+    }
+    .special-card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,0.06); }
+    .special-card.card-luxury { grid-column: 1; grid-row: 1 / span 2; padding: 14px 14px 26px; }
+    .special-card.card-sustainable { grid-column: 2 / span 2; grid-row: 1; padding: 14px; }
+    .card-sustainable-inner { display: flex; align-items: center; gap: 20px; height: 100%; }
+    .card-sustainable-inner .wide-img { width: 50%; height: 190px; }
+    .card-sustainable-inner .wide-txt { width: 50%; padding: 10px 18px; }
+    .special-card.card-touches { grid-column: 2; grid-row: 2; padding: 22px 14px 14px; }
+    .special-card.card-perks { grid-column: 3; grid-row: 2; padding: 14px 14px 22px; }
+    .special-card-img-box { border-radius: 16px; overflow: hidden; background: #eee; }
+    .special-card-img-box img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+    .special-card:hover .special-card-img-box img { transform: scale(1.03); }
+    .special-card-img-box.tall { height: 420px; }
+    .special-card-img-box.bottom-img, .special-card-img-box.top-img { height: 190px; }
+    .special-card-text-box { text-align: center; padding: 16px 12px 6px; }
+    .special-card-title { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 500; color: #1a1a1a; margin-bottom: 6px; letter-spacing: 0.01em; }
+    .special-card-desc { font-size: 0.86rem; color: #4a4a4a; line-height: 1.5; }
+
+    /* Newest Gems CTA */
+    .btn-explore-gems-action {
+      background: transparent; color: var(--elivaas-red); font-weight: 700; font-size: 0.95rem;
+      border: 1.5px solid var(--elivaas-red); padding: 10px 24px; border-radius: 9999px;
+      display: inline-flex; align-items: center; gap: 8px; transition: background 0.2s ease, color 0.2s ease; cursor: pointer;
+    }
+    .btn-explore-gems-action:hover { background: var(--elivaas-red); color: #ffffff; }
+
+    /* Stats Grid */
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    @media (max-width: 900px) { .stats-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 500px) { .stats-grid { grid-template-columns: 1fr; } }
+    .stat-counter-card {
+      background: #1c1c1c; border: 1px solid #2d2d2d; border-radius: 18px;
+      padding: 30px 20px; text-align: center; display: flex; flex-direction: column;
+      align-items: center; transition: transform 0.2s ease;
+    }
+    .stat-counter-card:hover { transform: translateY(-4px); }
+    .stat-icon-img { height: 48px; width: 48px; margin-bottom: 16px; filter: brightness(0) invert(1); }
+    .stat-number-val { font-family: var(--font-serif); font-size: 2.2rem; font-weight: 700; color: #ffffff; margin-bottom: 4px; }
+    .stat-feature-txt { font-size: 0.88rem; color: #9ca3af; font-weight: 500; }
+
+    /* Assurance */
+    .section-assurance { padding: 60px 0; background: #faf7f2; }
+    .assurance-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    @media (max-width: 1024px) { .assurance-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .assurance-grid { grid-template-columns: 1fr; } }
+    .assurance-card {
+      background: #ffffff; border-radius: 16px; padding: 28px 24px;
+      border: 1px solid var(--elivaas-border); text-align: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.03); transition: transform 0.2s ease;
+    }
+    .assurance-card:hover { transform: translateY(-3px); }
+    .assurance-icon {
+      width: 54px; height: 54px; border-radius: 50%; background: #fdf2f2;
+      color: var(--elivaas-red); display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; margin: 0 auto 16px;
+    }
+    .assurance-title { font-size: 1.05rem; font-weight: 700; color: #121212; margin-bottom: 8px; }
+    .assurance-desc { font-size: 0.84rem; color: #6b7280; line-height: 1.45; }
+
+    /* Testimonials */
+    .section-testimonials { padding: 60px 0; background: #ffffff; }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    @media (max-width: 900px) { .testimonials-grid { grid-template-columns: 1fr; } }
+    .testimonial-card {
+      background: #faf7f2; border: 1px solid var(--elivaas-border);
+      border-radius: 18px; padding: 28px; display: flex; flex-direction: column;
+      justify-content: space-between;
+    }
+    .testimonial-stars { color: #f59e0b; font-size: 0.88rem; margin-bottom: 12px; }
+    .testimonial-quote { font-size: 0.92rem; color: #374151; line-height: 1.6; font-style: italic; margin-bottom: 20px; }
+    .testimonial-author { display: flex; align-items: center; gap: 12px; }
+    .author-avatar {
+      width: 42px; height: 42px; border-radius: 50%; background: var(--elivaas-red);
+      color: #ffffff; display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 0.9rem;
+    }
+    .author-name { font-size: 0.92rem; font-weight: 700; color: #121212; }
+    .author-stay { font-size: 0.78rem; color: #6b7280; }
+
+    /* Partner Box */
+    .partner-card-box {
+      background: #ffffff; border-radius: 24px; overflow: hidden;
+      border: 1px solid var(--elivaas-border); box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      display: flex; align-items: center;
+    }
+    @media (max-width: 900px) {
+      .partner-card-box { flex-direction: column; }
+      .partner-left-img, .partner-right-content { width: 100% !important; }
+    }
+    .partner-left-img { width: 48%; height: 420px; }
+    .partner-left-img img { width: 100%; height: 100%; object-fit: cover; }
+    .partner-right-content { width: 52%; padding: 40px 48px; }
+    .btn-partner-cta {
+      background: var(--elivaas-red); color: #ffffff; padding: 12px 28px;
+      border-radius: 9999px; font-weight: 700; font-size: 0.92rem;
+      display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 4px 14px rgba(128, 20, 38, 0.25); cursor: pointer;
+    }
+    .btn-partner-cta:hover { background: var(--elivaas-red-hover); }
+
+    /* Footer */
+    .main-footer { background: #0e0e0e; color: #9ca3af; padding: 70px 0 30px; font-size: 0.88rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 40px; margin-bottom: 50px; }
+    @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .footer-grid { grid-template-columns: 1fr; } }
+    .footer-col-title { font-family: var(--font-serif); font-size: 1.1rem; color: #ffffff; font-weight: 700; margin-bottom: 18px; }
+    .footer-links-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links-list a:hover { color: #ffffff; }
+    .footer-bottom-row {
+      border-top: 1px solid #222222; padding-top: 24px; display: flex;
+      justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; font-size: 0.8rem;
+    }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+      z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-overlay.active { display: flex !important; }
+    #celebVideoModal.active { display: flex !important; }
+  
+    /* --------------------------------------------------------------------------
+       2-ROW DESTINATIONS GRID (EXACT SCREENSHOT REPLICA)
+       -------------------------------------------------------------------------- */
+    .dest-category-pill-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding-bottom: 20px;
+    }
+    .dest-category-pill-bar::-webkit-scrollbar { display: none; }
+
+    .dest-icon-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 500;
+      color: #374151;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .dest-icon-pill:hover {
+      border-color: #121212;
+      color: #121212;
+    }
+    .dest-icon-pill.active {
+      background: #121212;
+      color: #ffffff;
+      border-color: #121212;
+    }
+
+    .dest-2row-scroll-container {
+      width: 100%;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      padding-bottom: 12px;
+    }
+
+    .dest-2row-grid {
+      display: grid;
+      grid-template-rows: repeat(2, 175px);
+      grid-auto-flow: column;
+      grid-auto-columns: 175px;
+      gap: 16px;
+      width: max-content;
+      min-width: 100%;
+    }
+
+    .dest-tile-card {
+      width: 175px;
+      height: 175px;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      background: #1e1e1e;
+    }
+    .dest-tile-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+    }
+    .dest-tile-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .dest-tile-card:hover .dest-tile-img {
+      transform: scale(1.06);
+    }
+    .dest-tile-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.85) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 14px 10px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .dest-tile-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 2px;
+      letter-spacing: -0.01em;
+    }
+    .dest-tile-count {
+      font-size: 0.72rem;
+      color: #e5e7eb;
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+  
+    /* --------------------------------------------------------------------------
+       HERO & NAVBAR (EXACT SCREENSHOT REPLICA)
+       -------------------------------------------------------------------------- */
+    .navbar-elivaas-exact {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 16px 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    }
+    .nav-exact-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-exact-logo-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #ffffff;
+    }
+    .logo-exact-top {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo-brand-txt {
+      font-family: var(--font-logo);
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #ffffff;
+      line-height: 1;
+    }
+    .logo-exact-tagline {
+      font-size: 0.58rem;
+      letter-spacing: 0.22em;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 600;
+      margin-top: 2px;
+      margin-left: 2px;
+    }
+    .nav-exact-menu {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    @media (max-width: 900px) {
+      .nav-exact-menu .phone-link,
+      .nav-exact-menu button:not(.btn-exact-login-pill),
+      .nav-exact-menu a:not(.phone-link) {
+        display: none;
+      }
+    }
+    .nav-exact-link {
+      color: #ffffff;
+      font-size: 0.86rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s ease;
+      cursor: pointer;
+    }
+    .nav-exact-link:hover { color: #f3ece3; }
+    .btn-exact-login-pill {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-exact-login-pill:hover {
+      background: #ffffff;
+      color: #121212;
+    }
+
+    /* Hero Section */
+    .hero-section-exact {
+      position: relative;
+      min-height: 88vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 50px;
+      overflow: hidden;
+    }
+    .hero-slide-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.6s ease;
+      z-index: 1;
+    }
+    .hero-dark-vignette {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.45) 100%);
+      z-index: 2;
+    }
+    .hero-content-exact-container {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    /* Editorial Left Typography */
+    .hero-editorial-left {
+      color: #ffffff;
+      max-width: 580px;
+      padding-top: 110px;
+    }
+    .hero-txt-serif-regular {
+      font-family: var(--font-serif);
+      font-size: 2.3rem;
+      font-weight: 400;
+      line-height: 1.15;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .hero-txt-serif-italic {
+      font-family: var(--font-serif);
+      font-size: 2.3rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 22px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .hero-txt-serif-sub-italic {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.15;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .hero-txt-serif-bold-italic {
+      font-family: var(--font-serif);
+      font-size: 2.1rem;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 1.15;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    /* Frosted Glass Search Bar */
+    .search-widget-glass-exact {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 9999px;
+      padding: 8px 10px 8px 24px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+      max-width: 820px;
+      width: 100%;
+      position: relative;
+    }
+    @media (max-width: 768px) {
+      .search-widget-glass-exact {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 16px;
+        align-items: stretch;
+      }
+      .search-col-divider, .search-arrow-indicator { display: none; }
+    }
+    .search-col-exact {
+      flex: 1;
+      padding: 4px 12px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .search-label-small {
+      font-size: 0.72rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    .search-val-bold {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .search-col-divider {
+      width: 1px;
+      height: 28px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .search-arrow-indicator {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.85rem;
+      padding: 0 2px;
+    }
+    .btn-search-exact-action {
+      background: var(--elivaas-red);
+      color: #ffffff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      box-shadow: 0 4px 12px rgba(128, 20, 38, 0.4);
+      transition: transform 0.2s ease, background 0.2s ease;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .btn-search-exact-action:hover {
+      background: var(--elivaas-red-hover);
+      transform: scale(1.06);
+    }
+
+    /* Carousel Nav Arrows */
+    .hero-exact-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      background: transparent;
+      border: none;
+      color: #ffffff;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 20;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+    .hero-exact-arrow:hover { opacity: 1; transform: translateY(-50%) scale(1.15); }
+    .hero-exact-arrow.prev { left: 24px; }
+    .hero-exact-arrow.next { right: 24px; }
+
+    /* Floating Support Badges */
+    .floating-support-badges {
+      position: fixed;
+      right: 24px;
+      bottom: 30px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+    .float-btn-whatsapp {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
+      transition: transform 0.2s ease;
+    }
+    .float-btn-whatsapp:hover { transform: scale(1.1); }
+    .float-btn-mail {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--elivaas-red);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      box-shadow: 0 6px 18px rgba(128, 20, 38, 0.4);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .float-btn-mail:hover { transform: scale(1.1); }
+
+  
+    /* --------------------------------------------------------------------------
+       OFFERS CURATED JUST FOR YOU (EXACT SCREENSHOT REPLICA)
+       -------------------------------------------------------------------------- */
+    .offers-exact-emi-bar {
+      background: #faf8f5;
+      border: 1px solid #f0eae1;
+      border-radius: 16px;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .offers-exact-emi-left {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .emi-bold-red {
+      font-weight: 700;
+      color: var(--elivaas-red);
+      font-size: 0.94rem;
+    }
+    .emi-pipe-divider {
+      color: #d1d5db;
+      font-size: 0.95rem;
+    }
+    .emi-dark-txt {
+      font-weight: 500;
+      color: #1f2937;
+      font-size: 0.94rem;
+    }
+    .offers-exact-bank-circles {
+      display: flex;
+      align-items: center;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .bank-logo-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 1.5px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: -8px;
+      position: relative;
+      flex-shrink: 0;
+      padding: 5px;
+      transition: transform 0.2s ease, z-index 0.2s ease;
+    }
+    .bank-logo-circle:first-child {
+      margin-left: 0;
+    }
+    .bank-logo-circle:hover {
+      transform: translateY(-3px) scale(1.15);
+      z-index: 10;
+    }
+    .bank-logo-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+
+    .offers-carousel-outer-wrap {
+      position: relative;
+      width: 100%;
+    }
+    .offers-cards-row-scroll {
+      display: flex;
+      gap: 18px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 6px 2px 16px;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+    }
+    .offers-cards-row-scroll::-webkit-scrollbar { display: none; }
+
+    .offer-card-exact {
+      flex: 0 0 270px;
+      width: 270px;
+      min-height: 175px;
+      border-radius: 18px;
+      padding: 20px 20px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      scroll-snap-align: start;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .offer-card-exact:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    }
+    .offer-card-top-brand {
+      height: 32px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .offer-card-top-brand img {
+      max-height: 28px;
+      max-width: 90px;
+      object-fit: contain;
+    }
+    .offer-card-main-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .offer-card-desc-body {
+      font-size: 0.78rem;
+      color: #4b5563;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .offer-card-bottom-link {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--elivaas-red);
+      margin-top: 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+  
+    /* --------------------------------------------------------------------------
+       RAIN-KISSED ESCAPE CARDS (EXACT SCREENSHOT REPLICA)
+       -------------------------------------------------------------------------- */
+    .btn-rain-explore-pill {
+      background: var(--elivaas-red);
+      color: #ffffff;
+      padding: 10px 26px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: background 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-rain-explore-pill:hover {
+      background: var(--elivaas-red-hover);
+      transform: translateY(-1px);
+    }
+
+    .rain-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      width: 100%;
+    }
+    @media (max-width: 1100px) {
+      .rain-cards-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .rain-cards-grid { grid-template-columns: 1fr; }
+    }
+
+    .rain-villa-card {
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .rain-villa-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.08);
+    }
+
+    .rain-card-img-wrap {
+      position: relative;
+      height: 200px;
+      background: #f3f4f6;
+      overflow: hidden;
+    }
+    .rain-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .rain-villa-card:hover .rain-card-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .rain-paw-badge {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: #374151;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .rain-card-dots {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 5px;
+    }
+    .rain-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.6);
+    }
+    .rain-dot.active {
+      background: #ffffff;
+      width: 8px;
+    }
+
+    .rain-card-arrow-circle {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: #121212;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .rain-card-body {
+      padding: 16px 16px 18px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .rain-card-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .rain-card-location {
+      font-size: 0.78rem;
+      color: #6b7280;
+      margin-bottom: 6px;
+    }
+
+    .rain-card-specs {
+      font-size: 0.74rem;
+      color: #4b5563;
+      margin-bottom: 12px;
+    }
+
+    .rain-card-amenities {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin-bottom: 14px;
+    }
+    .rain-card-amenities::-webkit-scrollbar { display: none; }
+
+    .rain-amenity-chip {
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 0.7rem;
+      color: #4b5563;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .rain-card-price-row {
+      margin-top: auto;
+      font-size: 1.1rem;
+      color: #1a1a1a;
+    }
+    .rain-card-price-row strong {
+      font-weight: 800;
+    }
+    .rain-night-txt {
+      font-size: 0.78rem;
+      color: #6b7280;
+      font-weight: 400;
+    }
+
+  
+    /* --------------------------------------------------------------------------
+       DESTINATION WEDDING & EVENT CARDS (EXACT SCREENSHOT REPLICA)
+       -------------------------------------------------------------------------- */
+    .wedding-card-exact {
+      background: #fcf7f2;
+      border: 1px solid #f0e6dc;
+      border-radius: 24px;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+    }
+    .wedding-card-exact:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    }
+    .wedding-card-img-wrap {
+      position: relative;
+      height: 250px;
+      margin: 12px 12px 0;
+      border-radius: 18px;
+      overflow: hidden;
+      background: #eee;
+    }
+    .wedding-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .wedding-card-exact:hover .wedding-card-img-wrap img {
+      transform: scale(1.05);
+    }
+    .wedding-diagonal-arrow-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: #121212;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .wedding-card-exact:hover .wedding-diagonal-arrow-btn {
+      background: #ffffff;
+      transform: scale(1.1);
+    }
+    .wedding-card-body {
+      padding: 20px 20px 22px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+    }
+    .wedding-card-title {
+      font-family: var(--font-serif);
+      font-size: 1.45rem;
+      font-weight: 500;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .wedding-card-desc {
+      font-size: 0.86rem;
+      color: #4b5563;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .wedding-card-hosted-pill {
+      background: #ab8574;
+      color: #ffffff;
+      padding: 10px 22px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 500;
+      width: 100%;
+      text-align: center;
+      margin-top: auto;
+      box-shadow: 0 2px 6px rgba(171, 133, 116, 0.25);
+    }
+
+  
+    /* ==========================================================================
+       MASTER RESPONSIVE & ZERO-LAG PERFORMANCE ENGINE
+       ========================================================================== */
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      overflow-x: clip !important;
+      max-width: 100vw;
+      position: relative;
+    }
+
+    /* Hardware acceleration & smooth touch scrolling */
+    .dest-2row-scroll-container,
+    .offers-cards-row-scroll,
+    .dest-category-pill-bar,
+    .rain-card-amenities,
+    .corp-venue-amenities,
+    .dest-scroll-horizontal,
+    .bento-grid-scroll {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+    }
+    .dest-2row-scroll-container::-webkit-scrollbar,
+    .offers-cards-row-scroll::-webkit-scrollbar,
+    .dest-category-pill-bar::-webkit-scrollbar,
+    .rain-card-amenities::-webkit-scrollbar,
+    .corp-venue-amenities::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Below-the-fold content visibility for instant zero-lag rendering */
+    section {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 500px;
+    }
+    #heroSection, .hero-section-exact, .navbar-elivaas-exact, nav {
+      content-visibility: visible !important;
+    }
+
+    /* Fluid typography rules */
+    h1, .hero-main-title, .corporate-hero-title, .event-hero-title, .birthday-hero-title, .wellness-hero-title {
+      font-size: clamp(1.8rem, 5vw + 0.5rem, 3.4rem) !important;
+      word-wrap: break-word;
+    }
+    h2, .escape-title, .venues-main-title, .what-you-get-title, .hosted-corporates-txt, .stories-title-centered {
+      font-size: clamp(1.5rem, 3.5vw + 0.3rem, 2.5rem) !important;
+      word-wrap: break-word;
+    }
+    h3 {
+      font-size: clamp(1.1rem, 2vw + 0.2rem, 1.45rem) !important;
+    }
+
+    /* Universal container padding adjustments */
+    .container {
+      width: 100%;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding-left: clamp(14px, 3vw, 28px) !important;
+      padding-right: clamp(14px, 3vw, 28px) !important;
+    }
+
+    /* Hero Search Bar Responsive Rules */
+    @media (max-width: 820px) {
+      .search-widget-glass-exact {
+        flex-direction: column !important;
+        border-radius: 20px !important;
+        padding: 14px 16px !important;
+        align-items: stretch !important;
+        gap: 8px !important;
+        background: rgba(255, 255, 255, 0.35) !important;
+        backdrop-filter: blur(20px) !important;
+      }
+      .search-col-divider, .search-arrow-indicator {
+        display: none !important;
+      }
+      .search-col-exact {
+        padding: 6px 8px !important;
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 10px !important;
+      }
+      .btn-search-exact-action {
+        width: 100% !important;
+        border-radius: 12px !important;
+        height: 42px !important;
+        margin-top: 4px !important;
+      }
+    }
+
+    /* Tablet & Rotation Mode Adaptive Layouts */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+      }
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 20px !important;
+      }
+      .stories-cards-row {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    /* Mobile Phones (Portrait & Landscape) */
+    @media (max-width: 600px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid,
+      .stories-cards-row,
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+      
+      .event-hero-card-floating,
+      .planner-card-exact,
+      .retreat-planner-card {
+        max-width: 100% !important;
+        padding: 22px 18px !important;
+        border-radius: 18px !important;
+      }
+
+      .floating-support-badges {
+        right: 16px !important;
+        bottom: 80px !important;
+        gap: 10px !important;
+      }
+      .float-btn-whatsapp, .float-btn-mail {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 1.3rem !important;
+      }
+
+      /* Touch targets */
+      button, a {
+        min-height: 38px;
+      }
+    }
+
+    /* Desktop Mode in Chrome on Mobile (Force No-Overlap) */
+    @media (min-width: 980px) and (max-height: 600px) {
+      .hero-content-exact-container,
+      .event-hero-wrapper,
+      .corporate-hero-wrap,
+      .birthday-hero-wrap,
+      .wellness-hero-wrap {
+        min-height: auto !important;
+        padding: 90px 0 40px !important;
+      }
+    }
+
+    /* Mobile Bottom Navigation Bar */
+    .mobile-bottom-nav-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid rgba(0,0,0,0.08);
+      z-index: 998;
+      padding: 8px 16px;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.06);
+    }
+    @media (max-width: 768px) {
+      .mobile-bottom-nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      body {
+        padding-bottom: 60px;
+      }
+    }
+    .mob-nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: #4b5563;
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 4px 8px;
+    }
+    .mob-nav-item.active, .mob-nav-item:hover {
+      color: var(--elivaas-red);
+    }
+    .mob-nav-item i {
+      font-size: 1.15rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR (EXACT SCREENSHOT REPLICA) -->
+  <nav class="navbar-elivaas-exact">
+    <div class="container nav-exact-inner">
+      <a href="index.html" class="nav-exact-logo-box">
+        <div class="logo-exact-top">
+          <span class="logo-e-bracket">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="4" ry="4"></rect>
+              <path d="M9 9h6M9 12h4M9 15h6"></path>
+            </svg>
+          </span>
+          <span class="logo-brand-txt">elivaas</span>
+        </div>
+        <div class="logo-exact-tagline">WE'LL TAKE IT FROM HERE</div>
+      </a>
+
+      <div class="nav-exact-menu">
+        <a href="tel:+917969469950" class="nav-exact-link phone-link">
+          <i class="fa-solid fa-phone"></i> Call to Book <strong>+91 7969469950</strong>
+        </a>
+        <button onclick="openPartnerModal()" class="nav-exact-link">Partner with Us</button>
+        <a href="mailto:support@elivaas.com" class="nav-exact-link">Customer support</a>
+        <button onclick="openLoginModal()" class="btn-exact-login-pill">Log In / Sign Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. HERO SECTION & 7-BANNER CAROUSEL (CLEAN WITHOUT TEXT OVERLAY) -->
+  <section class="hero-section-exact" id="heroSection">
+    <div class="hero-slide-bg" id="heroSlideBg" style="background-image: url('images/Desktop_We_ll_take_it_from_here_ae7141dfd9.jpg');"></div>
+    <div class="hero-dark-vignette"></div>
+
+    <!-- CAROUSEL ARROWS -->
+    <button class="hero-exact-arrow prev" onclick="slideHero(-1)" aria-label="Previous Slide">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="hero-exact-arrow next" onclick="slideHero(1)" aria-label="Next Slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="container hero-content-exact-container" style="display: flex; justify-content: flex-end; align-items: center; min-height: 70vh;">
+      
+      <!-- FROSTED GLASS TRANSLUCENT SEARCH BAR -->
+      <div class="search-widget-glass-exact" style="margin-top: auto;">
+        
+        <div class="search-col-exact" onclick="toggleSearchPopover('location')">
+          <div class="search-label-small">City / Villa / location</div>
+          <div class="search-val-bold" id="searchLocationVal">Select destination</div>
+        </div>
+
+        <div class="search-col-divider"></div>
+
+        <div class="search-col-exact" onclick="toggleSearchPopover('checkin')">
+          <div class="search-label-small">Check-In</div>
+          <div class="search-val-bold" id="searchCheckInVal">Add Date</div>
+        </div>
+
+        <div class="search-arrow-indicator">→</div>
+
+        <div class="search-col-exact" onclick="toggleSearchPopover('checkout')">
+          <div class="search-label-small">Check-Out</div>
+          <div class="search-val-bold" id="searchCheckOutVal">Add Date</div>
+        </div>
+
+        <div class="search-col-divider"></div>
+
+        <div class="search-col-exact" onclick="toggleSearchPopover('guests')">
+          <div class="search-label-small">Guests</div>
+          <div class="search-val-bold" id="searchGuestsVal">1 Guest</div>
+        </div>
+
+        <button class="btn-search-exact-action" onclick="window.location.href='villas.html'" aria-label="Search Villas">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <!-- POPOVER -->
+        <div class="search-popover-panel" id="searchPopover">
+          <div style="font-weight:700; font-size:1.05rem; margin-bottom:6px; color:#121212;">Select Popular Destination:</div>
+          <div class="popover-dest-chips">
+            <button class="dest-chip-btn" onclick="selectDestination('North Goa')">North Goa (86 Villas)</button>
+            <button class="dest-chip-btn" onclick="selectDestination('Kasauli')">Kasauli (54 Villas)</button>
+            <button class="dest-chip-btn" onclick="selectDestination('Delhi NCR')">Delhi NCR (69 Villas)</button>
+            <button class="dest-chip-btn" onclick="selectDestination('Udaipur')">Udaipur (50 Villas)</button>
+            <button class="dest-chip-btn" onclick="selectDestination('Jaipur')">Jaipur (33 Villas)</button>
+            <button class="dest-chip-btn" onclick="selectDestination('Lonavala')">Lonavala (19 Villas)</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FLOATING RIGHT ACTION BADGES -->
+    <div class="floating-support-badges">
+      <a href="https://wa.me/917969469950" target="_blank" class="float-btn-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <button onclick="openPartnerModal()" class="float-btn-mail" title="Contact Us / Inquiry" aria-label="Inquiry">
+        <i class="fa-regular fa-envelope"></i>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- 2. ESCAPES FOR EVERY MOOD / TRENDING DESTINATIONS (EXACT 2-ROW SCREENSHOT REPLICA) -->
+  <section class="section-destinations" style="padding: 50px 0 30px; background: #ffffff;">
+    <div class="container">
+      
+      <div style="margin-bottom: 24px;">
+        <h2 class="escape-title" style="font-size: 2.5rem; font-family: var(--font-serif); color: #1a1a1a; font-weight: 400;">
+          Find your perfect <em style="font-style: italic; color: #a36b4f;">escape?</em>
+        </h2>
+        <p class="escape-subtitle" style="font-size: 0.95rem; color: #6b7280; margin-top: 4px;">
+          Luxury villas across handpicked destinations
+        </p>
+      </div>
+
+      <!-- CATEGORY TABS WITH ICON PILLS -->
+      <div class="dest-category-pill-bar">
+        <button class="dest-icon-pill active" onclick="filterDestGrid('all', this)">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> All
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Beach Retreats', this)">
+          <i class="fa-solid fa-umbrella-beach"></i> Beach Retreats
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Urban Getaways', this)">
+          <i class="fa-solid fa-city"></i> Urban Getaways
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Soulful Getaways', this)">
+          <i class="fa-solid fa-landmark"></i> Soulful Getaways
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Heritage Trails', this)">
+          <i class="fa-solid fa-chess-rook"></i> Heritage Trails
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Wildlife Retreats', this)">
+          <i class="fa-solid fa-paw"></i> Wildlife Retreats
+        </button>
+        <button class="dest-icon-pill" onclick="filterDestGrid('Mountain Escapes', this)">
+          <i class="fa-solid fa-mountain"></i> Mountain Escapes
+        </button>
+      </div>
+
+      <!-- 2-ROW DESTINATIONS HORIZONTAL SCROLL GRID -->
+      <div class="dest-2row-scroll-container">
+        <div class="dest-2row-grid" id="dest2RowGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. CURATED BANK OFFERS SECTION (EXACT SCREENSHOT REPLICA) -->
+  <section class="section-curated-offers-exact" id="offersSection" style="padding: 50px 0 40px; background: #ffffff;">
+    <div class="container">
+      
+      <!-- Section Title & Subtitle -->
+      <div style="margin-bottom: 22px;">
+        <h2 style="font-family: var(--font-serif); font-size: 2.5rem; font-weight: 400; color: #1a1a1a; line-height: 1.2;">
+          Offers curated just for you
+        </h2>
+        <p style="font-size: 0.95rem; color: #4b5563; margin-top: 4px;">
+          Your Next Escape Awaits at Our Handpicked Locations
+        </p>
+      </div>
+
+      <!-- No-Cost EMI Banner with 9 Circular Bank Badges -->
+      <div class="offers-exact-emi-bar">
+        <div class="offers-exact-emi-left">
+          <span class="emi-bold-red">No-Cost EMI & 20% off</span>
+          <span class="emi-pipe-divider">|</span>
+          <span class="emi-dark-txt">Luxury is now easier to experience</span>
+        </div>
+
+        <div class="offers-exact-bank-circles">
+          <div class="bank-logo-circle" title="ICICI Bank"><img loading="lazy" decoding="async" src="images/icici_Bank_6c5c244cbf.svg" alt="ICICI"></div>
+          <div class="bank-logo-circle" title="Bank of Baroda"><img loading="lazy" decoding="async" src="images/9620bc468380e173c4fbdf7a0c0313_238f5bbe27.webp" alt="BOB"></div>
+          <div class="bank-logo-circle" title="HDFC Bank"><img loading="lazy" decoding="async" src="images/HDFC_Light_56256dacb2.png" alt="HDFC"></div>
+          <div class="bank-logo-circle" title="Canara Bank"><img loading="lazy" decoding="async" src="images/canara_bank_logo_vector_free_11574154606uapbf2gbwh_643652f04c.png" alt="Canara"></div>
+          <div class="bank-logo-circle" title="Axis Bank"><img loading="lazy" decoding="async" src="images/Axis_Bank_New_a76fbf9359.svg" alt="Axis"></div>
+          <div class="bank-logo-circle" title="IDFC FIRST Bank"><img loading="lazy" decoding="async" src="images/idfc_Bank_88f7c0c0ea.svg" alt="IDFC"></div>
+          <div class="bank-logo-circle" title="DBS Bank"><img loading="lazy" decoding="async" src="images/aa9mkg56x_5ca580b489.webp" alt="DBS"></div>
+          <div class="bank-logo-circle" title="HSBC Bank"><img loading="lazy" decoding="async" src="images/HSBC_Bank_65d59b0667.png" alt="HSBC"></div>
+          <div class="bank-logo-circle" title="IDBI Bank"><img loading="lazy" decoding="async" src="images/ca4e0cd95d7a8fbb20d7607aa61014_0396acc513.webp" alt="IDBI"></div>
+        </div>
+      </div>
+
+      <!-- 23 Bank Offer Cards Carousel -->
+      <div class="offers-carousel-outer-wrap">
+        <div class="offers-cards-row-scroll" id="bankOffersCarousel">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. RAIN-KISSED ESCAPE (EXACT SCREENSHOT REPLICA) -->
+  <section class="section-rain-kissed-exact" style="padding: 50px 0 60px; background: #ffffff;">
+    <div class="container">
+      
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 26px; flex-wrap: wrap; gap: 14px;">
+        <div>
+          <h2 style="font-family: var(--font-serif); font-size: 2.5rem; font-weight: 400; color: #1a1a1a; line-height: 1.2;">
+            Rain-Kissed Escape
+          </h2>
+          <p style="font-size: 0.95rem; color: #4b5563; margin-top: 4px;">
+            Discover villas where stay is wrapped in Monsoon Magic
+          </p>
+        </div>
+
+        <button onclick="window.location.href='villas.html'" class="btn-rain-explore-pill">
+          Explore more
+        </button>
+      </div>
+
+      <!-- 4 Card Grid Matching Screenshot -->
+      <div class="rain-cards-grid">
+        
+        <!-- Card 1: Valiyaveetil Mansion -->
+        <div class="rain-villa-card" onclick="window.location.href='villa.html?id=prop_CpJCF01fl3kUM1'">
+          <div class="rain-card-img-wrap">
+            <img src="images/P1038840_003bdc3df0.jpg" alt="Valiyaveetil Mansion" loading="lazy" decoding="async">
+            <div class="rain-card-dots">
+              <span class="rain-dot active"></span><span class="rain-dot"></span><span class="rain-dot"></span>
+            </div>
+          </div>
+          <div class="rain-card-body">
+            <h3 class="rain-card-title">Valiyaveetil Mansion | 5-BHK Mansi...</h3>
+            <div class="rain-card-location">Kaloor,Kochi</div>
+            <div class="rain-card-specs">11 guests &nbsp;|&nbsp; 5 bedrooms &nbsp;|&nbsp; 5 bathrooms</div>
+            <div class="rain-card-amenities">
+              <span class="rain-amenity-chip"><i class="fa-solid fa-water-ladder"></i> Swimming pool</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-chair"></i> Loungers</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-film"></i> Home theate...</span>
+            </div>
+            <div class="rain-card-price-row">
+              <strong>₹35,907</strong> <span class="rain-night-txt">for 1 night</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Energise Soul Retreat Ajna Villa -->
+        <div class="rain-villa-card" onclick="window.location.href='villa.html?id=prop_energise_soul_nashik'">
+          <div class="rain-card-img-wrap">
+            <img src="images/DSC_7078_HDR_dcfcd55af3.jpg" alt="Energise Soul Retreat Ajna Villa" loading="lazy" decoding="async">
+            <div class="rain-paw-badge" title="Pet Friendly"><i class="fa-solid fa-paw"></i></div>
+            <div class="rain-card-dots">
+              <span class="rain-dot active"></span><span class="rain-dot"></span><span class="rain-dot"></span>
+            </div>
+          </div>
+          <div class="rain-card-body">
+            <h3 class="rain-card-title">Energise Soul Retreat Ajna Villa | Pe...</h3>
+            <div class="rain-card-location">Trimbakeshwar,Nashik</div>
+            <div class="rain-card-specs">6 guests &nbsp;|&nbsp; 3 bedrooms &nbsp;|&nbsp; 3 bathrooms</div>
+            <div class="rain-card-amenities">
+              <span class="rain-amenity-chip"><i class="fa-solid fa-square-parking"></i> Parking</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-tree"></i> Garden</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-wifi"></i> Wifi</span>
+            </div>
+            <div class="rain-card-price-row">
+              <strong>₹41,730</strong> <span class="rain-night-txt">for 1 night</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Mountain Creek Retreat -->
+        <div class="rain-villa-card" onclick="window.location.href='villa.html?id=prop_s5XE8tWKRh6NQi'">
+          <div class="rain-card-img-wrap">
+            <img src="images/DJI_20260303185046_0182_D_a126714879.jpg" alt="Mountain Creek Retreat" loading="lazy" decoding="async">
+            <div class="rain-card-dots">
+              <span class="rain-dot active"></span><span class="rain-dot"></span><span class="rain-dot"></span>
+            </div>
+            <div class="rain-card-arrow-circle"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+          <div class="rain-card-body">
+            <h3 class="rain-card-title">Mountain Creek Retreat | Pet-friend...</h3>
+            <div class="rain-card-location">Kodiyat,Udaipur</div>
+            <div class="rain-card-specs">3 guests &nbsp;|&nbsp; 1 bedroom &nbsp;|&nbsp; 1 bathroom</div>
+            <div class="rain-card-amenities">
+              <span class="rain-amenity-chip"><i class="fa-solid fa-water-ladder"></i> Swimming pool</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-martini-glass-citrus"></i> Bar</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-chair"></i> Loungers</span>
+            </div>
+            <div class="rain-card-price-row">
+              <strong>₹18,987</strong> <span class="rain-night-txt">for 1 night</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Mandovar Mountain Valley Retreat -->
+        <div class="rain-villa-card" onclick="window.location.href='villa.html?id=prop_RFuhAByIavZH9I'">
+          <div class="rain-card-img-wrap">
+            <img src="images/K81_A0985_459a284602.jpg" alt="Mandovar Mountain Valley Retreat" loading="lazy" decoding="async">
+            <div class="rain-paw-badge" title="Pet Friendly"><i class="fa-solid fa-paw"></i></div>
+            <div class="rain-card-dots">
+              <span class="rain-dot active"></span><span class="rain-dot"></span><span class="rain-dot"></span>
+            </div>
+          </div>
+          <div class="rain-card-body">
+            <h3 class="rain-card-title">Mandovar Mountain Valley Retreat |...</h3>
+            <div class="rain-card-location">Thoor,Udaipur</div>
+            <div class="rain-card-specs">3 guests &nbsp;|&nbsp; 1 bedroom &nbsp;|&nbsp; 1 bathroom</div>
+            <div class="rain-card-amenities">
+              <span class="rain-amenity-chip"><i class="fa-solid fa-tree"></i> Garden</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-utensils"></i> Restaurant</span>
+              <span class="rain-amenity-chip"><i class="fa-solid fa-water-ladder"></i> Common poo...</span>
+            </div>
+            <div class="rain-card-price-row">
+              <strong>₹7,639</strong> <span class="rain-night-txt">for 1 night</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. ELIVAAS RESERVE PROGRAM BANNER -->
+  <section class="section-reserve-banner" style="padding: 30px 0 20px; background: transparent;">
+    <div class="container">
+      <div class="reserve-promo-banner-card">
+        <div class="reserve-box-card">
+          <div style="font-family:var(--font-serif); color:#ffffff; line-height:1.25;">
+            <span style="font-family:var(--font-serif); font-size:1.2rem; color:#e2e8f0; font-weight:400;">Join</span><br>
+            <strong style="font-family:var(--font-serif); font-size:1.65rem; letter-spacing:0.04em; color:#ffffff; font-weight:700;">ELIVAAS RESERVE</strong><br>
+            <span style="font-family:var(--font-serif); font-size:1.3rem; color:#cbd5e1; font-weight:400;">Program</span>
+          </div>
+          <div class="reserve-tier-badges-row">
+            <div class="reserve-tier-medal blue" title="Blue Member">
+              <svg viewBox="0 0 44 44" class="medal-svg"><circle cx="22" cy="22" r="20" fill="#1e40af" stroke="#93c5fd" stroke-width="2.5"/><path d="M22 10 L24.5 19.5 L34 22 L24.5 24.5 L22 34 L19.5 24.5 L10 22 L19.5 19.5 Z" fill="#ffffff"/></svg>
+            </div>
+            <div class="reserve-tier-medal silver" title="Silver Member">
+              <svg viewBox="0 0 44 44" class="medal-svg"><circle cx="22" cy="22" r="20" fill="#64748b" stroke="#ffffff" stroke-width="2.5"/><polygon points="22,12 25,19 32,19 26.5,23.5 28.5,30 22,26 15.5,30 17.5,23.5 12,19 19,19" fill="#ffffff"/></svg>
+            </div>
+            <div class="reserve-tier-medal gold" title="Gold Member">
+              <svg viewBox="0 0 44 44" class="medal-svg"><circle cx="22" cy="22" r="20" fill="#b45309" stroke="#fef08a" stroke-width="2.5"/><path d="M22 10 L23.5 18 L29 15 L26 20.5 L34 22 L26 23.5 L29 29 L23.5 26 L22 34 L20.5 26 L15 29 L18 23.5 L10 22 L18 20.5 L15 15 L20.5 18 Z" fill="#ffffff"/></svg>
+            </div>
+            <div class="reserve-tier-medal purple" title="Platinum Member">
+              <svg viewBox="0 0 44 44" class="medal-svg"><circle cx="22" cy="22" r="20" fill="#7e22ce" stroke="#e9d5ff" stroke-width="2.5"/><polygon points="17,16 27,16 32,22 22,32 12,22" fill="#ffffff"/></svg>
+            </div>
+            <div class="reserve-tier-medal ruby" title="Diamond Member">
+              <svg viewBox="0 0 44 44" class="medal-svg"><circle cx="22" cy="22" r="20" fill="#be185d" stroke="#fbcfe8" stroke-width="2.5"/><path d="M22 11 Q28 22 22 33 Q16 22 22 11 Z" fill="#ffffff"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="reserve-promo-right-content">
+          <p class="reserve-promo-desc-txt">Every journey with ELIVAAS comes with rewards. Sign in or join to unlock your Blue Membership and enjoy exclusive offers, perks, and curated experiences.</p>
+          <button onclick="openLoginModal()" class="btn-reserve-join-white">Become a Member</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ELIVAAS IN THE SPOTLIGHT -->
+  <section class="section-spotlight" style="padding: 40px 0; background: #ffffff;">
+    <div class="container">
+      <div style="margin-bottom: 24px;">
+        <h2 class="escape-title" style="font-size: 2.3rem;">ELIVAAS in the <em>Spotlight</em></h2>
+        <p class="escape-subtitle">ELIVAAS earns recognition for redefining luxury stays and seamless travel</p>
+      </div>
+      <div class="spotlight-cards-grid">
+        <!-- MMT Award -->
+        <div class="spotlight-card-item">
+          <div class="spotlight-img-wrap"><img src="images/Desktop_Banner_18344cff19.jpg" alt="MMT Awards" loading="lazy" decoding="async"></div>
+          <div style="padding:16px 18px 20px;">
+            <span style="background:#d97706; color:#ffffff; padding:4px 10px; border-radius:9999px; font-size:0.72rem; font-weight:700; display:inline-flex; align-items:center; gap:4px;"><i class="fa-solid fa-trophy"></i> Brand of the Year</span>
+            <h3 style="font-family:var(--font-serif); font-size:1.22rem; font-weight:700; color:#121212; margin:10px 0 6px;">MMT Homestays Awards 2026 – Brand of the Year</h3>
+            <p style="font-size:0.84rem; color:#6b7280; line-height:1.5;">Our handpicked villas and seamless hospitality redefine what it means to travel in luxury through thoughtful details, personalised care, and consistently elevated stays.</p>
+          </div>
+        </div>
+        <!-- Airbnb Award -->
+        <div class="spotlight-card-item">
+          <div class="spotlight-img-wrap" style="position:relative; height:220px;">
+            <img src="images/airbnb_award.png" alt="Airbnb Award" loading="lazy" decoding="async" onerror="this.src='images/Airbnb_jpg_6128609f4d.jpeg'">
+            <div style="position:absolute; top:0; right:28px; background:#FF5A5F; border-radius:0 0 10px 10px; width:56px; padding:8px 4px 6px; display:flex; flex-direction:column; align-items:center; justify-content:center; box-shadow:0 4px 10px rgba(0,0,0,0.25); z-index:10;">
+              <svg viewBox="0 0 32 32" style="width:24px; height:24px; fill:#ffffff;"><path d="M16 1c2.008 0 3.463.963 4.751 3.269l.533 1.025c1.954 3.83 4.32 8.877 6.136 13.064 1.341 3.09 2.08 5.617 2.08 7.742 0 4.148-3.036 6.9-7.1 6.9-3.02 0-5.326-1.579-6.4-4.041-1.074 2.462-3.38 4.041-6.4 4.041-4.064 0-7.1-2.752-7.1-6.9 0-2.125.739-4.652 2.08-7.742 1.816-4.187 4.182-9.234 6.136-13.064l.533-1.025C12.537 1.963 13.992 1 16 1zm0 2.2c-1.312 0-2.274.654-3.328 2.531l-.479.923C10.3 10.344 7.95 15.352 6.155 19.492 4.908 22.368 4.2 24.646 4.2 26.1c0 2.923 2.115 4.9 5.1 4.9 2.378 0 4.275-1.464 4.981-3.663l.319-1.042.8.729c.148.134.336.299.56.486.082.068.169.138.261.209.77.595 1.761.981 2.879.981 2.985 0 5.1-1.977 5.1-4.9 0-1.454-.708-3.732-1.955-6.608-1.795-4.14-4.145-9.148-6.037-12.838l-.479-.923C18.274 3.854 17.312 3.2 16 3.2zm0 13.6c2.099 0 3.8 1.701 3.8 3.8 0 2.05-1.465 3.309-3.235 3.738l-.565.118-.565-.118C13.665 23.909 12.2 22.65 12.2 20.6c0-2.099 1.701-3.8 3.8-3.8zm0 2c-.994 0-1.8.806-1.8 1.8 0 .867.625 1.545 1.547 1.748l.253.042.253-.042c.922-.203 1.547-.881 1.547-1.748 0-.994-.806-1.8-1.8-1.8z"/></svg>
+              <span style="color:#ffffff; font-size:0.65rem; font-weight:700; font-family:var(--font-sans);">airbnb</span>
+            </div>
+          </div>
+          <div style="padding:16px 18px 20px;">
+            <span style="background:#000000; color:#ffffff; padding:4px 10px; border-radius:9999px; font-size:0.72rem; font-weight:700;">Airbnb Award</span>
+            <h3 style="font-family:var(--font-serif); font-size:1.22rem; font-weight:700; color:#121212; margin:10px 0 6px;">ELIVAAS Honored by Airbnb</h3>
+            <p style="font-size:0.84rem; color:#6b7280; line-height:1.5;">A proud milestone as ELIVAAS earns Airbnb's Expansion Award, celebrating our relentless pursuit of excellence and luxury hospitality at scale.</p>
+          </div>
+        </div>
+        <!-- Inc42 Award -->
+        <div class="spotlight-card-item">
+          <div class="spotlight-img-wrap" style="position:relative;"><img src="images/Hospitality_2a90dccbc6.png" alt="Inc42" loading="lazy" decoding="async"></div>
+          <div style="padding:16px 18px 20px;">
+            <span style="background:#121212; color:#ffffff; padding:4px 10px; border-radius:9999px; font-size:0.72rem; font-weight:700;">Best startups</span>
+            <h3 style="font-family:var(--font-serif); font-size:1.22rem; font-weight:700; color:#121212; margin:10px 0 6px;">Featured in Inc42's 30 Best Startups</h3>
+            <p style="font-size:0.84rem; color:#6b7280; line-height:1.5;">Recognised not just for scaling fast but for setting a new standard in modern hospitality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. STAR-STUDDED STAYS -->
+  <section class="section-star-stays" style="padding: 60px 0 50px; background: #faf8f5;">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:26px; flex-wrap:wrap; gap:12px;">
+        <div>
+          <h2 class="escape-title" style="font-size: 2.3rem;">Star-Studded <em>Stays</em></h2>
+          <p class="escape-subtitle">See Bollywood's finest share their unforgettable moments of luxury</p>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="star-nav-arrow" onclick="scrollStarStays(-1)" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="star-nav-arrow" onclick="scrollStarStays(1)" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="star-stays-carousel-track" id="starStaysCarousel">
+        <div class="star-stay-card" onclick="openCelebVideo('Yami Gautam', 'https://d31za8na64dkj7.cloudfront.net/Yami_Gautam_43012b3c84.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/Whats_App_Image_2025_12_22_at_12_39_05_PM_6d385723c7.jpeg" alt="Yami Gautam" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Yami Gautam</span>
+            <h4 class="star-stay-card-title">Yami Gautam</h4>
+            <p class="star-stay-card-desc">Catch Yami lighting up every moment with grace and charm.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Parthiv Patel ', 'https://d31za8na64dkj7.cloudfront.net/parthiv_patel_fa852e442c.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/7_5625b7c857.png" alt="Parthiv Patel " loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Parthiv Patel</span>
+            <h4 class="star-stay-card-title">Parthiv Patel </h4>
+            <p class="star-stay-card-desc">Hear Parthiv speak about his stay and the moments that made it memorable.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Multi-starrer', 'https://d31za8na64dkj7.cloudfront.net/Multiple_celebrities_4730800536.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/9_2d54e4ee24.jpg" alt="Multi-starrer" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Multi-starrer</span>
+            <h4 class="star-stay-card-title">Multi-starrer</h4>
+            <p class="star-stay-card-desc">Where Bollywood’s Stalwarts Come Together</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Bollywood’s Greatest!', 'https://d31za8na64dkj7.cloudfront.net/Sunny_Deol_and_More_9421df9120.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/5_ec5a9b4653.jpg" alt="Bollywood’s Greatest!" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Sunny &amp; Mohit</span>
+            <h4 class="star-stay-card-title">Bollywood’s Greatest!</h4>
+            <p class="star-stay-card-desc">When Icons Choose Us, Time and Again.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Pavail Gulati', 'https://d31za8na64dkj7.cloudfront.net/Pavail_Gulati_7dfd27f15a.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/4_a61cbc59ca.png" alt="Pavail Gulati" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Pavail Gulati</span>
+            <h4 class="star-stay-card-title">Pavail Gulati</h4>
+            <p class="star-stay-card-desc">Catch Pavail embracing our stay with his elegant charm.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Ishita Dutta', 'https://d31za8na64dkj7.cloudfront.net/ishidutta_753065bc5d.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/8_437b92defb.png" alt="Ishita Dutta" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Ishita Dutta</span>
+            <h4 class="star-stay-card-title">Ishita Dutta</h4>
+            <p class="star-stay-card-desc">Catch Ishita experiencing our stay to the fullest with her beloved family.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Celebrities First Choice', 'https://d31za8na64dkj7.cloudfront.net/Celeb_57c0c529a3.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/Celebrities_7773cfb5c8.jpg" alt="Celebrities First Choice" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Celebrities First Choice</span>
+            <h4 class="star-stay-card-title">Celebrities First Choice</h4>
+            <p class="star-stay-card-desc">Where stars stay when they need peace, privacy, and perfection.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. UNFORGETTABLE EVENTS, PERFECT VENUES -->
+  <section class="section-events" style="padding: 60px 0; background: #ffffff;">
+    <div class="container">
+      <div style="margin-bottom: 28px;">
+        <h2 class="escape-title" style="font-size: 2.3rem;">Unforgettable Events, <em>Perfect Venues</em></h2>
+        <p class="escape-subtitle">From dreamy weddings to lively celebrations, our properties set the stage for every special moment.</p>
+      </div>
+      <div class="events-grid">
+<!-- Card 1: Destination Weddings -->
+        <div class="wedding-card-exact" onclick="window.location.href='event.html'">
+          <div class="wedding-card-img-wrap">
+            <img src="images/Wedding_3_62f17916bd.jpg" alt="Destination Weddings" loading="lazy" decoding="async">
+            <div class="wedding-diagonal-arrow-btn">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+          <div class="wedding-card-body">
+            <h3 class="wedding-card-title">Destination Weddings</h3>
+            <p class="wedding-card-desc">
+              Tie the knot in breathtaking venues, with end-to-end planning, personalised details, & heartfelt service.
+            </p>
+            <div class="wedding-card-hosted-pill">
+              <strong>100+</strong> weddings hosted
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Corporate Retreats -->
+        <div class="wedding-card-exact" onclick="window.location.href='corporate-offsite.html'">
+          <div class="wedding-card-img-wrap">
+            <img src="images/Corporate_retreat_42e17355de.png" alt="Corporate Retreats" loading="lazy" decoding="async">
+            <div class="wedding-diagonal-arrow-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </div>
+          <div class="wedding-card-body">
+            <h3 class="wedding-card-title">Corporate Retreats</h3>
+            <p class="wedding-card-desc">Strategic offsites, leadership summits, and team building in nature.</p>
+            <div class="wedding-card-hosted-pill"><strong>80+</strong> retreats hosted</div>
+          </div>
+        </div>
+
+        <!-- Card 3: Birthdays & Anniversaries -->
+        <div class="wedding-card-exact" onclick="window.location.href='birthday.html'">
+          <div class="wedding-card-img-wrap">
+            <img src="images/Birthday_c7d9a5ea9a.png" alt="Birthdays & Anniversaries" loading="lazy" decoding="async">
+            <div class="wedding-diagonal-arrow-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </div>
+          <div class="wedding-card-body">
+            <h3 class="wedding-card-title">Birthdays & Anniversaries</h3>
+            <p class="wedding-card-desc">Celebrate life milestones with custom décor, live music, and private banquets.</p>
+            <div class="wedding-card-hosted-pill"><strong>250+</strong> parties hosted</div>
+          </div>
+        </div>
+
+        <!-- Card 4: Wellness Retreats -->
+        <div class="wedding-card-exact" onclick="window.location.href='wellness.html'">
+          <div class="wedding-card-img-wrap">
+            <img src="images/Wellness_e8b0d78e2c.png" alt="Wellness Retreats" loading="lazy" decoding="async">
+            <div class="wedding-diagonal-arrow-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </div>
+          <div class="wedding-card-body">
+            <h3 class="wedding-card-title">Wellness Retreats</h3>
+            <p class="wedding-card-desc">Rejuvenate the soul with guided yoga, spa therapies, and organic menus.</p>
+            <div class="wedding-card-hosted-pill"><strong>60+</strong> retreats hosted</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. ELIVAAS PRIVE ULTRA LUXE SHOWCASE -->
+  <section class="section-prive-showcase" style="padding: 70px 0 60px; background: #160e0a; color: #ffffff;">
+    <div class="container">
+      <div style="text-align: center; max-width: 680px; margin: 0 auto 36px;">
+        <span style="color: #c5a880; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.2em;">The Crown Jewel of Hospitality</span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.6rem; margin: 6px 0 12px; color: #ffffff;">ELIVAAS <em>PRIVE</em></h2>
+        <p style="font-size: 0.95rem; color: #d1d5db; line-height: 1.6;">Ultra-exclusive estates designed for royalty, high-profile gatherings, and transcendent luxury experiences.</p>
+      </div>
+      <div class="spotlight-cards-grid">
+        <div style="background:#221711; border-radius:18px; overflow:hidden; border:1px solid #3d2b21; cursor:pointer;" onclick="window.location.href='villa.html?id=prop_OYPcb1v4aVLP1g'">
+          <div style="height:230px; overflow:hidden; position:relative;">
+            <img src="images/2nd_580c51c9e6.jpg" alt="Royce Daisy" loading="lazy" decoding="async" style="width:100%; height:100%; object-fit:cover;">
+            <span style="position:absolute; top:12px; left:12px; background:#a36b4f; color:#ffffff; font-size:0.65rem; font-weight:800; padding:3px 8px; border-radius:4px;">PRIVE SIGNATURE</span>
+          </div>
+          <div style="padding:18px 20px 22px;">
+            <div style="font-size:0.75rem; color:#c5a880; font-weight:700;">Kasauli, Himachal Pradesh</div>
+            <h3 style="font-family:var(--font-serif); font-size:1.24rem; font-weight:700; color:#ffffff; margin:4px 0 8px;">The Royce Daisy • 4 BHK Heated Pool</h3>
+            <div style="font-size:1.15rem; font-weight:800; color:#ffffff;">₹68,100 <span style="font-size:0.8rem; color:#9ca3af; font-weight:400;">/ night</span></div>
+          </div>
+        </div>
+        <div style="background:#221711; border-radius:18px; overflow:hidden; border:1px solid #3d2b21; cursor:pointer;" onclick="window.location.href='villa.html?id=prop_DStIgQsV8ANNcS'">
+          <div style="height:230px; overflow:hidden; position:relative;">
+            <img src="images/DSC_8885_HDR_a2a8f849fc.jpg" alt="Meraki Villa" loading="lazy" decoding="async" style="width:100%; height:100%; object-fit:cover;">
+            <span style="position:absolute; top:12px; left:12px; background:#a36b4f; color:#ffffff; font-size:0.65rem; font-weight:800; padding:3px 8px; border-radius:4px;">PRIVE SIGNATURE</span>
+          </div>
+          <div style="padding:18px 20px 22px;">
+            <div style="font-size:0.75rem; color:#c5a880; font-weight:700;">Lonavala, Maharashtra</div>
+            <h3 style="font-family:var(--font-serif); font-size:1.24rem; font-weight:700; color:#ffffff; margin:4px 0 8px;">Meraki Villa • 5 BHK Glass Palace</h3>
+            <div style="font-size:1.15rem; font-weight:800; color:#ffffff;">₹84,355 <span style="font-size:0.8rem; color:#9ca3af; font-weight:400;">/ night</span></div>
+          </div>
+        </div>
+        <div style="background:#221711; border-radius:18px; overflow:hidden; border:1px solid #3d2b21; cursor:pointer;" onclick="window.location.href='villa.html?id=prop_s5XE8tWKRh6NQi'">
+          <div style="height:230px; overflow:hidden; position:relative;">
+            <img src="images/DJI_20260303185046_0182_D_a126714879.jpg" alt="Mountain Creek" loading="lazy" decoding="async" style="width:100%; height:100%; object-fit:cover;">
+            <span style="position:absolute; top:12px; left:12px; background:#a36b4f; color:#ffffff; font-size:0.65rem; font-weight:800; padding:3px 8px; border-radius:4px;">PRIVE SIGNATURE</span>
+          </div>
+          <div style="padding:18px 20px 22px;">
+            <div style="font-size:0.75rem; color:#c5a880; font-weight:700;">Udaipur, Rajasthan</div>
+            <h3 style="font-family:var(--font-serif); font-size:1.24rem; font-weight:700; color:#ffffff; margin:4px 0 8px;">Mountain Creek Retreat • 7 BHK Estate</h3>
+            <div style="font-size:1.15rem; font-weight:800; color:#ffffff;">₹90,710 <span style="font-size:0.8rem; color:#9ca3af; font-weight:400;">/ night</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. SIGNATURE HOSPITALITY & ASSURANCE BENTO GRID -->
+  <section class="section-hospitality-bento" style="padding: 70px 0; background: #ffffff;">
+    <div class="container">
+      <div class="special-cards-bento-grid">
+        <div class="special-card card-luxury">
+          <div class="special-card-img-box tall"><img src="images/Exeptional_luxury_ff74884971.jpg" alt="Exceptional Luxury" loading="lazy" decoding="async"></div>
+          <div class="special-card-text-box">
+            <h3 class="special-card-title">Exceptional Luxury</h3>
+            <p class="special-card-desc">Luxury curated with warmth, design, and care, where every villa feels personal, intentional, and deeply comforting.</p>
+          </div>
+        </div>
+        <div class="special-card card-sustainable">
+          <div class="card-sustainable-inner">
+            <div class="special-card-img-box wide-img"><img src="images/Sustainability_Luxury_6a295f1472.jpg" alt="Sustainable Approach" loading="lazy" decoding="async"></div>
+            <div class="special-card-text-box wide-txt">
+              <h3 class="special-card-title">Sustainable Approach</h3>
+              <p class="special-card-desc">From glass bottles to bamboo and natural fabrics, thoughtful details for a conscious, comfortable, sustainable way to stay.</p>
+            </div>
+          </div>
+        </div>
+        <div class="special-card card-touches">
+          <div class="special-card-text-box">
+            <h3 class="special-card-title">Signature Touches</h3>
+            <p class="special-card-desc">Thoughtful welcome gifts, personalised experiences, & parting surprises designed to leave a lasting impression.</p>
+          </div>
+          <div class="special-card-img-box bottom-img"><img src="images/Signature_touch_a40d0245bb.jpg" alt="Signature Touches" loading="lazy" decoding="async"></div>
+        </div>
+        <div class="special-card card-perks">
+          <div class="special-card-img-box top-img"><img src="images/Exclusive_perks_9d8037d6ff.jpg" alt="Exclusive Perks" loading="lazy" decoding="async"></div>
+          <div class="special-card-text-box">
+            <h3 class="special-card-title">Exclusive Perks</h3>
+            <p class="special-card-desc">Enjoy handpicked offers, local experiences, and thoughtful perks designed to elevate every part of your stay.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. DISCOVER OUR NEWEST GEMS -->
+  <section class="section-newest-gems" style="padding: 60px 0; background: #ffffff;">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:28px; flex-wrap:wrap; gap:14px;">
+        <div>
+          <h2 class="escape-title" style="font-size: 2.3rem;">Discover Our <em>Newest Gems</em></h2>
+          <p class="escape-subtitle">Explore the Latest Additions to Our Collection of Exceptional Villas</p>
+        </div>
+        <button onclick="window.location.href='villas.html'" class="btn-explore-gems-action">
+          Explore more Properties <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="villas-grid">
+        <div class="villa-card" onclick="window.location.href='villa.html?id=prop_bxui0RrmGrYRHb'">
+          <div class="card-image-wrapper">
+            <img src="images/DJI_20260303185046_0182_D_a126714879.jpg" alt="Mountain Creek Retreat | Pet-friendly Ultra-Luxe Suite With Shared Pool, Gazebo, Lounge Area, Game & Gym zone | Near Fatehsagar Lake" loading="lazy" decoding="async" class="card-img">
+            <span class="card-brand-badge">NEW LAUNCH</span>
+            <button class="wishlist-btn" onclick="toggleWish(event, this, 'prop_bxui0RrmGrYRHb', 'Mountain Creek Retreat | Pet-friendly Ultra-Luxe Suite With Shared Pool, Gazebo, Lounge Area, Game & Gym zone | Near Fatehsagar Lake')" aria-label="Add to Wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="card-details">
+            <div class="card-location-row">
+              <span class="card-location"><i class="fa-solid fa-location-dot" style="color:var(--elivaas-red);"></i> Kodiyat, Udaipur</span>
+              <span class="card-rating"><i class="fa-solid fa-star"></i> 4.4</span>
+            </div>
+            <h3 class="card-title">Mountain Creek Retreat | Pet-friendly Ultra-Luxe Suite With Shared Pool, Gazebo, Lounge Area, Game & Gym zone | Near Fatehsagar Lake</h3>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 1 BHK</span>
+              <span><i class="fa-solid fa-user-group"></i> Up to 3 Guests</span>
+              <span><i class="fa-solid fa-water-ladder"></i> Private Pool</span>
+            </div>
+            <div class="card-price-row">
+              <div>
+                <div class="price-night">₹21,005 <span class="tax-note">/ night</span></div>
+                <div class="emi-start-text">EMI from ₹1,750/mo</div>
+              </div>
+              <button class="btn-book-now" onclick="event.stopPropagation(); window.location.href='villa.html?id=prop_bxui0RrmGrYRHb';">
+                View Villa
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="villa-card" onclick="window.location.href='villa.html?id=prop_CpJCF01fl3kUM1'">
+          <div class="card-image-wrapper">
+            <img src="images/P1038840_003bdc3df0.jpg" alt="Valiyaveetil Mansion | 5-BHK Mansion With Private Pool, Home Theatre, Garden | Near New Marine Drive" loading="lazy" decoding="async" class="card-img">
+            <span class="card-brand-badge">NEW LAUNCH</span>
+            <button class="wishlist-btn" onclick="toggleWish(event, this, 'prop_CpJCF01fl3kUM1', 'Valiyaveetil Mansion | 5-BHK Mansion With Private Pool, Home Theatre, Garden | Near New Marine Drive')" aria-label="Add to Wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="card-details">
+            <div class="card-location-row">
+              <span class="card-location"><i class="fa-solid fa-location-dot" style="color:var(--elivaas-red);"></i> Kaloor, Kochi</span>
+              <span class="card-rating"><i class="fa-solid fa-star"></i> 4.95</span>
+            </div>
+            <h3 class="card-title">Valiyaveetil Mansion | 5-BHK Mansion With Private Pool, Home Theatre, Garden | Near New Marine Drive</h3>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 5 BHK</span>
+              <span><i class="fa-solid fa-user-group"></i> Up to 11 Guests</span>
+              <span><i class="fa-solid fa-water-ladder"></i> Private Pool</span>
+            </div>
+            <div class="card-price-row">
+              <div>
+                <div class="price-night">₹36,280 <span class="tax-note">/ night</span></div>
+                <div class="emi-start-text">EMI from ₹3,023/mo</div>
+              </div>
+              <button class="btn-book-now" onclick="event.stopPropagation(); window.location.href='villa.html?id=prop_CpJCF01fl3kUM1';">
+                View Villa
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="villa-card" onclick="window.location.href='villa.html?id=prop_RFuhAByIavZH9I'">
+          <div class="card-image-wrapper">
+            <img src="images/K81_A1159_37b37c0f6c.jpg" alt="Mandovar Mountain Valley Retreat | 1-Pet-friendly Suite In a Private Estate with Shared Pool, Garden, Restaurant & Hill Views " loading="lazy" decoding="async" class="card-img">
+            <span class="card-brand-badge">NEW LAUNCH</span>
+            <button class="wishlist-btn" onclick="toggleWish(event, this, 'prop_RFuhAByIavZH9I', 'Mandovar Mountain Valley Retreat | 1-Pet-friendly Suite In a Private Estate with Shared Pool, Garden, Restaurant & Hill Views ')" aria-label="Add to Wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="card-details">
+            <div class="card-location-row">
+              <span class="card-location"><i class="fa-solid fa-location-dot" style="color:var(--elivaas-red);"></i> Thoor, Udaipur</span>
+              <span class="card-rating"><i class="fa-solid fa-star"></i> 4.7</span>
+            </div>
+            <h3 class="card-title">Mandovar Mountain Valley Retreat | 1-Pet-friendly Suite In a Private Estate with Shared Pool, Garden, Restaurant & Hill Views </h3>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 1 BHK</span>
+              <span><i class="fa-solid fa-user-group"></i> Up to 3 Guests</span>
+              <span><i class="fa-solid fa-water-ladder"></i> Private Pool</span>
+            </div>
+            <div class="card-price-row">
+              <div>
+                <div class="price-night">₹10,178 <span class="tax-note">/ night</span></div>
+                <div class="emi-start-text">EMI from ₹848/mo</div>
+              </div>
+              <button class="btn-book-now" onclick="event.stopPropagation(); window.location.href='villa.html?id=prop_RFuhAByIavZH9I';">
+                View Villa
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="villa-card" onclick="window.location.href='villa.html?id=prop_pW2XbB72Zv8Gdc'">
+          <div class="card-image-wrapper">
+            <img src="images/P1023648_24bda73029.jpg" alt="Tapovana Zarae | Pet-friendly Tent on 1-Acre with Shared Pool, Sunken Firepit, Gazebo & a Lush Garden" loading="lazy" decoding="async" class="card-img">
+            <span class="card-brand-badge">NEW LAUNCH</span>
+            <button class="wishlist-btn" onclick="toggleWish(event, this, 'prop_pW2XbB72Zv8Gdc', 'Tapovana Zarae | Pet-friendly Tent on 1-Acre with Shared Pool, Sunken Firepit, Gazebo & a Lush Garden')" aria-label="Add to Wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="card-details">
+            <div class="card-location-row">
+              <span class="card-location"><i class="fa-solid fa-location-dot" style="color:var(--elivaas-red);"></i> Uchalagollahalli, Bengaluru</span>
+              <span class="card-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <h3 class="card-title">Tapovana Zarae | Pet-friendly Tent on 1-Acre with Shared Pool, Sunken Firepit, Gazebo & a Lush Garden</h3>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 1 BHK</span>
+              <span><i class="fa-solid fa-user-group"></i> Up to 3 Guests</span>
+              <span><i class="fa-solid fa-water-ladder"></i> Private Pool</span>
+            </div>
+            <div class="card-price-row">
+              <div>
+                <div class="price-night">₹21,357 <span class="tax-note">/ night</span></div>
+                <div class="emi-start-text">EMI from ₹1,780/mo</div>
+              </div>
+              <button class="btn-book-now" onclick="event.stopPropagation(); window.location.href='villa.html?id=prop_pW2XbB72Zv8Gdc';">
+                View Villa
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. EVERY STAY HAS A STORY -->
+  <section class="section-stay-stories" style="padding: 60px 0; background: #faf8f5;">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:26px; flex-wrap:wrap; gap:12px;">
+        <div>
+          <h2 class="escape-title" style="font-size: 2.3rem;">Every stay <em>has a story</em></h2>
+          <p class="escape-subtitle">Hear What Makes Every Stay Truly Unforgettable</p>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="star-nav-arrow" onclick="scrollStayStories(-1)" aria-label="Previous Stories"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="star-nav-arrow" onclick="scrollStayStories(1)" aria-label="Next Stories"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="star-stays-carousel-track" id="stayStoriesCarousel">
+        <div class="star-stay-card" onclick="openCelebVideo('Proposal', 'https://d31za8na64dkj7.cloudfront.net/Proposal_video_4444e6237a.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/Proposal_77d90e4a2d.jpg" alt="Proposal" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Proposal</span>
+            <h4 class="star-stay-card-title">Proposal</h4>
+            <p class="star-stay-card-desc">Because some moments deserve a magical setting.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Divya Agarwal', 'https://d31za8na64dkj7.cloudfront.net/Divya_Agarwal_631c2339a8.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/2_8b8200cc9a.jpg" alt="Divya Agarwal" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Home, Heart, Happiness</span>
+            <h4 class="star-stay-card-title">Divya Agarwal</h4>
+            <p class="star-stay-card-desc">Where family time turns into lasting memories.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Dolly Singh', 'https://d31za8na64dkj7.cloudfront.net/Dolly_Singh_c195826dca.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/Dolly_Singh_e61f3988b5.png" alt="Dolly Singh" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Sweet Nostalgia</span>
+            <h4 class="star-stay-card-title">Dolly Singh</h4>
+            <p class="star-stay-card-desc">A stay that brought back the warmth of old times.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Krishna Mukherjee', 'https://d31za8na64dkj7.cloudfront.net/Krishna_Mukherjee_b101dd40ed.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/3_28399263d0.jpg" alt="Krishna Mukherjee" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Vacation Mode</span>
+            <h4 class="star-stay-card-title">Krishna Mukherjee</h4>
+            <p class="star-stay-card-desc">Escape, unwind, and live the moment.</p>
+          </div>
+        </div>
+        <div class="star-stay-card" onclick="openCelebVideo('Prattika Shah', 'https://d31za8na64dkj7.cloudfront.net/Prattika_Shah_5c7e891ac7.mp4')">
+          <div class="star-stay-img-wrap">
+            <img src="images/6_bc93c8e31a.jpg" alt="Prattika Shah" loading="lazy" decoding="async">
+            <div class="star-stay-play-btn"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="star-stay-info">
+            <span class="star-stay-pill">Mindful Escape</span>
+            <h4 class="star-stay-card-title">Prattika Shah</h4>
+            <p class="star-stay-card-desc">Wellness, rest, and mindful moments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. NUMBERS THAT SPEAK FOR THEMSELVES -->
+  <section class="section-stats" style="padding: 60px 0; background: #121212; color: #ffffff;">
+    <div class="container">
+      <div style="text-align:center; max-width:680px; margin:0 auto 36px;">
+        <h2 style="font-family:var(--font-serif); font-size:2.4rem; color:#ffffff; margin-bottom:6px;">Numbers that speak for themselves</h2>
+        <p style="font-size:0.95rem; color:#9ca3af;">Discover the Story Behind Our Success Through These Impressive Stats</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-counter-card">
+          <img src="images/5_star_0c3cf6ba90.svg" alt="5-star reviews" class="stat-icon-img" loading="lazy">
+          <div class="stat-number-val">42000+</div>
+          <div class="stat-feature-txt">5-star reviews</div>
+        </div>
+        <div class="stat-counter-card">
+          <img src="images/Portfolio_properties_54e2d4d910.svg" alt="Portfolio properties" class="stat-icon-img" loading="lazy">
+          <div class="stat-number-val">700+</div>
+          <div class="stat-feature-txt">Portfolio properties</div>
+        </div>
+        <div class="stat-counter-card">
+          <img src="images/7_star_4aa256129c.svg" alt="7-star services" class="stat-icon-img" loading="lazy">
+          <div class="stat-number-val">24x7</div>
+          <div class="stat-feature-txt">7-star services</div>
+        </div>
+        <div class="stat-counter-card">
+          <img src="images/Delighted_guest_ae0c361e99.svg" alt="Delighted Guests" class="stat-icon-img" loading="lazy">
+          <div class="stat-number-val">4.25 lacs+</div>
+          <div class="stat-feature-txt">Delighted Guests</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. THE ELIVAAS STANDARD (ASSURANCE) -->
+  <section class="section-assurance">
+    <div class="container">
+      <div style="text-align:center; max-width:650px; margin:0 auto 30px;">
+        <span style="color:var(--elivaas-copper); font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:0.12em;">The ELIVAAS Standard</span>
+        <h2 class="escape-title" style="font-size:2.3rem;">Engineered for <em>Pure Peace of Mind</em></h2>
+        <p class="escape-subtitle">Every home goes through 120+ inspection points before your arrival</p>
+      </div>
+      <div class="assurance-grid">
+        <div class="assurance-card">
+          <div class="assurance-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 class="assurance-title">120+ Point Audit</h3>
+          <p class="assurance-desc">Every linen, HVAC system, pool filtration, and kitchen tool is audited for 5-star perfection.</p>
+        </div>
+        <div class="assurance-card">
+          <div class="assurance-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3 class="assurance-title">24/7 Dedicated Concierge</h3>
+          <p class="assurance-desc">From itinerary planning to midnight snack requests, our on-call concierge has you covered.</p>
+        </div>
+        <div class="assurance-card">
+          <div class="assurance-icon"><i class="fa-solid fa-water-ladder"></i></div>
+          <h3 class="assurance-title">Private Verified Pools</h3>
+          <p class="assurance-desc">100% private and regularly sanitized temperature-ready pools reserved solely for your group.</p>
+        </div>
+        <div class="assurance-card">
+          <div class="assurance-icon"><i class="fa-solid fa-bell-concierge"></i></div>
+          <h3 class="assurance-title">Private Chef & Butler</h3>
+          <p class="assurance-desc">Bespoke farm-to-table cuisine prepared live in your private villa kitchen to your taste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15. GUEST TESTIMONIALS -->
+  <section class="section-testimonials">
+    <div class="container">
+      <div style="text-align:center; max-width:650px; margin:0 auto 30px;">
+        <span style="color:var(--elivaas-copper); font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:0.12em;">Guest Reviews</span>
+        <h2 class="escape-title" style="font-size:2.3rem;">Loved by <em>Discerning Travelers</em></h2>
+        <p class="escape-subtitle">Over 10,000+ happy guests across India's premier holiday destinations</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-quote">"Villa Fleuve in Candolim blew our expectations out of the water. The river views, private heated jacuzzi, and Chef Suresh's coastal cuisine made our family reunion unforgettable!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RK</div>
+            <div><div class="author-name">Rohit Kapoor</div><div class="author-stay">Stayed at Villa Fleuve, Goa • Verified Guest</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-quote">"Royce Cottage in Kasauli is pure magic. Pine forest views from the balcony, super cozy indoor fireplace, and an incredible concierge who arranged our sunset hike. 10/10 service!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#0284c7;">AM</div>
+            <div><div class="author-name">Ananya Mehta</div><div class="author-stay">Stayed at Royce Cottage, Kasauli • Verified Guest</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-quote">"Hosted our leadership corporate offsite at Meraki Villa, Lonavala. The glass facade architecture, sprawling pool deck, and ultra-fast WiFi provided the perfect setting."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#16a34a;">VS</div>
+            <div><div class="author-name">Vikram Singhania</div><div class="author-stay">Stayed at Meraki Villa, Lonavala • Corporate Offsite</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 16. PARTNER WITH US -->
+  <section class="section-partner" style="padding: 70px 0; background: #faf7f2;">
+    <div class="container">
+      <div class="partner-card-box">
+        <div class="partner-left-img"><img src="images/Home_owner_86e1715af4.webp" alt="Partner With ELIVAAS" loading="lazy" decoding="async"></div>
+        <div class="partner-right-content">
+          <span style="color:var(--elivaas-copper); font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.15em;">PARTNER WITH US</span>
+          <h2 style="font-family:var(--font-serif); font-size:2.1rem; color:#121212; margin:6px 0 12px; line-height:1.25;">Let Your Second Home Welcome the World</h2>
+          <p style="font-size:0.9rem; color:#4b5563; line-height:1.55; margin-bottom:20px;">With ELIVAAS, your second home becomes a curated escape expertly managed, beautifully maintained, & thoughtfully shared.</p>
+          <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap;">
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color:#121212;"><i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Tailored</strong> earnings, zero hassle</div>
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color:#121212;"><i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Fully</strong> managed by experts</div>
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color:#121212;"><i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Trusted</strong> by 350+ homeowners</div>
+          </div>
+          <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap;">
+            <button onclick="openPartnerModal()" class="btn-partner-cta">Calculate Rental Yield <i class="fa-solid fa-arrow-right"></i></button>
+            <a href="tel:+917969469950" style="font-size:0.88rem; font-weight:700; color:#121212; display:flex; align-items:center; gap:6px;"><i class="fa-solid fa-phone" style="color:var(--elivaas-red);"></i> Speak with Acquisition Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+            <div class="brand-icon-box" style="border-color:#ffffff;"><div class="brand-diamond" style="border-color:#ffffff;"></div></div>
+            <div class="brand-text-logo" style="font-size:1.4rem;">ELIVAAS</div>
+          </div>
+          <p style="color:#9ca3af; line-height:1.6; margin-bottom:20px;">Redefining luxury villa vacations across India with verified pools, dedicated culinary chefs, and bespoke 24/7 concierge hospitality.</p>
+          <div style="display:flex; gap:12px; color:#ffffff; font-size:1.1rem;">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" style="width:36px; height:36px; border-radius:50%; background:#1c1c1c; display:flex; align-items:center; justify-content:center;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" style="width:36px; height:36px; border-radius:50%; background:#1c1c1c; display:flex; align-items:center; justify-content:center;"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" style="width:36px; height:36px; border-radius:50%; background:#1c1c1c; display:flex; align-items:center; justify-content:center;"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noreferrer" style="width:36px; height:36px; border-radius:50%; background:#1c1c1c; display:flex; align-items:center; justify-content:center;"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Top Destinations</h4>
+          <ul class="footer-links-list">
+            <li><a href="villas.html?city=Goa">Villas in Goa (120+)</a></li>
+            <li><a href="villas.html?city=Lonavala">Villas in Lonavala (85+)</a></li>
+            <li><a href="villas.html?city=Kasauli">Villas in Kasauli (40+)</a></li>
+            <li><a href="villas.html?city=Udaipur">Villas in Udaipur (35+)</a></li>
+            <li><a href="villas.html?city=Delhi">Villas in Delhi NCR (45+)</a></li>
+            <li><a href="villas.html?city=Alibaug">Villas in Alibaug (25+)</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Collections</h4>
+          <ul class="footer-links-list">
+            <li><a href="villas.html?brand=prive">ELIVAAS PRIVE Ultra Luxe</a></li>
+            <li><a href="villas.html?pool=heated">Heated Pool Villas</a></li>
+            <li><a href="villas.html?pet=true">Pet Friendly Villas</a></li>
+            <li><a href="villas.html?occasion=event">Weddings & Celebrations</a></li>
+            <li><a href="villas.html?occasion=corporate">Corporate Offsites</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Download ELIVAAS App</h4>
+          <p style="color:#9ca3af; margin-bottom:14px;">Get exclusive app-only discounts, live concierge chat, and effortless villa check-ins.</p>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <a href="https://apple.com" target="_blank" style="background:#1c1c1c; border:1px solid #333; border-radius:10px; padding:8px 14px; display:flex; align-items:center; gap:10px; color:#ffffff;">
+              <i class="fa-brands fa-apple" style="font-size:1.4rem;"></i>
+              <div><div style="font-size:0.65rem; color:#9ca3af;">Download on the</div><div style="font-weight:700; font-size:0.85rem;">App Store</div></div>
+            </a>
+            <a href="https://google.com" target="_blank" style="background:#1c1c1c; border:1px solid #333; border-radius:10px; padding:8px 14px; display:flex; align-items:center; gap:10px; color:#ffffff;">
+              <i class="fa-brands fa-google-play" style="font-size:1.2rem; color:#4ade80;"></i>
+              <div><div style="font-size:0.65rem; color:#9ca3af;">GET IT ON</div><div style="font-weight:700; font-size:0.85rem;">Google Play</div></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <div>© 2026 ELIVAAS Hospitality Pvt Ltd. All rights reserved.</div>
+        <div style="display:flex; gap:20px;">
+          <a href="#" style="color:#9ca3af;">Privacy Policy</a>
+          <a href="#" style="color:#9ca3af;">Terms of Service</a>
+          <a href="#" style="color:#9ca3af;">Guest Cancellation Policy</a>
+          <a href="#" style="color:#9ca3af;">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal-overlay" id="loginModal" onclick="if(event.target===this) closeAllModals();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:480px; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.25);">
+      <button onclick="closeAllModals()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:20px;">
+        <div class="brand-icon-box" style="border-color:#121212; width:30px; height:30px;"><div class="brand-diamond" style="border-color:#121212; width:14px; height:14px;"></div></div>
+        <div class="brand-text-logo" style="color:#121212; font-size:1.2rem;">ELIVAAS</div>
+      </div>
+      <h3 style="font-family:var(--font-serif); font-size:1.6rem; font-weight:700; color:#121212; margin-bottom:6px;">Your Key to Exclusive Stays</h3>
+      <p style="font-size:0.88rem; color:#6b7280; margin-bottom:24px;">Sign in or create an account to unlock your Blue Membership & Reserve rewards.</p>
+      <div id="loginStepPhone">
+        <div style="display:flex; align-items:center; border:1px solid #d1d5db; border-radius:12px; padding:10px 14px; margin-bottom:16px;">
+          <span style="font-weight:700; margin-right:8px;">+91</span>
+          <input type="tel" id="userMobileInput" placeholder="Enter Mobile Number" maxlength="10" style="border:none; width:100%; font-size:0.95rem;" oninput="handlePhoneInput(this.value)">
+        </div>
+        <button type="button" id="loginContinueBtn" onclick="submitPhoneForOTP()" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:14px; border-radius:9999px; font-weight:700; font-size:0.95rem;">Continue</button>
+      </div>
+      <div id="loginStepOTP" style="display:none;">
+        <p style="font-size:0.85rem; color:#4b5563; margin-bottom:12px;">Enter 4-digit code sent to <strong id="displayOtpPhone">+91 9876543210</strong></p>
+        <div style="display:flex; gap:10px; justify-content:center; margin-bottom:18px;">
+          <input type="text" maxlength="1" class="otp-box" id="otp1" style="width:48px; height:48px; text-align:center; font-size:1.3rem; font-weight:700; border:1.5px solid #d1d5db; border-radius:10px;">
+          <input type="text" maxlength="1" class="otp-box" id="otp2" style="width:48px; height:48px; text-align:center; font-size:1.3rem; font-weight:700; border:1.5px solid #d1d5db; border-radius:10px;">
+          <input type="text" maxlength="1" class="otp-box" id="otp3" style="width:48px; height:48px; text-align:center; font-size:1.3rem; font-weight:700; border:1.5px solid #d1d5db; border-radius:10px;">
+          <input type="text" maxlength="1" class="otp-box" id="otp4" style="width:48px; height:48px; text-align:center; font-size:1.3rem; font-weight:700; border:1.5px solid #d1d5db; border-radius:10px;">
+        </div>
+        <button type="button" onclick="verifyOTPAndLogin()" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:14px; border-radius:9999px; font-weight:700; font-size:0.95rem;">Verify & Enter</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PARTNER YIELD MODAL -->
+  <div class="modal-overlay" id="partnerModal" onclick="if(event.target===this) closeAllModals();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:480px; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.25);">
+      <button onclick="closeAllModals()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <span style="color:var(--elivaas-copper); font-weight:700; font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em;">Partner With Elivaas</span>
+      <h3 style="font-family:var(--font-serif); font-size:1.6rem; margin:4px 0 12px;">Monetize Your Luxury Villa</h3>
+      <p style="font-size:0.88rem; color:var(--elivaas-muted); margin-bottom:16px;">Calculate estimated rental income for your holiday home:</p>
+      <div style="background:#faf7f2; border:1px solid var(--elivaas-border); border-radius:12px; padding:14px; margin-bottom:16px; text-align:center;">
+        <div style="font-size:0.78rem; color:var(--elivaas-muted); text-transform:uppercase;">Estimated Annual Net Yield</div>
+        <div style="font-size:1.8rem; font-weight:800; color:var(--elivaas-red); margin:4px 0;" id="partnerEstYield">₹48,00,000 / yr</div>
+        <div style="font-size:0.75rem; color:#16a34a;"><i class="fa-solid fa-arrow-trend-up"></i> Based on 68% average annual occupancy</div>
+      </div>
+      <form onsubmit="event.preventDefault(); showToast('Valuation submitted! Our team will send the full financial report.'); closeAllModals();">
+        <input type="text" placeholder="Your Full Name" required style="width:100%; padding:10px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <input type="tel" placeholder="Phone Number" required style="width:100%; padding:10px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <select id="partnerCitySelect" onchange="updatePartnerYield()" style="width:100%; padding:10px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem; background:#ffffff;">
+          <option value="goa">Goa (North / South)</option>
+          <option value="lonavala">Lonavala / Khandala</option>
+          <option value="kasauli">Kasauli / Himachal</option>
+          <option value="udaipur">Udaipur / Rajasthan</option>
+          <option value="delhi">Delhi NCR</option>
+        </select>
+        <button type="submit" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:12px; border-radius:9999px; font-weight:700; font-size:0.95rem;">Claim Full Financial Audit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CELEB VIDEO MODAL PLAYER -->
+  <div class="modal-overlay" id="celebVideoModal" onclick="if(event.target===this) closeCelebVideo();">
+    <div style="background:#121212; border-radius:18px; overflow:hidden; width:100%; max-width:440px; box-shadow:0 20px 50px rgba(0,0,0,0.5); position:relative;">
+      <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 18px; background:#1c1c1c; color:#ffffff;">
+        <h4 id="celebVideoTitle" style="font-family:var(--font-serif); font-size:1.05rem; font-weight:700;">Celebrity Stay</h4>
+        <button onclick="closeCelebVideo()" style="color:#ffffff; font-size:1.2rem; cursor:pointer;"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div style="position:relative; width:100%; aspect-ratio:9/16; max-height:70vh; background:#000000; display:flex; align-items:center; justify-content:center;">
+        <video id="celebVideoPlayer" controls playsinline autoplay style="width:100%; height:100%; object-fit:contain;"></video>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div id="toastContainer" style="position:fixed; bottom:24px; right:24px; z-index:9999; display:flex; flex-direction:column; gap:8px;"></div>
+
+  <!-- SCRIPTS -->
+  <script src="villas-data.js"></script>
+  <script>
+    const FULL_DESTINATIONS_DATA = [
+  {
+    "name": "North Goa",
+    "noOfProperties": 86,
+    "homepageImageUrl": "images/North_Goa_fa0e301b2b.jpg",
+    "slug": "north-goa",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Kasauli",
+    "noOfProperties": 54,
+    "homepageImageUrl": "images/Kasauli_b0c3d6a42b.webp",
+    "slug": "kasauli",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Jaipur",
+    "noOfProperties": 33,
+    "homepageImageUrl": "images/Jaipur_b91468c978.webp",
+    "slug": "jaipur",
+    "category": "Heritage Trails",
+    "categoryIcon": "images/castle_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_153d477e23.svg"
+  },
+  {
+    "name": "Bhimtal",
+    "noOfProperties": 21,
+    "homepageImageUrl": "images/Untitled_design_1_ae0317314b.jpg",
+    "slug": "bhimtal",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/Untitled_design_1_ae0317314b.jpg"
+  },
+  {
+    "name": "Mussoorie",
+    "noOfProperties": 15,
+    "homepageImageUrl": "images/Mussoorie_1_771e9acbe5.jpg",
+    "slug": "mussoorie",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/forest_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_26762ae199.svg"
+  },
+  {
+    "name": "Dehradun",
+    "noOfProperties": 13,
+    "homepageImageUrl": "images/Dehradun_9a4bba9931.webp",
+    "slug": "dehradun",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Jim Corbett",
+    "noOfProperties": 12,
+    "homepageImageUrl": "images/Ramnagar_8d89030439.webp",
+    "slug": "jim-corbett",
+    "category": "Wildlife Retreats",
+    "categoryIcon": "images/forest_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_26762ae199.svg"
+  },
+  {
+    "name": "Delhi NCR",
+    "noOfProperties": 69,
+    "homepageImageUrl": "images/Delhi_NCR_7fef2f6df2.webp",
+    "slug": "delhi-ncr",
+    "category": "Urban Getaways",
+    "categoryIcon": "images/apartment_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_2a2532d31b.svg"
+  },
+  {
+    "name": "Udaipur",
+    "noOfProperties": 50,
+    "homepageImageUrl": "images/Udaipur_c6d5c37c4b.webp",
+    "slug": "udaipur",
+    "category": "Heritage Trails",
+    "categoryIcon": "images/castle_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_153d477e23.svg"
+  },
+  {
+    "name": "Bengaluru",
+    "noOfProperties": 25,
+    "homepageImageUrl": "images/Banglore_2_jpg_906d2281fb.jpeg",
+    "slug": "bengaluru",
+    "category": "Urban Getaways",
+    "categoryIcon": "images/apartment_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_2a2532d31b.svg"
+  },
+  {
+    "name": "Lonavala",
+    "noOfProperties": 19,
+    "homepageImageUrl": "images/Lonavala_6830f1f396.webp",
+    "slug": "lonavala",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Nainital",
+    "noOfProperties": 14,
+    "homepageImageUrl": "images/Nainital_81f45281ec.webp",
+    "slug": "nainital",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Shimla",
+    "noOfProperties": 13,
+    "homepageImageUrl": "images/Shimla_jpg_7aa92d5d1f.jpeg",
+    "slug": "shimla",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Karjat",
+    "noOfProperties": 10,
+    "homepageImageUrl": "images/Jambrung_Karjat_8e4a56b280.jpg",
+    "slug": "karjat",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Mukteshwar",
+    "noOfProperties": 7,
+    "homepageImageUrl": "images/Mukhteswar_693bcb7f5b.webp",
+    "slug": "mukteshwar",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Dharamshala",
+    "noOfProperties": 4,
+    "homepageImageUrl": "images/Dharamshala_9e73ddf5e8.webp",
+    "slug": "dharamshala",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Chennai",
+    "noOfProperties": 3,
+    "homepageImageUrl": "images/Chennai_3_jpg_aa13bc55c0.jpeg",
+    "slug": "chennai",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Neemrana",
+    "noOfProperties": 1,
+    "homepageImageUrl": "images/Neemrana_fb08426a07.webp",
+    "slug": "neemrana",
+    "category": "Heritage Trails",
+    "categoryIcon": "images/castle_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_153d477e23.svg"
+  },
+  {
+    "name": "Ranikhet",
+    "noOfProperties": 1,
+    "homepageImageUrl": "images/Majkhali_Ranikhet_1648496259.jpg",
+    "slug": "ranikhet",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Alibaug",
+    "noOfProperties": 3,
+    "homepageImageUrl": "images/Alibaug_1_8dbcddc9fc.jpg",
+    "slug": "alibaug",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Ranthambore",
+    "noOfProperties": 5,
+    "homepageImageUrl": "images/Ranthambore_3_53b91312c5.webp",
+    "slug": "ranthambore",
+    "category": "Wildlife Retreats",
+    "categoryIcon": "images/forest_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_26762ae199.svg"
+  },
+  {
+    "name": "Coorg",
+    "noOfProperties": 9,
+    "homepageImageUrl": "images/Coorg_jpg_bbe26066fe.jpeg",
+    "slug": "coorg",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Igatpuri",
+    "noOfProperties": 7,
+    "homepageImageUrl": "images/Igatpuri_City_card_086ffd8bf6.jpg",
+    "slug": "igatpuri",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Rishikesh",
+    "noOfProperties": 3,
+    "homepageImageUrl": "images/Ganga_Bhogpur_Talla_Haridwar_ffb99340a2.jpg",
+    "slug": "rishikesh",
+    "category": "Soulful Getaways",
+    "categoryIcon": "images/bank_1_b43970e23a.svg"
+  },
+  {
+    "name": "Alappuzha",
+    "noOfProperties": 6,
+    "homepageImageUrl": "images/Alappuzha_jpg_d2369a89b5.jpeg",
+    "slug": "alappuzha",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "South Goa",
+    "noOfProperties": 10,
+    "homepageImageUrl": "images/South_Goa_4_afcd3e76d8.jpg",
+    "slug": "south-goa",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Alwar",
+    "noOfProperties": 3,
+    "homepageImageUrl": "images/alwar_88c70a7c6d.png",
+    "slug": "alwar",
+    "category": "Heritage Trails",
+    "categoryIcon": "images/castle_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_153d477e23.svg"
+  },
+  {
+    "name": "Nashik",
+    "noOfProperties": 8,
+    "homepageImageUrl": "images/Nasik_3481b85714.jpg",
+    "slug": "nashik",
+    "category": "Soulful Getaways",
+    "categoryIcon": "images/bank_2_909c7aea35.svg"
+  },
+  {
+    "name": "Pushkar",
+    "noOfProperties": 2,
+    "homepageImageUrl": "images/Pushkar_Rajasthan_2_jpg_c0943b4917.jpeg",
+    "slug": "pushkar",
+    "category": "Soulful Getaways",
+    "categoryIcon": "images/bank_2_909c7aea35.svg"
+  },
+  {
+    "name": "Kochi",
+    "noOfProperties": 6,
+    "homepageImageUrl": "images/kochi_destination_image_966bd4a4a7.webp",
+    "slug": "kochi",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Varkala",
+    "noOfProperties": 3,
+    "homepageImageUrl": "images/Varkala_c7bdfdd48b.webp",
+    "slug": "varkala",
+    "category": "Beach Retreats",
+    "categoryIcon": "images/surfing_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_690e1095e7.svg"
+  },
+  {
+    "name": "Ooty",
+    "noOfProperties": 2,
+    "homepageImageUrl": "images/Ooty_10e78229b1.webp",
+    "slug": "ooty",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  },
+  {
+    "name": "Munnar",
+    "noOfProperties": 2,
+    "homepageImageUrl": "images/Chat_GPT_Image_Aug_6_2026_12_23_05_PM_c4e612d90e.png",
+    "slug": "munnar",
+    "category": "Mountain Escapes",
+    "categoryIcon": "images/landscape_24dp_654_A47_FILL_0_wght400_GRAD_0_opsz24_222f87987a.svg"
+  }
+];
+
+    function render2RowDestinations(category = 'all') {
+      const container = document.getElementById('dest2RowGrid');
+      if (!container) return;
+      
+      const filtered = category === 'all' 
+        ? FULL_DESTINATIONS_DATA 
+        : FULL_DESTINATIONS_DATA.filter(d => d.category && d.category.toLowerCase() === category.toLowerCase());
+
+      container.innerHTML = filtered.map(d => `
+        <div class="dest-tile-card" onclick="window.location.href='villas.html?city=${encodeURIComponent(d.name)}'">
+          <img src="${d.homepageImageUrl}" alt="${d.name}" class="dest-tile-img" loading="lazy" decoding="async">
+          <div class="dest-tile-overlay">
+            <h3 class="dest-tile-name">${d.name}</h3>
+            <span class="dest-tile-count">${d.noOfProperties} Properties</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    window.filterDestGrid = function(cat, btn) {
+      document.querySelectorAll('.dest-icon-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render2RowDestinations(cat);
+    };
+
+    function renderBankOffers() {
+      const carousel = document.getElementById('bankOffersCarousel');
+      if (!carousel) return;
+      carousel.innerHTML = BANK_OFFERS.map(o => `
+        <div class="offer-card ${o.bg}" onclick="window.location.href='villas.html'">
+          <div class="offer-card-top-icon"><img loading="lazy" decoding="async" src="${o.icon}" alt="${o.title}" style="height:22px; max-width:120px; object-fit:contain;"></div>
+          <h3 class="offer-card-title">${o.title}</h3>
+          <p class="offer-card-desc">${o.desc}</p>
+          <div class="offer-learn-more-btn">Learn More <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      `).join('');
+    }
+
+    function renderProperties() {
+      const grid = document.getElementById('propertiesGrid');
+      if (!grid) return;
+      grid.innerHTML = PROPERTIES_DATA.map(p => {
+        const firstImg = p.images && p.images[0] ? p.images[0] : 'images/P1038840_003bdc3df0.jpg';
+        const bhk = p.metrics?.bedrooms || 4;
+        const guests = p.metrics?.guests || 8;
+        return `
+          <div class="villa-card" onclick="window.location.href='villa.html?id=${p.id}'">
+            <div class="card-image-wrapper">
+              <img src="${firstImg}" alt="${p.name}" class="card-img" loading="lazy" decoding="async">
+              <span class="card-brand-badge">${p.brand || 'ELIVAAS'}</span>
+              <button class="wishlist-btn" onclick="toggleWish(event, this, '${p.id}', '${p.name.replace(/'/g, "\\'")}')"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="card-details">
+              <div class="card-location-row">
+                <span class="card-location"><i class="fa-solid fa-location-dot" style="color:var(--elivaas-red);"></i> ${p.location}, ${p.city}</span>
+                <span class="card-rating"><i class="fa-solid fa-star"></i> ${p.rating || '4.9'}</span>
+              </div>
+              <h3 class="card-title">${p.name}</h3>
+              <div class="card-specs">
+                <span><i class="fa-solid fa-bed"></i> ${bhk} BHK</span>
+                <span><i class="fa-solid fa-user-group"></i> Up to ${guests} Guests</span>
+                <span><i class="fa-solid fa-water-ladder"></i> Private Pool</span>
+              </div>
+              <div class="card-price-row">
+                <div>
+                  <div class="price-night">₹${(p.priceAmount || 35000).toLocaleString('en-IN')} <span class="tax-note">/ night</span></div>
+                  <div class="emi-start-text">EMI from ₹${Math.round((p.priceAmount || 35000) / 12).toLocaleString('en-IN')}/mo</div>
+                </div>
+                <button class="btn-book-now">View Villa</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    window.scrollDestinations = function(dir) {
+      document.getElementById('cityCardsGrid')?.scrollBy({ left: dir * 300, behavior: 'smooth' });
+    };
+    window.scrollBankOffers = function(dir) {
+      document.getElementById('bankOffersCarousel')?.scrollBy({ left: dir * 300, behavior: 'smooth' });
+    };
+    window.scrollStarStays = function(dir) {
+      document.getElementById('starStaysCarousel')?.scrollBy({ left: dir * 300, behavior: 'smooth' });
+    };
+    window.scrollStayStories = function(dir) {
+      document.getElementById('stayStoriesCarousel')?.scrollBy({ left: dir * 300, behavior: 'smooth' });
+    };
+
+    window.openCelebVideo = function(title, src) {
+      const modal = document.getElementById('celebVideoModal');
+      const player = document.getElementById('celebVideoPlayer');
+      const titleEl = document.getElementById('celebVideoTitle');
+      if (titleEl) titleEl.textContent = title;
+      if (player) {
+        player.src = src;
+        player.load();
+        player.play().catch(e => console.log('Autoplay handled:', e));
+      }
+      if (modal) {
+        modal.style.display = 'flex';
+        modal.classList.add('active');
+      }
+    };
+
+    window.closeCelebVideo = function() {
+      const modal = document.getElementById('celebVideoModal');
+      const player = document.getElementById('celebVideoPlayer');
+      if (player) {
+        player.pause();
+        player.removeAttribute('src');
+        player.load();
+      }
+      if (modal) {
+        modal.style.display = 'none';
+        modal.classList.remove('active');
+      }
+    };
+
+    window.openLoginModal = function() {
+      document.getElementById('loginModal')?.classList.add('active');
+    };
+    window.openPartnerModal = function() {
+      document.getElementById('partnerModal')?.classList.add('active');
+    };
+    window.closeAllModals = function() {
+      document.querySelectorAll('.modal-overlay').forEach(m => {
+        m.classList.remove('active');
+        m.style.display = 'none';
+      });
+    };
+
+    function showToast(msg) {
+      const c = document.getElementById('toastContainer');
+      if (!c) return;
+      const t = document.createElement('div');
+      t.style.background = '#121212';
+      t.style.color = '#ffffff';
+      t.style.padding = '12px 20px';
+      t.style.borderRadius = '10px';
+      t.style.fontSize = '0.85rem';
+      t.style.boxShadow = '0 6px 16px rgba(0,0,0,0.3)';
+      t.textContent = msg;
+      c.appendChild(t);
+      setTimeout(() => t.remove(), 3500);
+    }
+
+    function toggleWish(e, btn, id, name) {
+      e.stopPropagation();
+      btn.classList.toggle('active');
+      showToast(btn.classList.contains('active') ? `❤️ Added ${name} to Wishlist` : `Removed from Wishlist`);
+    }
+
+    function filterDestCategory(cat, btn) {
+      document.querySelectorAll('.dest-tab-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDestinations(cat);
+    }
+
+    function toggleSearchPopover() {
+      document.getElementById('searchPopover')?.classList.toggle('active');
+    }
+
+    function selectDestination(name) {
+      document.getElementById('searchLocationVal').textContent = name;
+      document.getElementById('searchPopover')?.classList.remove('active');
+    }
+
+    const HERO_BANNERS = [
+      "images/Desktop_We_ll_take_it_from_here_ae7141dfd9.jpg",
+      "images/Desktop_We_ll_take_it_from_here_jpg_d11a613792.jpeg"
+    ];
+    let currentHeroIdx = 0;
+
+    window.slideHero = function(dir) {
+      currentHeroIdx = (currentHeroIdx + dir + HERO_BANNERS.length) % HERO_BANNERS.length;
+      const bg = document.getElementById('heroSlideBg');
+      if (bg) {
+        bg.style.backgroundImage = `url('${HERO_BANNERS[currentHeroIdx]}')`;
+      }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      render2RowDestinations('all');
+      const EXACT_BANK_OFFERS_LIST = [
+  {
+    "code": "VISA2PLUS1",
+    "title": "Stay for 3, Pay for 2 nights",
+    "description": "Pay for 2 nights and get 3rd night free of cost at ELIVAAS for select Visa Cards only.",
+    "icon": "images/Visa_1_c681df0f0e.svg",
+    "bg": "#fdf2f4",
+    "border": "#f8b4c0",
+    "classCode": "pink"
+  },
+  {
+    "code": "KOTAK10",
+    "title": "Kotak Bank Offer",
+    "description": "Extra 10% instant discount upto ₹50,000 on Kotak Bank Credit and Debit cards.",
+    "icon": "images/Whats_App_Image_2025_08_19_at_18_27_04_a173edb6_ee393618e3.jpg",
+    "bg": "#f5f0fb",
+    "border": "#d8b4fe",
+    "classCode": "purple"
+  },
+  {
+    "code": "ICICINCEMI",
+    "title": "ICICI Bank EMI Offer",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on ICICI Bank cards",
+    "icon": "images/ICICI_Light_63cba95c97.png",
+    "bg": "#fef4ec",
+    "border": "#fdba74",
+    "classCode": "peach"
+  },
+  {
+    "code": "AXIS10",
+    "title": "AXIS BANK OFFER",
+    "description": "Extra 10% instant discount upto ₹50,000 on Axis Bank Credit/Debit cards.",
+    "icon": "images/Whats_App_Image_2025_09_29_at_18_32_11_220fc544_bfd4f1d066.jpg",
+    "bg": "#fff5f5",
+    "border": "#fca5a5",
+    "classCode": "rose"
+  },
+  {
+    "code": "ICICI10",
+    "title": "ICICI Bank Offer",
+    "description": "Extra 10% instant discount upto ₹50,000 on ICICI Bank Credit and Debit cards",
+    "icon": "images/ICICI_Light_63cba95c97.png",
+    "bg": "#eff6ff",
+    "border": "#bfdbfe",
+    "classCode": "blue"
+  },
+  {
+    "code": "KOTAKAFF10",
+    "title": "Kotak Affluent Credit Cards Offer",
+    "description": "Get instant 10% discount upto ₹ 50,000 with Complimentary Breakfast on Kotak Infinite, Solitaire & White Reserve Cards.",
+    "icon": "images/Whats_App_Image_2025_08_19_at_18_27_04_a173edb6_ee393618e3.jpg",
+    "bg": "#f0fdf4",
+    "border": "#bbf7d0",
+    "classCode": "green"
+  },
+  {
+    "code": "IDFC10",
+    "title": "IDFC FIRST Bank offer",
+    "description": "Extra 10% instant discount upto ₹50,000 on IDFC FIRST Bank Credit & Debit Cards.",
+    "icon": "images/idfc_UP_81f9762c19.jpg",
+    "bg": "#fdf2f4",
+    "border": "#f8b4c0",
+    "classCode": "pink"
+  },
+  {
+    "code": "IDFCFB12",
+    "title": "IDFC FIRST Bank Select Debit Card Offer",
+    "description": "Extra 12% instant discount up to INR 50,000 on IDFC FIRST Bank Select Debit Cards",
+    "icon": "images/Maroon_Logo_IDFC_Logo_e69d497b9c.jpg",
+    "bg": "#f5f0fb",
+    "border": "#d8b4fe",
+    "classCode": "purple"
+  },
+  {
+    "code": "IDFCFB20",
+    "title": "IDFC FIRST Bank Wealth Debit Card Offer",
+    "description": "Extra 20% instant discount up to INR 50,000 on IDFC FIRST Bank Wealth Debit Cards",
+    "icon": "images/Maroon_Logo_IDFC_Logo_e69d497b9c.jpg",
+    "bg": "#fef4ec",
+    "border": "#fdba74",
+    "classCode": "peach"
+  },
+  {
+    "code": "IDFCFB25",
+    "title": "IDFC FIRST Bank Wealth Debit Card Offer",
+    "description": "Extra 25% instant discount up to INR 50,000 on IDFC FIRST Bank Wealth Debit Cards",
+    "icon": "images/Maroon_Logo_IDFC_Logo_e69d497b9c.jpg",
+    "bg": "#fff5f5",
+    "border": "#fca5a5",
+    "classCode": "rose"
+  },
+  {
+    "code": "ICICI10NB",
+    "title": "ICICI Bank Net Banking offer",
+    "description": "Extra 10% instant discount upto INR 50,000 on payments made via ICICI Net Banking.",
+    "icon": "images/ICICI_Light_63cba95c97.png",
+    "bg": "#eff6ff",
+    "border": "#bfdbfe",
+    "classCode": "blue"
+  },
+  {
+    "code": "RUBYXVAAS",
+    "title": "ICICI Bank Rubyx Card Offer",
+    "description": "Flat INR 10,000 off on minimum bookings worth INR 50,000 on ELIVAAS",
+    "icon": "images/ICICI_Light_63cba95c97.png",
+    "bg": "#f0fdf4",
+    "border": "#bbf7d0",
+    "classCode": "green"
+  },
+  {
+    "code": "VISASECOND50",
+    "title": "Stay for 2, Pay 50% on the 2nd night",
+    "description": "Stay for 2 nights and get 50% off on 2nd night at ELIVAAS for select Visa Cards only.",
+    "icon": "images/Visa_1_c681df0f0e.svg",
+    "bg": "#fdf2f4",
+    "border": "#f8b4c0",
+    "classCode": "pink"
+  },
+  {
+    "code": "VISA2PLUS1B",
+    "title": "Stay for 3, Pay for 2 nights",
+    "description": "Pay for 2 night and get 1 night free of cost at Alaya Stays properties",
+    "icon": "images/Visa_1_c681df0f0e.svg",
+    "bg": "#f5f0fb",
+    "border": "#d8b4fe",
+    "classCode": "purple"
+  },
+  {
+    "code": "VISASECOND50B",
+    "title": "Stay for 2, Pay 50% on the 2nd night",
+    "description": "Stay for 2 nights and get 50% off on 2nd night at Alaya Stays properties",
+    "icon": "images/Visa_1_c681df0f0e.svg",
+    "bg": "#fef4ec",
+    "border": "#fdba74",
+    "classCode": "peach"
+  },
+  {
+    "code": "IDBINCEMI",
+    "title": "IDBI BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on IDBI Bank cards",
+    "icon": "images/ca4e0cd95d7a8fbb20d7607aa61014_0396acc513.webp",
+    "bg": "#fff5f5",
+    "border": "#fca5a5",
+    "classCode": "rose"
+  },
+  {
+    "code": "DBSNCEMI",
+    "title": "DBS BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on DBS Bank cards",
+    "icon": "images/aa9mkg56x_5ca580b489.webp",
+    "bg": "#eff6ff",
+    "border": "#bfdbfe",
+    "classCode": "blue"
+  },
+  {
+    "code": "AXISNCEMI",
+    "title": "AXIS BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on Axis Bank cards",
+    "icon": "images/Whats_App_Image_2025_09_29_at_18_32_11_220fc544_bfd4f1d066.jpg",
+    "bg": "#f0fdf4",
+    "border": "#bbf7d0",
+    "classCode": "green"
+  },
+  {
+    "code": "HDFCNCEMI",
+    "title": "HDFC BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on HDFC Bank cards",
+    "icon": "images/HDFC_Light_56256dacb2.png",
+    "bg": "#fdf2f4",
+    "border": "#f8b4c0",
+    "classCode": "pink"
+  },
+  {
+    "code": "IDFCNCEMI",
+    "title": "IDFC BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on IDFC Bank cards",
+    "icon": "images/Maroon_Logo_IDFC_Logo_e69d497b9c.jpg",
+    "bg": "#f5f0fb",
+    "border": "#d8b4fe",
+    "classCode": "purple"
+  },
+  {
+    "code": "BOBNCEMI",
+    "title": "BOB BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on BOB Bank cards",
+    "icon": "images/9620bc468380e173c4fbdf7a0c0313_238f5bbe27.webp",
+    "bg": "#fef4ec",
+    "border": "#fdba74",
+    "classCode": "peach"
+  },
+  {
+    "code": "CANARANCEMI",
+    "title": "CANARA BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on CANARA Bank cards",
+    "icon": "images/canara_bank_logo_vector_free_11574154606uapbf2gbwh_643652f04c.png",
+    "bg": "#fff5f5",
+    "border": "#fca5a5",
+    "classCode": "rose"
+  },
+  {
+    "code": "HSBCNCEMI",
+    "title": "HSBC BANK OFFER",
+    "description": "NO-COST EMI and Extra 10% instant discount upto ₹50,000 on HSBC Bank cards",
+    "icon": "images/HSBC_Bank_65d59b0667.png",
+    "bg": "#eff6ff",
+    "border": "#bfdbfe",
+    "classCode": "blue"
+  }
+];
+
+    function renderExactBankOffers() {
+      const carousel = document.getElementById('bankOffersCarousel');
+      if (!carousel) return;
+
+      carousel.innerHTML = EXACT_BANK_OFFERS_LIST.map(o => `
+        <div class="offer-card-exact" style="background: ${o.bg}; border: 1px solid ${o.border};" onclick="window.location.href='villas.html'">
+          <div>
+            <div class="offer-card-top-brand">
+              <img src="${o.icon}" alt="${o.title}" loading="lazy" decoding="async">
+            </div>
+            <h3 class="offer-card-main-title">${o.title}</h3>
+            <p class="offer-card-desc-body">${o.description}</p>
+          </div>
+          <div class="offer-card-bottom-link">Learn More</div>
+        </div>
+      `).join('');
+    }
+      renderExactBankOffers();
+      renderProperties();
+    });
+  </script>
+</body>
+</html>

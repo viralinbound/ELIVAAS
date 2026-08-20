@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Destination Weddings & Event Venues | ELIVAAS</title>
+  <meta name="description" content="Spaces that fit every occasion. Curated luxury private villas for unforgettable destination weddings, corporate retreats, and milestones across India.">
+  <link rel="icon" href="images/faviconelivaas_dbf00961c0.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --elivaas-red: #801426;
+      --elivaas-red-hover: #9c1c33;
+      --elivaas-copper: #c57d56;
+      --elivaas-gold: #c5a880;
+      --elivaas-dark: #121212;
+      --elivaas-text: #1a1a1a;
+      --elivaas-muted: #6b7280;
+      --elivaas-border: #e5e7eb;
+      --elivaas-bg-warm: #fcfbfa;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-logo: 'Cinzel', serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-sans);
+      background-color: #ffffff;
+      color: var(--elivaas-text);
+      line-height: 1.5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+    .container { width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 24px; }
+
+    /* Top Navigation */
+    .navbar-elivaas-exact {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 16px 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    }
+    .nav-exact-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-exact-logo-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #ffffff;
+    }
+    .logo-exact-top {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo-brand-txt {
+      font-family: var(--font-logo);
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #ffffff;
+      line-height: 1;
+    }
+    .logo-exact-tagline {
+      font-size: 0.58rem;
+      letter-spacing: 0.22em;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 600;
+      margin-top: 2px;
+      margin-left: 2px;
+    }
+    .nav-exact-menu {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    @media (max-width: 900px) {
+      .nav-exact-menu .phone-link,
+      .nav-exact-menu button:not(.btn-exact-login-pill),
+      .nav-exact-menu a:not(.phone-link) {
+        display: none;
+      }
+    }
+    .nav-exact-link {
+      color: #ffffff;
+      font-size: 0.86rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+    .btn-exact-login-pill {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      cursor: pointer;
+    }
+
+    /* 1. HERO SECTION WITH EXACT FLOATING GLASS CARD */
+    .event-hero-wrapper {
+      position: relative;
+      min-height: 92vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: #111;
+      padding: 120px 0 60px;
+    }
+    .event-hero-media-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+    .event-hero-vignette {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.4) 100%);
+      z-index: 2;
+    }
+
+    .event-hero-card-floating {
+      position: relative;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.48);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      border-radius: 26px;
+      padding: 40px 36px;
+      max-width: 500px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+      color: #1a1a1a;
+    }
+    @media (max-width: 600px) {
+      .event-hero-card-floating {
+        padding: 26px 22px;
+        border-radius: 20px;
+      }
+    }
+    .event-hero-top-badge {
+      color: var(--elivaas-red);
+      font-style: italic;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .event-hero-main-title {
+      font-family: var(--font-serif);
+      font-size: 2.4rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      line-height: 1.18;
+      margin-bottom: 16px;
+    }
+    .event-hero-body-desc {
+      font-size: 0.88rem;
+      color: #2e384d;
+      line-height: 1.6;
+      margin-bottom: 26px;
+    }
+    .btn-hero-enquire-pill {
+      background: #ffffff;
+      color: #121212;
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      transition: background 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .btn-hero-enquire-pill:hover {
+      background: #f3f4f6;
+      transform: translateY(-2px);
+    }
+
+    /* 2. CURATED VENUES SECTION */
+    .section-curated-venues-exact {
+      padding: 60px 0 70px;
+      background: #ffffff;
+    }
+    .venues-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .venues-main-title {
+      font-family: var(--font-serif);
+      font-size: 2.4rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      line-height: 1.2;
+    }
+    .venues-subtitle-txt {
+      font-size: 0.95rem;
+      color: #4b5563;
+      margin-top: 4px;
+    }
+    .btn-explore-venues-pill {
+      background: var(--elivaas-red);
+      color: #ffffff;
+      padding: 11px 26px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: background 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-explore-venues-pill:hover {
+      background: var(--elivaas-red-hover);
+      transform: translateY(-1px);
+    }
+
+    .venues-cards-grid-exact {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+    }
+    @media (max-width: 1024px) {
+      .venues-cards-grid-exact { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .venues-cards-grid-exact { grid-template-columns: 1fr; }
+    }
+
+    .venue-card-box {
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--elivaas-border);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .venue-card-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.08);
+    }
+    .venue-card-img-box {
+      position: relative;
+      height: 230px;
+      background: #f3f4f6;
+      overflow: hidden;
+    }
+    .venue-card-img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .venue-card-box:hover .venue-card-img-box img {
+      transform: scale(1.05);
+    }
+    .venue-badge-exact {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(18, 18, 18, 0.85);
+      color: #ffffff;
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .venue-card-details {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .venue-card-loc {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--elivaas-copper);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .venue-card-name {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #121212;
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .venue-card-specs-row {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+    .venue-card-price-row {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 14px;
+      border-top: 1px solid #f3f4f6;
+    }
+    .venue-price-txt {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--elivaas-red);
+    }
+
+    /* 3. WHAT YOU GET WITH ELIVAAS (EXACT SCREENSHOT 2 REPLICA) */
+    .section-what-you-get-exact {
+      padding: 80px 0 90px;
+      background: #ffffff;
+    }
+    .what-you-get-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 50px;
+    }
+    .what-you-get-title {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .what-you-get-subtitle {
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    .what-you-get-grid-exact {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 50px;
+      column-gap: 40px;
+      text-align: center;
+    }
+    @media (max-width: 900px) {
+      .what-you-get-grid-exact { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .what-you-get-grid-exact { grid-template-columns: 1fr; }
+    }
+
+    .pillar-item-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 10px;
+    }
+    .pillar-icon-svg-wrap {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--elivaas-copper);
+    }
+    .pillar-icon-svg-wrap svg {
+      width: 100%;
+      height: 100%;
+      stroke: var(--elivaas-copper);
+      fill: none;
+    }
+    .pillar-title-txt {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .pillar-desc-txt {
+      font-size: 0.88rem;
+      color: #4b5563;
+      line-height: 1.5;
+      max-width: 290px;
+    }
+
+    /* 4. PARTNER WITH US SECTION */
+    .section-partner-exact {
+      padding: 60px 0 80px;
+      background: #faf7f2;
+    }
+    .partner-exact-card {
+      background: #ffffff;
+      border-radius: 26px;
+      overflow: hidden;
+      border: 1px solid #ede5dc;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .partner-exact-card { flex-direction: column; }
+      .partner-exact-left, .partner-exact-right { width: 100% !important; }
+    }
+    .partner-exact-left {
+      width: 50%;
+      padding: 48px;
+    }
+    .partner-exact-right {
+      width: 50%;
+      height: 420px;
+      position: relative;
+    }
+    .partner-exact-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .partner-badge-float {
+      position: absolute;
+      top: 24px;
+      left: -20px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--elivaas-red);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    }
+
+    /* Floating Action Badges */
+    .floating-support-badges {
+      position: fixed;
+      right: 24px;
+      bottom: 30px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+    .float-btn-whatsapp {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
+      transition: transform 0.2s ease;
+    }
+    .float-btn-whatsapp:hover { transform: scale(1.1); }
+    .float-btn-mail {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--elivaas-red);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      box-shadow: 0 6px 18px rgba(128, 20, 38, 0.4);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .float-btn-mail:hover { transform: scale(1.1); }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+      z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-overlay.active { display: flex !important; }
+
+    /* Footer */
+    .main-footer { background: #0e0e0e; color: #9ca3af; padding: 60px 0 30px; font-size: 0.88rem; }
+  
+    /* ==========================================================================
+       MASTER RESPONSIVE & ZERO-LAG PERFORMANCE ENGINE
+       ========================================================================== */
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      overflow-x: clip !important;
+      max-width: 100vw;
+      position: relative;
+    }
+
+    /* Hardware acceleration & smooth touch scrolling */
+    .dest-2row-scroll-container,
+    .offers-cards-row-scroll,
+    .dest-category-pill-bar,
+    .rain-card-amenities,
+    .corp-venue-amenities,
+    .dest-scroll-horizontal,
+    .bento-grid-scroll {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+    }
+    .dest-2row-scroll-container::-webkit-scrollbar,
+    .offers-cards-row-scroll::-webkit-scrollbar,
+    .dest-category-pill-bar::-webkit-scrollbar,
+    .rain-card-amenities::-webkit-scrollbar,
+    .corp-venue-amenities::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Below-the-fold content visibility for instant zero-lag rendering */
+    section {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 500px;
+    }
+    #heroSection, .hero-section-exact, .navbar-elivaas-exact, nav {
+      content-visibility: visible !important;
+    }
+
+    /* Fluid typography rules */
+    h1, .hero-main-title, .corporate-hero-title, .event-hero-title, .birthday-hero-title, .wellness-hero-title {
+      font-size: clamp(1.8rem, 5vw + 0.5rem, 3.4rem) !important;
+      word-wrap: break-word;
+    }
+    h2, .escape-title, .venues-main-title, .what-you-get-title, .hosted-corporates-txt, .stories-title-centered {
+      font-size: clamp(1.5rem, 3.5vw + 0.3rem, 2.5rem) !important;
+      word-wrap: break-word;
+    }
+    h3 {
+      font-size: clamp(1.1rem, 2vw + 0.2rem, 1.45rem) !important;
+    }
+
+    /* Universal container padding adjustments */
+    .container {
+      width: 100%;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding-left: clamp(14px, 3vw, 28px) !important;
+      padding-right: clamp(14px, 3vw, 28px) !important;
+    }
+
+    /* Hero Search Bar Responsive Rules */
+    @media (max-width: 820px) {
+      .search-widget-glass-exact {
+        flex-direction: column !important;
+        border-radius: 20px !important;
+        padding: 14px 16px !important;
+        align-items: stretch !important;
+        gap: 8px !important;
+        background: rgba(255, 255, 255, 0.35) !important;
+        backdrop-filter: blur(20px) !important;
+      }
+      .search-col-divider, .search-arrow-indicator {
+        display: none !important;
+      }
+      .search-col-exact {
+        padding: 6px 8px !important;
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 10px !important;
+      }
+      .btn-search-exact-action {
+        width: 100% !important;
+        border-radius: 12px !important;
+        height: 42px !important;
+        margin-top: 4px !important;
+      }
+    }
+
+    /* Tablet & Rotation Mode Adaptive Layouts */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+      }
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 20px !important;
+      }
+      .stories-cards-row {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    /* Mobile Phones (Portrait & Landscape) */
+    @media (max-width: 600px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid,
+      .stories-cards-row,
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+      
+      .event-hero-card-floating,
+      .planner-card-exact,
+      .retreat-planner-card {
+        max-width: 100% !important;
+        padding: 22px 18px !important;
+        border-radius: 18px !important;
+      }
+
+      .floating-support-badges {
+        right: 16px !important;
+        bottom: 80px !important;
+        gap: 10px !important;
+      }
+      .float-btn-whatsapp, .float-btn-mail {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 1.3rem !important;
+      }
+
+      /* Touch targets */
+      button, a {
+        min-height: 38px;
+      }
+    }
+
+    /* Desktop Mode in Chrome on Mobile (Force No-Overlap) */
+    @media (min-width: 980px) and (max-height: 600px) {
+      .hero-content-exact-container,
+      .event-hero-wrapper,
+      .corporate-hero-wrap,
+      .birthday-hero-wrap,
+      .wellness-hero-wrap {
+        min-height: auto !important;
+        padding: 90px 0 40px !important;
+      }
+    }
+
+    /* Mobile Bottom Navigation Bar */
+    .mobile-bottom-nav-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid rgba(0,0,0,0.08);
+      z-index: 998;
+      padding: 8px 16px;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.06);
+    }
+    @media (max-width: 768px) {
+      .mobile-bottom-nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      body {
+        padding-bottom: 60px;
+      }
+    }
+    .mob-nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: #4b5563;
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 4px 8px;
+    }
+    .mob-nav-item.active, .mob-nav-item:hover {
+      color: var(--elivaas-red);
+    }
+    .mob-nav-item i {
+      font-size: 1.15rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar-elivaas-exact">
+    <div class="container nav-exact-inner">
+      <a href="index.html" class="nav-exact-logo-box">
+        <div class="logo-exact-top">
+          <span class="logo-e-bracket">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="4" ry="4"></rect>
+              <path d="M9 9h6M9 12h4M9 15h6"></path>
+            </svg>
+          </span>
+          <span class="logo-brand-txt">elivaas</span>
+        </div>
+        <div class="logo-exact-tagline">WE'LL TAKE IT FROM HERE</div>
+      </a>
+
+      <div class="nav-exact-menu">
+        <a href="tel:+917969469950" class="nav-exact-link phone-link">
+          <i class="fa-solid fa-phone"></i> Call to Book <strong>+91 7969469950</strong>
+        </a>
+        <a href="index.html#partnerSection" class="nav-exact-link">Partner with Us</a>
+        <a href="mailto:support@elivaas.com" class="nav-exact-link">Customer support</a>
+        <button onclick="openLoginModal()" class="btn-exact-login-pill">Log In / Sign Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. HERO SECTION WITH EXACT FLOATING GLASS CARD (SCREENSHOT 1 MATCH) -->
+  <section class="event-hero-wrapper">
+    <video class="event-hero-media-bg" autoplay loop muted playsinline poster="https://d31za8na64dkj7.cloudfront.net/thumbnail_desktop_1411911872.webp">
+      <source src="https://d31za8na64dkj7.cloudfront.net/Weddings_Website_Banner_Desktop_ac5126d769.mp4" type="video/mp4">
+    </video>
+    <div class="event-hero-vignette"></div>
+
+    <div class="container" style="position:relative; z-index:10;">
+      
+      <!-- Floating Glass Card on Left -->
+      <div class="event-hero-card-floating">
+        <div class="event-hero-top-badge">
+          100+ Celebrations Hosted • Trusted by 1.8L+ Guests
+        </div>
+        <h1 class="event-hero-main-title">
+          Spaces that fit every occasion
+        </h1>
+        <p class="event-hero-body-desc">
+          Whether you're planning a strategy retreat, an offsite, or a wedding celebration, our villas bring elegance, privacy, and flexibility under one roof. Surrounded by nature or set in vibrant destinations, each space is designed to adapt to your needs – formal or festive. With ELIVAAS, you don't just book a venue, you create an experience that everyone remembers.
+        </p>
+        <button onclick="openEventInquiryModal()" class="btn-hero-enquire-pill">
+          Looking for a venue? Enquire now
+        </button>
+      </div>
+
+    </div>
+
+    <!-- FLOATING RIGHT ACTION BADGES -->
+    <div class="floating-support-badges">
+      <a href="https://wa.me/917969469950" target="_blank" class="float-btn-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <button onclick="openEventInquiryModal()" class="float-btn-mail" title="Contact Us / Inquiry" aria-label="Inquiry">
+        <i class="fa-regular fa-envelope"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- 2. CURATED VENUES FOR DESTINATION WEDDINGS (SCREENSHOT 1 BOTTOM) -->
+  <section class="section-curated-venues-exact" id="venuesCatalog">
+    <div class="container">
+      
+      <div class="venues-header-row">
+        <div>
+          <h2 class="venues-main-title">
+            Curated venues for unforgettable destination weddings
+          </h2>
+          <p class="venues-subtitle-txt">
+            From pre-wedding festivities to the big day, ELIVAAS villas bring your celebrations to life.
+          </p>
+        </div>
+
+        <button onclick="window.location.href='villas.html'" class="btn-explore-venues-pill">
+          Explore more Properties
+        </button>
+      </div>
+
+      <!-- 3 Top Curated Venues Grid -->
+      <div class="venues-cards-grid-exact">
+        
+        <!-- Venue 1: Valiyaveetil Mansion -->
+        <div class="venue-card-box" onclick="window.location.href='villa.html?id=prop_CpJCF01fl3kUM1'">
+          <div class="venue-card-img-wrap">
+            <img src="images/P1038840_003bdc3df0.jpg" alt="Valiyaveetil Mansion" loading="lazy" decoding="async">
+            <span class="venue-badge-exact">WEDDING ESTATE</span>
+          </div>
+          <div class="venue-card-details">
+            <div class="venue-card-loc">Kaloor, Kochi</div>
+            <h3 class="venue-card-name">Valiyaveetil Mansion • 5 BHK Royal Lawn</h3>
+            <div class="venue-card-specs-row">Up to 150 Event Guests • Private Pool • Home Theatre</div>
+            <div class="venue-card-price-row">
+              <div class="venue-price-txt">₹35,907 <span style="font-size:0.75rem; color:#6b7280; font-weight:400;">/ night</span></div>
+              <span style="color:var(--elivaas-red); font-weight:700; font-size:0.85rem;">View Details →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Venue 2: Mountain Creek Retreat -->
+        <div class="venue-card-box" onclick="window.location.href='villa.html?id=prop_s5XE8tWKRh6NQi'">
+          <div class="venue-card-img-wrap">
+            <img src="images/DJI_20260303185046_0182_D_a126714879.jpg" alt="Mountain Creek Retreat" loading="lazy" decoding="async">
+            <span class="venue-badge-exact">LAKE PALACE ESTATE</span>
+          </div>
+          <div class="venue-card-details">
+            <div class="venue-card-loc">Kodiyat, Udaipur</div>
+            <h3 class="venue-card-name">Mountain Creek Retreat • 7 BHK Estate</h3>
+            <div class="venue-card-specs-row">Up to 200 Event Guests • Sprawling Gazebo • Lake View</div>
+            <div class="venue-card-price-row">
+              <div class="venue-price-txt">₹90,710 <span style="font-size:0.75rem; color:#6b7280; font-weight:400;">/ night</span></div>
+              <span style="color:var(--elivaas-red); font-weight:700; font-size:0.85rem;">View Details →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Venue 3: Meraki Villa -->
+        <div class="venue-card-box" onclick="window.location.href='villa.html?id=prop_DStIgQsV8ANNcS'">
+          <div class="venue-card-img-wrap">
+            <img src="images/DSC_8885_HDR_a2a8f849fc.jpg" alt="Meraki Villa" loading="lazy" decoding="async">
+            <span class="venue-badge-exact">GLASS PALACE RETREAT</span>
+          </div>
+          <div class="venue-card-details">
+            <div class="venue-card-loc">Lonavala, Maharashtra</div>
+            <h3 class="venue-card-name">Meraki Villa • 5 BHK Glass Villa</h3>
+            <div class="venue-card-specs-row">Up to 120 Event Guests • Private Pool • Sunset Deck</div>
+            <div class="venue-card-price-row">
+              <div class="venue-price-txt">₹84,355 <span style="font-size:0.75rem; color:#6b7280; font-weight:400;">/ night</span></div>
+              <span style="color:var(--elivaas-red); font-weight:700; font-size:0.85rem;">View Details →</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. WHAT YOU GET WITH ELIVAAS (SCREENSHOT 2 EXACT REPLICA) -->
+  <section class="section-what-you-get-exact">
+    <div class="container">
+      
+      <div class="what-you-get-header">
+        <h2 class="what-you-get-title">What You Get with ELIVAAS</h2>
+        <p class="what-you-get-subtitle">From intimate gatherings to grand celebrations — we handle every detail, seamlessly.</p>
+      </div>
+
+      <div class="what-you-get-grid-exact">
+        
+        <!-- Pillar 1: Venue Curation -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21h18M3 10h18M5 10v11M19 10v11M9 10v11M15 10v11M12 3l9 7H3z"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">Venue Curation</h3>
+          <p class="pillar-desc-txt">Handpicked villas perfect for celebrations of every scale.</p>
+        </div>
+
+        <!-- Pillar 2: Easy Booking & Planning -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="18" cy="18" r="3"></circle>
+              <circle cx="6" cy="6" r="3"></circle>
+              <path d="M13 6h3a2 2 0 0 1 2 2v7M11 18H8a2 2 0 0 1-2-2V9"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">Easy Booking & Planning</h3>
+          <p class="pillar-desc-txt">Check availability, plan layouts, and confirm in minutes.</p>
+        </div>
+
+        <!-- Pillar 3: End-to-End Event Support -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">End-to-End Event Support</h3>
+          <p class="pillar-desc-txt">From setup to wrap-up, our team manages it all.</p>
+        </div>
+
+        <!-- Pillar 4: Real-Time Coordination -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"></path>
+              <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.8-2.8L15 13"></path>
+              <path d="m2 13 6 6"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">Real-Time Coordination</h3>
+          <p class="pillar-desc-txt">Track planning, vendors, and timelines with ease.</p>
+        </div>
+
+        <!-- Pillar 5: Premium Event Experiences -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">Premium Event Experiences</h3>
+          <p class="pillar-desc-txt">Décor, dining, and curated experiences tailored to you.</p>
+        </div>
+
+        <!-- Pillar 6: Dedicated Event Concierge -->
+        <div class="pillar-item-box">
+          <div class="pillar-icon-svg-wrap">
+            <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M5.5 21a8.38 8.38 0 0 1 13 0"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title-txt">Dedicated Event Concierge</h3>
+          <p class="pillar-desc-txt">A single point of contact for a seamless celebration.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. PARTNER WITH US SECTION (SCREENSHOT 2 BOTTOM) -->
+  <section class="section-partner-exact" id="partnerSection">
+    <div class="container">
+      <div class="partner-exact-card">
+        
+        <div class="partner-exact-left">
+          <span style="color: var(--elivaas-copper); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em;">Partner With Us</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.1rem; color: #121212; margin: 6px 0 14px; line-height: 1.25;">
+            Turn Your Villa into a Luxury Venue
+          </h2>
+          <p style="font-size: 0.9rem; color: #4b5563; line-height: 1.55; margin-bottom: 24px;">
+            Unlock the potential of your luxury villa by hosting curated celebrations — from intimate weddings to milestone gatherings.
+          </p>
+
+          <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:28px;">
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.88rem; color:#121212;">
+              <i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Tailored</strong> earnings, zero hassle
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.88rem; color:#121212;">
+              <i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Fully</strong> managed by experts
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; font-size:0.88rem; color:#121212;">
+              <i class="fa-solid fa-circle-check" style="color:var(--elivaas-red);"></i> <strong>Trusted</strong> by 350+ homeowners
+            </div>
+          </div>
+
+          <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap;">
+            <button onclick="openEventInquiryModal()" style="background:var(--elivaas-red); color:#ffffff; padding:12px 28px; border-radius:9999px; font-weight:700; font-size:0.92rem;">
+              List your venue →
+            </button>
+            <a href="tel:+917969469950" style="font-size:0.88rem; font-weight:700; color:#121212; display:flex; align-items:center; gap:6px;">
+              <i class="fa-solid fa-phone" style="color:var(--elivaas-red);"></i> Speak with Acquisition Team
+            </a>
+          </div>
+        </div>
+
+        <div class="partner-exact-right">
+          <img src="https://d31za8na64dkj7.cloudfront.net/New_Project_15_521173ff1e.webp" alt="Partner Homeowner Villa" loading="lazy">
+          <div class="partner-badge-float">
+            Tailored earnings, zero hassle.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. STORIES FROM OUR CELEBRATIONS -->
+  <section style="padding: 70px 0; background: #ffffff;">
+    <div class="container">
+      <div style="text-align:center; max-width:650px; margin:0 auto 40px;">
+        <h2 style="font-family:var(--font-serif); font-size:2.3rem; color:#121212; margin-bottom:8px;">Stories from Our Celebrations</h2>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:20px;">
+        <div style="background:#fdf8f4; border:1px solid #f3ece3; border-radius:18px; padding:24px; display:flex; flex-direction:column; justify-content:space-between;">
+          <div style="color:#f59e0b; margin-bottom:12px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p style="font-size:0.86rem; color:#374151; line-height:1.55; font-style:italic; margin-bottom:16px;">“Our destination wedding at an Elivaas villa was effortless and unforgettable. Every celebration unfolded beautifully, allowing everyone to relax and celebrate freely.”</p>
+          <div style="font-weight:700; font-size:0.9rem; color:#121212;">Amit D.</div>
+        </div>
+        <div style="background:#fdf8f4; border:1px solid #f3ece3; border-radius:18px; padding:24px; display:flex; flex-direction:column; justify-content:space-between;">
+          <div style="color:#f59e0b; margin-bottom:12px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p style="font-size:0.86rem; color:#374151; line-height:1.55; font-style:italic; margin-bottom:16px;">“From the smallest details to grand moments, everything was managed with warmth and precision — exactly what you hope for on your wedding days.”</p>
+          <div style="font-weight:700; font-size:0.9rem; color:#121212;">Fatima K.</div>
+        </div>
+        <div style="background:#fdf8f4; border:1px solid #f3ece3; border-radius:18px; padding:24px; display:flex; flex-direction:column; justify-content:space-between;">
+          <div style="color:#f59e0b; margin-bottom:12px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p style="font-size:0.86rem; color:#374151; line-height:1.55; font-style:italic; margin-bottom:16px;">“Planning a destination wedding felt effortless with Elivaas. The villa was perfectly prepared for each function, and everything flowed seamlessly.”</p>
+          <div style="font-weight:700; font-size:0.9rem; color:#121212;">Suresh & Anjali R</div>
+        </div>
+        <div style="background:#fdf8f4; border:1px solid #f3ece3; border-radius:18px; padding:24px; display:flex; flex-direction:column; justify-content:space-between;">
+          <div style="color:#f59e0b; margin-bottom:12px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p style="font-size:0.86rem; color:#374151; line-height:1.55; font-style:italic; margin-bottom:16px;">“What mattered most to us was peace of mind, and Elivaas delivered exactly that. We could focus on celebrating with our loved ones.”</p>
+          <div style="font-weight:700; font-size:0.9rem; color:#121212;">Radhika S.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT INQUIRY MODAL -->
+  <div class="modal-overlay" id="eventInquiryModal" onclick="if(event.target===this) closeEventInquiryModal();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:480px; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.25);">
+      <button onclick="closeEventInquiryModal()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <span style="color:var(--elivaas-copper); font-weight:700; font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em;">Event Concierge</span>
+      <h3 style="font-family:var(--font-serif); font-size:1.6rem; color:#121212; margin:4px 0 10px;">Enquire for Your Celebration</h3>
+      <p style="font-size:0.85rem; color:#6b7280; margin-bottom:20px;">Our dedicated events specialist will connect with you with customized venue packages.</p>
+      
+      <form onsubmit="event.preventDefault(); alert('Inquiry submitted! Our wedding & event concierge team will call you within 30 minutes.'); closeEventInquiryModal();">
+        <input type="text" placeholder="Full Name" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <input type="tel" placeholder="Mobile Number" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:10px;">
+          <select required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); font-size:0.88rem; background:#ffffff;">
+            <option value="" disabled selected>Occasion</option>
+            <option>Wedding Celebration</option>
+            <option>Corporate Offsite</option>
+            <option>Birthday / Anniversary</option>
+            <option>Wellness Retreat</option>
+          </select>
+          <select required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); font-size:0.88rem; background:#ffffff;">
+            <option value="" disabled selected>City</option>
+            <option>Goa</option>
+            <option>Udaipur</option>
+            <option>Lonavala</option>
+            <option>Kasauli</option>
+            <option>Jaipur</option>
+          </select>
+        </div>
+        <input type="number" placeholder="Expected Number of Guests" min="10" max="300" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:14px; font-size:0.88rem;">
+        <button type="submit" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:13px; border-radius:9999px; font-weight:700; font-size:0.95rem;">Submit Event Inquiry →</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal-overlay" id="loginModal" onclick="if(event.target===this) closeLoginModal();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:440px; padding:36px; position:relative;">
+      <button onclick="closeLoginModal()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <h3 style="font-family:var(--font-serif); font-size:1.5rem; color:#121212; margin-bottom:6px;">Login to ELIVAAS</h3>
+      <p style="font-size:0.85rem; color:#6b7280; margin-bottom:20px;">Access your reservations & member perks</p>
+      <input type="tel" placeholder="Mobile Number" style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid #d1d5db; margin-bottom:12px;">
+      <button type="button" onclick="alert('OTP Sent!'); closeLoginModal();" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:12px; border-radius:9999px; font-weight:700;">Continue</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+      <div>© 2026 ELIVAAS Hospitality Pvt Ltd. All rights reserved.</div>
+      <div style="display:flex; gap:20px;">
+        <a href="index.html">Home</a>
+        <a href="villas.html">All Villas</a>
+        <a href="tel:+917969469950">Call Concierge</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.openEventInquiryModal = function() {
+      document.getElementById('eventInquiryModal')?.classList.add('active');
+    };
+    window.closeEventInquiryModal = function() {
+      document.getElementById('eventInquiryModal')?.classList.remove('active');
+    };
+    window.openLoginModal = function() {
+      document.getElementById('loginModal')?.classList.add('active');
+    };
+    window.closeLoginModal = function() {
+      document.getElementById('loginModal')?.classList.remove('active');
+    };
+  </script>
+</body>
+</html>

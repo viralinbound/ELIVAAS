@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Corporate Offsites & Leadership Retreats | ELIVAAS</title>
+  <meta name="description" content="Host executive strategy retreats, team building offsites, and corporate summits at ELIVAAS luxury private estates across India.">
+  <link rel="icon" href="images/faviconelivaas_dbf00961c0.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --elivaas-red: #801426;
+      --elivaas-red-hover: #9c1c33;
+      --elivaas-copper: #c57d56;
+      --elivaas-dark: #121212;
+      --elivaas-text: #1a1a1a;
+      --elivaas-muted: #6b7280;
+      --elivaas-border: #e5e7eb;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-logo: 'Cinzel', serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-sans);
+      background-color: #ffffff;
+      color: var(--elivaas-text);
+      line-height: 1.5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+    .container { width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 24px; }
+
+    /* Top Navigation */
+    .navbar-elivaas-exact {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 16px 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    }
+    .nav-exact-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-exact-logo-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #ffffff;
+    }
+    .logo-exact-top {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo-brand-txt {
+      font-family: var(--font-logo);
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #ffffff;
+      line-height: 1;
+    }
+    .logo-exact-tagline {
+      font-size: 0.58rem;
+      letter-spacing: 0.22em;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 600;
+      margin-top: 2px;
+      margin-left: 2px;
+    }
+    .nav-exact-menu {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    @media (max-width: 900px) {
+      .nav-exact-menu .phone-link,
+      .nav-exact-menu a:not(.phone-link) {
+        display: none;
+      }
+    }
+    .nav-exact-link {
+      color: #ffffff;
+      font-size: 0.86rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+    .btn-exact-login-pill {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      cursor: pointer;
+    }
+
+    /* 1. HERO SECTION (SCREENSHOT 1 EXACT 4-SPLIT BANNER) */
+    .corporate-hero-wrap {
+      position: relative;
+      min-height: 88vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background: #000;
+      overflow: hidden;
+      padding: 100px 0 40px;
+    }
+    .corporate-banner-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+    .corporate-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.2) 100%);
+      z-index: 2;
+    }
+    .corporate-hero-content {
+      position: relative;
+      z-index: 10;
+      max-width: 500px;
+      padding-left: 20px;
+    }
+    .corporate-hero-title {
+      font-family: var(--font-sans);
+      font-size: 3.4rem;
+      font-weight: 900;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      line-height: 1.05;
+      margin-bottom: 14px;
+      text-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    .delivered-pill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 9999px;
+      padding: 8px 20px 8px 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    }
+    .delivered-pill-txt {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      color: #1a1a1a;
+    }
+    .delivered-check-icon {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #22c55e;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+    }
+    .btn-book-offsite-white {
+      background: #ffffff;
+      color: #121212;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 34px;
+      border-radius: 9999px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      transition: background 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .btn-book-offsite-white:hover {
+      background: #f3f4f6;
+      transform: translateY(-2px);
+    }
+
+    /* HOSTED 100+ CORPORATES LOGO BAR (SCREENSHOT 1 BOTTOM) */
+    .corporate-logos-bar-wrap {
+      background: #ffffff;
+      padding: 36px 0;
+      border-bottom: 1px solid #f0eae1;
+    }
+    .corporate-logos-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .hosted-corporates-txt {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: #1a1a1a;
+    }
+    .corporate-logos-list {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      flex-wrap: wrap;
+    }
+    .corp-logo-item {
+      height: 38px;
+      max-width: 120px;
+      object-fit: contain;
+      filter: grayscale(10%) contrast(1.1);
+      transition: transform 0.2s ease;
+    }
+    .corp-logo-item:hover { transform: scale(1.08); filter: none; }
+
+    /* 2. WHAT YOU GET WITH ELIVAAS (SCREENSHOT 2 EXACT REPLICA) */
+    .section-what-you-get-corporate {
+      padding: 90px 0 100px;
+      background: #ffffff;
+    }
+    .what-you-get-corp-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 60px;
+    }
+    .what-you-get-corp-title {
+      font-family: var(--font-serif);
+      font-size: 2.6rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .what-you-get-corp-subtitle {
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    .corp-pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 60px;
+      column-gap: 48px;
+      text-align: center;
+    }
+    @media (max-width: 992px) { .corp-pillars-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .corp-pillars-grid { grid-template-columns: 1fr; } }
+
+    .corp-pillar-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 10px;
+    }
+    .corp-pillar-svg {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 18px;
+    }
+    .corp-pillar-title {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .corp-pillar-desc {
+      font-size: 0.88rem;
+      color: #4b5563;
+      line-height: 1.55;
+      max-width: 320px;
+    }
+
+    /* 3. STORIES FROM OUR OFFSITES (SCREENSHOT 3 EXACT REPLICA) */
+    .section-offsite-stories {
+      padding: 80px 0 90px;
+      background: #faf8f5;
+    }
+    .stories-title-centered {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .stories-cards-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 18px;
+    }
+    @media (max-width: 1200px) { .stories-cards-row { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 768px) { .stories-cards-row { grid-template-columns: 1fr; } }
+
+    .story-white-card {
+      background: #ffffff;
+      border: 1px solid #eee5dc;
+      border-radius: 18px;
+      padding: 24px 20px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.02);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .story-white-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+    }
+    .story-quote-txt {
+      font-size: 0.86rem;
+      color: #374151;
+      line-height: 1.55;
+      margin-bottom: 20px;
+    }
+    .story-card-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      padding-top: 14px;
+      border-top: 1px solid #f9fafb;
+    }
+    .story-stars-yellow {
+      color: #f59e0b;
+      font-size: 0.82rem;
+      letter-spacing: 2px;
+    }
+    .story-company-brand {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--elivaas-copper);
+    }
+
+    /* Floating Support Badges */
+    .floating-support-badges {
+      position: fixed;
+      right: 24px;
+      bottom: 30px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+    .float-btn-whatsapp {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
+      transition: transform 0.2s ease;
+    }
+    .float-btn-whatsapp:hover { transform: scale(1.1); }
+    .float-btn-mail {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--elivaas-red);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      box-shadow: 0 6px 18px rgba(128, 20, 38, 0.4);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .float-btn-mail:hover { transform: scale(1.1); }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+      z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-overlay.active { display: flex !important; }
+
+    /* Footer */
+    .main-footer { background: #0e0e0e; color: #9ca3af; padding: 60px 0 30px; font-size: 0.88rem; }
+  
+    /* --------------------------------------------------------------------------
+       INDIA'S FINEST VENUES FOR CORPORATE EVENTS
+       -------------------------------------------------------------------------- */
+    .btn-explore-venues-pill {
+      background: var(--elivaas-red);
+      color: #ffffff;
+      padding: 11px 26px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: background 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-explore-venues-pill:hover {
+      background: var(--elivaas-red-hover);
+      transform: translateY(-1px);
+    }
+
+    .corp-venues-3grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      width: 100%;
+    }
+    @media (max-width: 992px) {
+      .corp-venues-3grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .corp-venues-3grid { grid-template-columns: 1fr; }
+    }
+
+    .corp-venue-card-item {
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--elivaas-border);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .corp-venue-card-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.08);
+    }
+
+    .corp-venue-img-wrap {
+      position: relative;
+      height: 220px;
+      background: #f3f4f6;
+      overflow: hidden;
+    }
+    .corp-venue-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .corp-venue-card-item:hover .corp-venue-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .corp-paw-badge {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: #374151;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .corp-card-dots {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 5px;
+    }
+    .corp-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.6);
+    }
+    .corp-dot.active {
+      background: #ffffff;
+      width: 8px;
+    }
+
+    .corp-card-arrow-circle {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: #121212;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .corp-venue-body {
+      padding: 18px 18px 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .corp-venue-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .corp-venue-location {
+      font-size: 0.78rem;
+      color: #6b7280;
+      margin-bottom: 12px;
+    }
+
+    .corp-venue-amenities {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin-top: auto;
+    }
+    .corp-venue-amenities::-webkit-scrollbar { display: none; }
+
+    .corp-amenity-chip {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 0.72rem;
+      color: #4b5563;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+  
+    /* ==========================================================================
+       MASTER RESPONSIVE & ZERO-LAG PERFORMANCE ENGINE
+       ========================================================================== */
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      overflow-x: clip !important;
+      max-width: 100vw;
+      position: relative;
+    }
+
+    /* Hardware acceleration & smooth touch scrolling */
+    .dest-2row-scroll-container,
+    .offers-cards-row-scroll,
+    .dest-category-pill-bar,
+    .rain-card-amenities,
+    .corp-venue-amenities,
+    .dest-scroll-horizontal,
+    .bento-grid-scroll {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+    }
+    .dest-2row-scroll-container::-webkit-scrollbar,
+    .offers-cards-row-scroll::-webkit-scrollbar,
+    .dest-category-pill-bar::-webkit-scrollbar,
+    .rain-card-amenities::-webkit-scrollbar,
+    .corp-venue-amenities::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Below-the-fold content visibility for instant zero-lag rendering */
+    section {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 500px;
+    }
+    #heroSection, .hero-section-exact, .navbar-elivaas-exact, nav {
+      content-visibility: visible !important;
+    }
+
+    /* Fluid typography rules */
+    h1, .hero-main-title, .corporate-hero-title, .event-hero-title, .birthday-hero-title, .wellness-hero-title {
+      font-size: clamp(1.8rem, 5vw + 0.5rem, 3.4rem) !important;
+      word-wrap: break-word;
+    }
+    h2, .escape-title, .venues-main-title, .what-you-get-title, .hosted-corporates-txt, .stories-title-centered {
+      font-size: clamp(1.5rem, 3.5vw + 0.3rem, 2.5rem) !important;
+      word-wrap: break-word;
+    }
+    h3 {
+      font-size: clamp(1.1rem, 2vw + 0.2rem, 1.45rem) !important;
+    }
+
+    /* Universal container padding adjustments */
+    .container {
+      width: 100%;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding-left: clamp(14px, 3vw, 28px) !important;
+      padding-right: clamp(14px, 3vw, 28px) !important;
+    }
+
+    /* Hero Search Bar Responsive Rules */
+    @media (max-width: 820px) {
+      .search-widget-glass-exact {
+        flex-direction: column !important;
+        border-radius: 20px !important;
+        padding: 14px 16px !important;
+        align-items: stretch !important;
+        gap: 8px !important;
+        background: rgba(255, 255, 255, 0.35) !important;
+        backdrop-filter: blur(20px) !important;
+      }
+      .search-col-divider, .search-arrow-indicator {
+        display: none !important;
+      }
+      .search-col-exact {
+        padding: 6px 8px !important;
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 10px !important;
+      }
+      .btn-search-exact-action {
+        width: 100% !important;
+        border-radius: 12px !important;
+        height: 42px !important;
+        margin-top: 4px !important;
+      }
+    }
+
+    /* Tablet & Rotation Mode Adaptive Layouts */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+      }
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 20px !important;
+      }
+      .stories-cards-row {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    /* Mobile Phones (Portrait & Landscape) */
+    @media (max-width: 600px) {
+      .rain-cards-grid,
+      .venues-cards-grid-exact,
+      .corp-venues-3grid,
+      .party-villas-grid,
+      .wellness-estates-grid,
+      .events-grid,
+      .stories-cards-row,
+      .corp-pillars-grid,
+      .what-you-get-grid-exact,
+      .pillars-grid-celebration,
+      .wellness-pillars-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+      
+      .event-hero-card-floating,
+      .planner-card-exact,
+      .retreat-planner-card {
+        max-width: 100% !important;
+        padding: 22px 18px !important;
+        border-radius: 18px !important;
+      }
+
+      .floating-support-badges {
+        right: 16px !important;
+        bottom: 80px !important;
+        gap: 10px !important;
+      }
+      .float-btn-whatsapp, .float-btn-mail {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 1.3rem !important;
+      }
+
+      /* Touch targets */
+      button, a {
+        min-height: 38px;
+      }
+    }
+
+    /* Desktop Mode in Chrome on Mobile (Force No-Overlap) */
+    @media (min-width: 980px) and (max-height: 600px) {
+      .hero-content-exact-container,
+      .event-hero-wrapper,
+      .corporate-hero-wrap,
+      .birthday-hero-wrap,
+      .wellness-hero-wrap {
+        min-height: auto !important;
+        padding: 90px 0 40px !important;
+      }
+    }
+
+    /* Mobile Bottom Navigation Bar */
+    .mobile-bottom-nav-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid rgba(0,0,0,0.08);
+      z-index: 998;
+      padding: 8px 16px;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.06);
+    }
+    @media (max-width: 768px) {
+      .mobile-bottom-nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      body {
+        padding-bottom: 60px;
+      }
+    }
+    .mob-nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: #4b5563;
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 4px 8px;
+    }
+    .mob-nav-item.active, .mob-nav-item:hover {
+      color: var(--elivaas-red);
+    }
+    .mob-nav-item i {
+      font-size: 1.15rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar-elivaas-exact">
+    <div class="container nav-exact-inner">
+      <a href="index.html" class="nav-exact-logo-box">
+        <div class="logo-exact-top">
+          <span class="logo-e-bracket">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="4" ry="4"></rect>
+              <path d="M9 9h6M9 12h4M9 15h6"></path>
+            </svg>
+          </span>
+          <span class="logo-brand-txt">elivaas</span>
+        </div>
+        <div class="logo-exact-tagline">WE'LL TAKE IT FROM HERE</div>
+      </a>
+
+      <div class="nav-exact-menu">
+        <a href="tel:+918065911700" class="nav-exact-link phone-link">
+          <i class="fa-solid fa-phone"></i> Call to Book <strong>+918065911700</strong>
+        </a>
+        <a href="mailto:corporate@elivaas.com" class="nav-exact-link">Customer support</a>
+        <button onclick="openLoginModal()" class="btn-exact-login-pill">Log In / Sign Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. HERO SECTION (SCREENSHOT 1 EXACT 4-SPLIT BANNER) -->
+  <section class="corporate-hero-wrap">
+    <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/corporate_banner_desktop_e532b79e52.webp" alt="Corporate Offsites" class="corporate-banner-img">
+    <div class="corporate-hero-overlay"></div>
+
+    <div class="container" style="position:relative; z-index:10;">
+      <div class="corporate-hero-content" style="padding-top: 360px; padding-bottom: 40px;">
+        <button onclick="openOffsiteModal()" class="btn-book-offsite-white">
+          Book Your Offsite
+        </button>
+      </div>
+    </div>
+
+    <!-- FLOATING RIGHT ACTION BADGES -->
+    <div class="floating-support-badges">
+      <a href="https://wa.me/918065911700" target="_blank" class="float-btn-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <button onclick="openOffsiteModal()" class="float-btn-mail" title="Contact Us / Inquiry" aria-label="Inquiry">
+        <i class="fa-regular fa-envelope"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- HOSTED 100+ CORPORATES LOGO BAR (SCREENSHOT 1 BOTTOM) -->
+  <div class="corporate-logos-bar-wrap">
+    <div class="container corporate-logos-inner">
+      <h2 class="hosted-corporates-txt">Hosted 100+ corporates</h2>
+      <div class="corporate-logos-list">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/kpmg_1f1e233675.webp" alt="KPMG" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/korn_ferry_41581083b3.webp" alt="Korn Ferry" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/royal_enfield_50967346e2.webp" alt="Royal Enfield" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/zomato_fa2387a1ff.webp" alt="Zomato" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/flipkart_96fe6c52c6.webp" alt="Flipkart" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/honda_076801c5d3.webp" alt="Honda" class="corp-logo-item">
+        <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/mmt_ecb0c37766.webp" alt="MakeMyTrip" class="corp-logo-item">
+      </div>
+    </div>
+  </div>
+
+<!-- INDIA'S FINEST VENUES FOR EVERY CORPORATE EVENT (EXACT SCREENSHOT MATCH) -->
+  <section class="section-corp-venues-catalog" style="padding: 60px 0 70px; background: #ffffff;">
+    <div class="container">
+      
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; font-weight: 400; color: #1a1a1a; line-height: 1.2;">
+            India’s finest venues for every corporate event
+          </h2>
+          <p style="font-size: 0.95rem; color: #4b5563; margin-top: 4px;">
+            From corporate retreats and team reunions to leadership meetups and celebrations, ELIVAAS villas adapt seamlessly to your plans.
+          </p>
+        </div>
+
+        <button onclick="window.location.href='villas.html'" class="btn-explore-venues-pill">
+          Explore more Properties
+        </button>
+      </div>
+
+      <!-- 3 Exact Cards Grid Matching Screenshot -->
+      <div class="corp-venues-3grid">
+        
+        <!-- Card 1: Kingdom Heartz -->
+        <div class="corp-venue-card-item" onclick="window.location.href='villa.html?id=prop_Y8Y1mtXa4BG8Wj'">
+          <div class="corp-venue-img-wrap">
+            <img src="https://d4b28jbnqso5g.cloudfront.net/3_S7_A4771_HDR_8e2a9b3600.webp" alt="Kingdom Heartz" loading="lazy" decoding="async">
+            <div class="corp-paw-badge" title="Pet Friendly"><i class="fa-solid fa-paw"></i></div>
+            <div class="corp-card-dots">
+              <span class="corp-dot active"></span><span class="corp-dot"></span><span class="corp-dot"></span>
+            </div>
+            <div class="corp-card-arrow-circle"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+          <div class="corp-venue-body">
+            <h3 class="corp-venue-title">Kingdom Heartz | Elegant Pet-friendly 2-BHK Apa...</h3>
+            <div class="corp-venue-location">South Gola Range,Bhimtal</div>
+            <div class="corp-venue-amenities">
+              <span class="corp-amenity-chip"><i class="fa-solid fa-tree"></i> Garden</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-square-parking"></i> Parking</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-wifi"></i> Wifi</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Bali Bay Langit -->
+        <div class="corp-venue-card-item" onclick="window.location.href='villa.html?id=prop_AiJBJcAXQl0IUF'">
+          <div class="corp-venue-img-wrap">
+            <img src="https://d4b28jbnqso5g.cloudfront.net/1_d9f8795966.jpg" alt="Bali Bay Langit" loading="lazy" decoding="async">
+            <div class="corp-card-dots">
+              <span class="corp-dot active"></span><span class="corp-dot"></span><span class="corp-dot"></span>
+            </div>
+          </div>
+          <div class="corp-venue-body">
+            <h3 class="corp-venue-title">Bali Bay Langit | Glass Tent on 2-Acres with Share...</h3>
+            <div class="corp-venue-location">Uchalagollahalli,Bengaluru</div>
+            <div class="corp-venue-amenities">
+              <span class="corp-amenity-chip"><i class="fa-solid fa-square-parking"></i> Parking</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-wifi"></i> Wifi</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-water-ladder"></i> Common pool</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Gracias Bleu -->
+        <div class="corp-venue-card-item" onclick="window.location.href='villa.html?id=prop_TgTdxr0F81hBbR'">
+          <div class="corp-venue-img-wrap">
+            <img src="https://d4b28jbnqso5g.cloudfront.net/DSC_08835_d8ea1359e7.webp" alt="Gracias Bleu" loading="lazy" decoding="async">
+            <div class="corp-card-dots">
+              <span class="corp-dot active"></span><span class="corp-dot"></span><span class="corp-dot"></span>
+            </div>
+          </div>
+          <div class="corp-venue-body">
+            <h3 class="corp-venue-title">Gracias Bleu | 1-Room Retreat With Sea Views, Co...</h3>
+            <div class="corp-venue-location">Morjim,North Goa</div>
+            <div class="corp-venue-amenities">
+              <span class="corp-amenity-chip"><i class="fa-solid fa-square-parking"></i> Parking</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-wifi"></i> Wifi</span>
+              <span class="corp-amenity-chip"><i class="fa-solid fa-martini-glass-citrus"></i> Bar</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- 2. WHAT YOU GET WITH ELIVAAS (SCREENSHOT 2 EXACT REPLICA) -->
+  <section class="section-what-you-get-corporate">
+    <div class="container">
+      
+      <div class="what-you-get-corp-header">
+        <h2 class="what-you-get-corp-title">What You Get with ELIVAAS</h2>
+        <p class="what-you-get-corp-subtitle">From dynamic pricing to full guest support — we handle the details so you can earn more and stress less.</p>
+      </div>
+
+      <div class="corp-pillars-grid">
+        
+        <!-- Pillar 1 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/Team_Building_Experiences_19c8043b35.svg" alt="Team-Building Experiences" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Team-Building Experiences</h3>
+          <p class="corp-pillar-desc">Thoughtfully designed activities that get teams talking, laughing, and bonding, naturally.</p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/Curated_Work_and_Breakout_Spaces_0a9116b425.svg" alt="Curated Work & Breakout Spaces" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Curated Work & Breakout Spaces</h3>
+          <p class="corp-pillar-desc">From focused meeting setups to relaxed breakout corners, spaces designed to think, discuss, and unwind, comfortably.</p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/Fully_planned_Food_and_Beverages_f2a54cffff.svg" alt="Fully-planned Food & Beverages" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Fully-planned Food & Beverages</h3>
+          <p class="corp-pillar-desc">Well-planned meals, coffee breaks, and dining moments tailored to your team's schedule and preferences.</p>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/games_and_music_47c5d629f4.svg" alt="Games, Music & Evening Wind-downs" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Games, Music & Evening Wind-downs</h3>
+          <p class="corp-pillar-desc">Unplug after work hours with games, music nights, and light entertainment that keeps the energy flowing.</p>
+        </div>
+
+        <!-- Pillar 5 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/Wellness_and_Mindfulness_1b55cd2dde.svg" alt="Wellness & Mindfulness" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Wellness & Mindfulness</h3>
+          <p class="corp-pillar-desc">Curated wellness sessions including yoga, mindfulness breaks, and quiet moments designed to help teams reset and recharge.</p>
+        </div>
+
+        <!-- Pillar 6 -->
+        <div class="corp-pillar-card">
+          <img loading="lazy" decoding="async" src="https://d31za8na64dkj7.cloudfront.net/Themed_Galas_and_Signature_Events_fbd00a1b60.svg" alt="Themed Galas & Signature Events" class="corp-pillar-svg">
+          <h3 class="corp-pillar-title">Themed Galas & Signature Events</h3>
+          <p class="corp-pillar-desc">Well-executed themed evenings and gala nights that bring teams together through shared experiences, music, and celebration.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. STORIES FROM OUR OFFSITES (SCREENSHOT 3 EXACT REPLICA) -->
+  <section class="section-offsite-stories">
+    <div class="container">
+      
+      <h2 class="stories-title-centered">Stories from Our Offsites</h2>
+
+      <div class="stories-cards-row">
+        
+        <!-- Card 1: Godigit -->
+        <div class="story-white-card">
+          <p class="story-quote-txt">“Thank you, ELIVAAS team, for seamless hospitality at Bali Bay, prompt sales support and a truly satisfying corporate offsite experience.”</p>
+          <div class="story-card-footer">
+            <div class="story-stars-yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="story-company-brand">Godigit</div>
+          </div>
+        </div>
+
+        <!-- Card 2: Thomas Cook -->
+        <div class="story-white-card">
+          <p class="story-quote-txt">“Great service, thoughtful hospitality, and a very comfortable stay, thanks to the ELIVAAS team.”</p>
+          <div class="story-card-footer">
+            <div class="story-stars-yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="story-company-brand">Thomas Cook</div>
+          </div>
+        </div>
+
+        <!-- Card 3: McKinsey -->
+        <div class="story-white-card">
+          <p class="story-quote-txt">“A wonderful experience with lavish surroundings at Kensho Goa, excellent service, and unforgettable hospitality, thank you, ELIVAAS team.”</p>
+          <div class="story-card-footer">
+            <div class="story-stars-yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="story-company-brand">McKinsey</div>
+          </div>
+        </div>
+
+        <!-- Card 4: Cleartrip -->
+        <div class="story-white-card">
+          <p class="story-quote-txt">“Amazing stay at a beautiful location with attentive service. Thank you ELIVAAS team, will definitely come back”</p>
+          <div class="story-card-footer">
+            <div class="story-stars-yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="story-company-brand">Cleartrip</div>
+          </div>
+        </div>
+
+        <!-- Card 5: Swiggy -->
+        <div class="story-white-card">
+          <p class="story-quote-txt">“Spacious, peaceful stay with excellent care. The team was able to relax, have fun, and truly enjoy themselves. Thank you team ELIVAAS.”</p>
+          <div class="story-card-footer">
+            <div class="story-stars-yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="story-company-brand">Swiggy</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OFFSITE INQUIRY MODAL -->
+  <div class="modal-overlay" id="offsiteModal" onclick="if(event.target===this) closeOffsiteModal();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:480px; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.25);">
+      <button onclick="closeOffsiteModal()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <span style="color:var(--elivaas-copper); font-weight:700; font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em;">Corporate Desk</span>
+      <h3 style="font-family:var(--font-serif); font-size:1.6rem; color:#121212; margin:4px 0 10px;">Book Your Corporate Offsite</h3>
+      <p style="font-size:0.85rem; color:#6b7280; margin-bottom:20px;">Dedicated corporate relationship manager with customized corporate billing & GST benefits.</p>
+      
+      <form onsubmit="event.preventDefault(); alert('Offsite inquiry submitted! Our corporate account specialist will contact you with proposal options.'); closeOffsiteModal();">
+        <input type="text" placeholder="Company Name" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <input type="text" placeholder="Contact Person Name" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <input type="email" placeholder="Official Corporate Email" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <input type="tel" placeholder="Mobile Number" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); margin-bottom:10px; font-size:0.88rem;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px;">
+          <input type="number" placeholder="Team Size" min="5" max="300" required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); font-size:0.88rem;">
+          <select required style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid var(--elivaas-border); font-size:0.88rem; background:#ffffff;">
+            <option value="" disabled selected>Preferred Location</option>
+            <option>Goa</option>
+            <option>Lonavala</option>
+            <option>Udaipur</option>
+            <option>Kasauli</option>
+            <option>Delhi NCR</option>
+          </select>
+        </div>
+        <button type="submit" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:13px; border-radius:9999px; font-weight:700; font-size:0.95rem;">Request Corporate Proposal →</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal-overlay" id="loginModal" onclick="if(event.target===this) closeLoginModal();">
+    <div style="background:#ffffff; border-radius:24px; width:100%; max-width:440px; padding:36px; position:relative;">
+      <button onclick="closeLoginModal()" style="position:absolute; top:18px; right:18px; font-size:1.2rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <h3 style="font-family:var(--font-serif); font-size:1.5rem; color:#121212; margin-bottom:6px;">Login to ELIVAAS</h3>
+      <p style="font-size:0.85rem; color:#6b7280; margin-bottom:20px;">Access your reservations & member perks</p>
+      <input type="tel" placeholder="Mobile Number" style="width:100%; padding:11px 14px; border-radius:8px; border:1px solid #d1d5db; margin-bottom:12px;">
+      <button type="button" onclick="alert('OTP Sent!'); closeLoginModal();" style="width:100%; background:var(--elivaas-red); color:#ffffff; padding:12px; border-radius:9999px; font-weight:700;">Continue</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+      <div>© 2026 ELIVAAS Hospitality Pvt Ltd. All rights reserved.</div>
+      <div style="display:flex; gap:20px;">
+        <a href="index.html">Home</a>
+        <a href="villas.html">All Villas</a>
+        <a href="tel:+918065911700">Call Corporate Team</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.openOffsiteModal = function() {
+      document.getElementById('offsiteModal')?.classList.add('active');
+    };
+    window.closeOffsiteModal = function() {
+      document.getElementById('offsiteModal')?.classList.remove('active');
+    };
+    window.openLoginModal = function() {
+      document.getElementById('loginModal')?.classList.add('active');
+    };
+    window.closeLoginModal = function() {
+      document.getElementById('loginModal')?.classList.remove('active');
+    };
+  </script>
+</body>
+</html>
