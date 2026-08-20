@@ -1,4 +1,4 @@
-// ELIVAAS COMPLETE 409 LUXURY VILLAS DATASET
+// Viral Villas COMPLETE 409 LUXURY VILLAS DATASET
 const ALL_409_VILLAS_DATA = [
   {
     "id": "prop_pW2XbB72Zv8Gdc",
@@ -34,7 +34,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/P1023648_24bda73029.jpg",
       "images/K81_A8067_39ba82ddf6.jpg",
@@ -54,7 +54,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Serenica | 4-BHK Villa with Private Pool, Bar Lounge, Terrace Views, Lift & Peaceful Pilerne Location | Pet-friendly",
     "priceAmount": 26398,
     "origPrice": 28487,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -82,7 +82,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/3_S7_A7198_HDR_bdfb3afc1e.jpg",
       "images/K81_A4914_ed8ee1cce1.jpg",
@@ -131,7 +131,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20260303185046_0182_D_a126714879.jpg",
       "images/DJI_20260303185516_0188_D_a204a43ba3.jpg",
@@ -178,7 +178,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Workstation"
     ],
-    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/Pure_Veg_2_8289cd2682.webp",
       "images/Untitled_design_2_ef074d9237.png",
@@ -224,7 +224,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/Pure_Veg_1_301ccc0f48.webp",
       "images/Untitled_design_1_e24d6b4e30.png",
@@ -272,7 +272,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/2nd_580c51c9e6.jpg",
       "images/P1038557_e00deb9585.jpg",
@@ -292,7 +292,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Still River Suites | 1-BHK With Private Heated Pool, Jacuzzi, Shared Pool, Garden, Restaurant & Aravali Views",
     "priceAmount": 25785,
     "origPrice": 28405,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -318,7 +318,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/dro_cc3b2e696f.jpg",
       "images/P1044700_947f8cbdf8.jpg",
@@ -366,7 +366,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Bhushi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhushi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DSC_8885_HDR_a2a8f849fc.jpg",
       "images/DJI_0426_0fc3ed1a83.jpg",
@@ -386,7 +386,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Miran by the lake | Pet-Friendly Boutique Room with Lake View, Infinity Edge Pool, Activity Room & Garden",
     "priceAmount": 7008,
     "origPrice": 8599,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -412,12 +412,12 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Lakhawali featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Lakhawali featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/K81_A1371_9a2b60a38a.jpg",
       "images/K81_A1362_f6b9474e02.jpg",
       "images/K81_A1294_588c982714.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "images/K81_A1336_42c2ddf210.jpg",
       "images/K81_A1319_287132fb67.jpg",
       "images/P1044001_91588cf13b.jpg",
@@ -459,7 +459,7 @@ const ALL_409_VILLAS_DATA = [
       "Welcome basket",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20260527194010_0005_D_46960a9f44.jpg",
       "images/1_H7_A2404_1_9a8c37cd80.jpg",
@@ -507,7 +507,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20260303185046_0182_D_a126714879.jpg",
       "images/P1037041_b54ddfc49c.jpg",
@@ -554,7 +554,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/Villa_2_4by5_Insta_Post_Landscape_2_3b2b1d219e.jpg",
       "images/Villa_1_4by5_Insta_Post_Landscape_6_9b93a58364.jpg",
@@ -602,7 +602,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Gaming room"
     ],
-    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodiyat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20260303184102_0169_D_b931437f2b.jpg",
       "images/Mountain_Creek_ea937f9099.png",
@@ -650,7 +650,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DSC_08423_d9d6a84805.jpg",
       "images/DSC_08435_efac881e02.jpg",
@@ -698,7 +698,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/Pool_16by9_Insta_Post_Landscape_87f77e75e6.jpg",
       "images/Pool_16by9_Insta_Post_Landscape_13_9aa78358bb.jpg",
@@ -718,7 +718,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Cows & Cuddles | Pet-friendly 4-BHK Farmstay with Pvt Pool, Garden & Gazebo",
     "priceAmount": 41234,
     "origPrice": 45424,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -745,7 +745,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Debari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Debari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_2_4978ba747d.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_6107_1030174e51.webp",
@@ -792,7 +792,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/Villa_2_4by5_Insta_Post_Landscape_2_3b2b1d219e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_fbae0972e5.jpg",
@@ -840,7 +840,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260206171229_0428_D_2894857f84.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1023646_041023c9f4.jpg",
@@ -888,7 +888,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20250417165411_0307_D_Edit_1_7e7a5f66cd.jpg",
       "images/P1038557_e00deb9585.jpg",
@@ -908,7 +908,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Still River Suites | 1-Room Retreat With Plunge Pool, Shared Pool, Common Garden, Restaurant Gym & Scenic Aravali & River Views",
     "priceAmount": 19854,
     "origPrice": 21870,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -934,7 +934,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/dro_cc3b2e696f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260713161628_0044_D_3e6b0750ab.jpg",
@@ -982,7 +982,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_b11b116b17.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/The_Royce_Rose_46a6435c35.jpg",
@@ -1029,7 +1029,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Shaktighar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Shaktighar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260318165317_0383_D_fbcf5ce0b7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Hero_Image_jpg_ba7644fa35.jpeg",
@@ -1076,7 +1076,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_d9f8795966.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Tent_1_4by5_Insta_Landscape_4_7632db3abb.jpg",
@@ -1123,7 +1123,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Valval featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Untitled_design_2322df878b.png",
       "https://d4b28jbnqso5g.cloudfront.net/Calista_10_81fd86987b.webp",
@@ -1172,7 +1172,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DSC_07674_Edit_54b45a0fe8.webp",
       "images/P1038557_e00deb9585.jpg",
@@ -1192,7 +1192,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Still River Suites | 1-Room Retreat With a Bathtub, Shared Pool, Garden, Gym, Coffee House, Restro & Scenic Aravali Views",
     "priceAmount": 12582,
     "origPrice": 13862,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1218,7 +1218,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kavita featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/dro_cc3b2e696f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/fac_18ddc23d62.jpg",
@@ -1267,7 +1267,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Home theater"
     ],
-    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jabli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Royce_Orchid_50969c2940.jpg",
       "images/P1038557_e00deb9585.jpg",
@@ -1314,7 +1314,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Kimugha featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kimugha featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DJI_20260527194010_0005_D_46960a9f44.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9451_7a917df548.jpg",
@@ -1361,7 +1361,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Uchalagollahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Tent_2_16by9_Insta_Landscape_11_43476d9a84.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_f4722795c3.jpg",
@@ -1381,7 +1381,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "House of Tvara | Pet-friendly 3-BHK Villa with Private Pool and Garden",
     "priceAmount": 35684,
     "origPrice": 38237,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1408,7 +1408,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0588_1f417ef382.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A6221_6ecaccbf79.jpg",
@@ -1428,7 +1428,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raha Farms | 2-BHK Pet-friendly Retreat with a Garden, Shared pool, Restaurant, Library, & Game zone",
     "priceAmount": 18650,
     "origPrice": 19984,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1455,12 +1455,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250825183910_0135_D_9f661a1695.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250825183815_0134_D_412c4ae6b6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250824174046_0101_D_f95d322299.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0617_0d255cab62.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Alaya_complimentary_hightea_f985254015.png",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1200_7c10b59323.jpg",
@@ -1475,7 +1475,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raj Farm | 3-BHK Villa with Private Pool, Kid’s Room and An Outhouse",
     "priceAmount": 41143,
     "origPrice": 44086,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1501,7 +1501,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Outdoor Furniture"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1042286_a0f5dfaf5e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1042315_d832153d35.jpg",
@@ -1521,7 +1521,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aravalli Reserve The Bliss | Pet-friendly 3-BHK Villa with Private Pool, Patio, Jacuzzi, and Gazebo",
     "priceAmount": 57944,
     "origPrice": 63837,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1548,7 +1548,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A0560a_94bb7d0c23.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A0657_fe9c1185e5.jpg",
@@ -1568,7 +1568,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kimaya Azora | Luxe Suite with Private Plunge Pool, Shared Pool, Restaurant, and Garden in Boutique Resort",
     "priceAmount": 11227,
     "origPrice": 12367,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1594,7 +1594,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Games"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/712_A5967_695f13d060.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7077_jpg_86de0f8049.jpg",
@@ -1605,7 +1605,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/712_A5833_4e8a0232b9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7023_d1ae54f472.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7063_dcb84b7819.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg"
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg"
     ]
   },
   {
@@ -1614,7 +1614,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "AdhiVa Retreat | 5-BHK Pet-friendly Farmhouse with Private Pool, Bar & Lush Garden",
     "priceAmount": 35545,
     "origPrice": 38088,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1642,7 +1642,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6091_da966ec81a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06142_97a85da65e.webp",
@@ -1662,7 +1662,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aanandam Villas and Resort | Pet-friendly Executive Suite With Shared Pool, Restro & Garden",
     "priceAmount": 6552,
     "origPrice": 7614,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1688,7 +1688,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/dji_fly_20250201_020455_0_1738346695253_photo_low_quality_bc5aff4959.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Feb_17_2026_11_23_26_AM_4b7f771b31.png",
@@ -1708,7 +1708,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raha Farms | 1 Cottage With Common Pool, Restaurant, Game Zone, Gym & Conference Area",
     "priceAmount": 14767,
     "origPrice": 16973,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1734,13 +1734,13 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250825183910_0135_D_32adc7c586.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250825184147_0140_D_2e8a2b092f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0889_f87fbf654d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1217_e4035ceb54.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Alaya_complimentary_hightea_f985254015.png",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A4438_3a3bb8aa53.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1175_5fcb997d94.jpg",
@@ -1754,7 +1754,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Vedaaz Farms | Pet-friendly 4-BHK Farmhouse With Private Outdoor Pool and Garden area",
     "priceAmount": 42869,
     "origPrice": 44795,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1781,7 +1781,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Sector 135 Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sector 135 Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3533_HDR_copy_2_bf1f9809b2.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4223_HDR_copy_9e0b797d49.jpg",
@@ -1829,7 +1829,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/712_A5085_442649b37f.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/Heaven_Farm_2955358d63.png",
@@ -1849,7 +1849,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kimaya Kove | Hut-Style Cottage with Open-Air Shower, Restaurant, and Garden in Boutique Resort",
     "priceAmount": 9053,
     "origPrice": 9974,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1875,7 +1875,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/712_A5833_d42fd6f1c0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A6728_e208ba354f.jpg",
@@ -1895,7 +1895,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Gardenia | 4-BHK Farmhouse with Private Pool, Game Zone, & Lush Garden",
     "priceAmount": 47474,
     "origPrice": 50869,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -1922,7 +1922,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09638_HDR_6499a17211.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09733_HDR_dd3aa71af6.jpg",
@@ -1942,7 +1942,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aanandam Villas and Resort | Pet-friendly Standard Room With Shared Pool, Restaurant & Garden",
     "priceAmount": 5216,
     "origPrice": 6063,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -1969,7 +1969,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260221184327_0108_D_b6a059a428.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1025480_3bcc8cbfaf.jpg",
@@ -1980,7 +1980,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0377_a2085343ed.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1025220_ebc59ae1b5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0399_631b1c07aa.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg"
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg"
     ]
   },
   {
@@ -1989,7 +1989,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raha Farms | 1 Duplex on 5.5-Acre Land With Shared Pool, Restro, Game Zone & Library",
     "priceAmount": 18250,
     "origPrice": 20976,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2015,12 +2015,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250824174738_0109_D_f14ffc1634.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0875_45c0d2fad1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0874_a7da969718.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1217_e4035ceb54.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Alaya_complimentary_hightea_f985254015.png",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1136_fa58b06fc3.jpg",
@@ -2035,7 +2035,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Prassanam Vatika | 2-BHK Hillside Villa with Private Pool & Expansive 1-Acre Garden",
     "priceAmount": 33498,
     "origPrice": 36905,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2061,7 +2061,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_648af5fb9f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_5cdc5ec2d4.jpg",
@@ -2081,7 +2081,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aravalli Reserve The Lotus | Pet-friendly 3-BHK Villa with Private Pool, Lotus Pond, Gazebo & Jacuzzi",
     "priceAmount": 57944,
     "origPrice": 63837,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2108,7 +2108,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A0848_f815768e13.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1361_0792d80b00.jpg",
@@ -2128,7 +2128,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Levante Farms  | 5-BHK Villa With Private Pool, Bar, Garden and Gazebo",
     "priceAmount": 49847,
     "origPrice": 53413,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2155,7 +2155,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Palla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Palla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A5992_HDR_copy_3d40827908.jpg",
       "images/0_A0_A6092_HDR_copy_b963eb25b9.jpg",
@@ -2175,7 +2175,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aanandam Villas and Resort | Pet-friendly Cottage With Private Plunge Pool, Patio, Shared Pool Restro & Garden",
     "priceAmount": 9545,
     "origPrice": 9871,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2202,7 +2202,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1025331_7f3fcecb0a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1035616_9259dcc3b7.jpg",
@@ -2212,7 +2212,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/P1025267_14047684a7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1025259_e9648d649b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0424_e9e9d77724.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1025276_55692a1029.jpg"
     ]
   },
@@ -2222,7 +2222,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aanandam Villas and Resort | Pet-friendly Super Deluxe Room With Shared Pool, Restro & Garden",
     "priceAmount": 8863,
     "origPrice": 9165,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2248,7 +2248,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/dji_fly_20250201_020455_0_1738346695253_photo_low_quality_bc5aff4959.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0355_f52beba705.jpg",
@@ -2268,7 +2268,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aravalli Reserve The Isley | Pet-friendly 3-BHK Villa with Private Pool, Patio and Gazebo",
     "priceAmount": 57944,
     "origPrice": 63837,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2295,7 +2295,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1669_0a94642401.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1645_1_d2645de7d6.jpg",
@@ -2315,7 +2315,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aanandam Villas and Resort | Pet-friendly Cottage With Shared Pool, Patio, Restaurant & Garden",
     "priceAmount": 6975,
     "origPrice": 8108,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2342,7 +2342,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sonipat featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1035572_15f390793a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1035529_f7dfdec710.jpg",
@@ -2352,7 +2352,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0496_0974575fcf.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1035534_04c8b55088.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0518_94fdd17cac.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1035545_e2ab955e0f.jpg"
     ]
   },
@@ -2362,7 +2362,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Heavenly Homes Villa | 2-BHK Villa with Private Pool, Garden & 360° Panoramic Hill Views Near Sahyadri Waterfall",
     "priceAmount": 17864,
     "origPrice": 17455,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2388,7 +2388,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Deopada featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Deopada featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/HEAVENLY_2_jpg_5f2e21c60b.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/HEAVENLY_17_2a005ad34c.jpg",
@@ -2408,7 +2408,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Mocha | 5-BHK Pet-friendly Retreat With Pvt Pool, Verandah & Ent Lounge",
     "priceAmount": 57514,
     "origPrice": 59846,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2436,7 +2436,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Loungers"
     ],
-    "tagline": "Luxury private villa in Village Zirad Pada featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Village Zirad Pada featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06323_b35da64a86.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05967_a0f0a78f91.jpg",
@@ -2456,7 +2456,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Breeze and Grains Resort | 3-BHK Vacation Home With Outdoor Patios & Chinese Wok Zone",
     "priceAmount": 18593,
     "origPrice": 20119,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2482,7 +2482,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Chennamkary featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chennamkary featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/MSD_3836_37_38_39_40_copy_bce69a1b98.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/MSD_3856_57_58_59_60_copy_ba02abb57e.jpg",
@@ -2502,7 +2502,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Nedumbally | 4-BHK Villa with Office Space, Balcony Sit-Out & Lounge Area |  Near Edapally Church",
     "priceAmount": 22675,
     "origPrice": 24537,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2528,7 +2528,7 @@ const ALL_409_VILLAS_DATA = [
       "Welcome basket",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Nedumbally featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nedumbally featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1042089_JPG_jpg_ecf0671648.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A8947_b8c9a1f8ed.jpg",
@@ -2548,7 +2548,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Energise Soul Resort Aranya Angan Villa | Pet-friendly 4-BHK With Garden, Shared Outdoor Pool & Banquet | Near Trimbakeshwar Jyotirling Temple",
     "priceAmount": 39890,
     "origPrice": 38977,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2575,7 +2575,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9459_HDR_0579f3f0ef.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9459_HDR_7d45b04d8e.JPG",
@@ -2595,7 +2595,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Everly | Pet-friendly Traditional 1-Bedroom Retreat With Attic, Sauna & Garden",
     "priceAmount": 7730,
     "origPrice": 9776,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2622,7 +2622,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Sauna"
     ],
-    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_2240_HDR_1ec859df92.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_2185_HDR_417e6beb31.webp",
@@ -2642,7 +2642,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Panchvati Veloraa | Pet-friendly 3-BHK Apartment with Scenic Views & Outdoor Seating",
     "priceAmount": 21982,
     "origPrice": 24737,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2669,7 +2669,7 @@ const ALL_409_VILLAS_DATA = [
       "Kitchen",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260428190715_0806_D_e39e4ed6f7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1_11_9c99daf0d0.jpg",
@@ -2689,7 +2689,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Esh Cottages Resort Moss | Hilltop 2-BHK Retreat with Open-air Jacuzzi, Shared Garden, Pool & Cosy Lounge",
     "priceAmount": 18153,
     "origPrice": 20427,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2715,14 +2715,14 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9794_5436f26f8c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9868_f736222a1a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9859_98f0a8a721.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9865_6e67d6742c.jpg",
       "images/Amenities_68c35fd95b.webp",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_complimentary_hightea_dd338493ac.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_complimentary_hightea_dd338493ac.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9969_1_1f58daabc3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9739_212c35d65e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9759_b9a3651916.jpg",
@@ -2735,7 +2735,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aaram Bagh | Pet-friendly 4-BHK Escape Amid Pine Forests with Valley Views Near Kasauli",
     "priceAmount": 20565,
     "origPrice": 23140,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2762,7 +2762,7 @@ const ALL_409_VILLAS_DATA = [
       "Private patio",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260312135214_0524_D_423eab46d4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01452_2eea6099e0.jpg",
@@ -2782,7 +2782,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Energise Soul Retreat | Pet-friendly 3-BHK With Outdoor Patio | 15 Mins from Trimbakeshwar Jyotirlinga Temple",
     "priceAmount": 36156,
     "origPrice": 35329,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2809,7 +2809,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Banquet Hall"
     ],
-    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/DSC_7078_HDR_dcfcd55af3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_7107_HDR_201bc08fe6.jpg",
@@ -2829,7 +2829,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Konifer Wild Fern | Hilltop 2-BHK Retreat with Scenic Views, Shared Garden, Heated Pool & Outdoor Seating Space",
     "priceAmount": 18454,
     "origPrice": 20812,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2855,12 +2855,12 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Heated pool"
     ],
-    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_c74fe27020.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03110_6b88dbce1d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8477_JPG_7ccfb0a26c.jpeg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_d6a791a4d0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_e06050092a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/11_1_347686b9b3.jpg",
@@ -2875,7 +2875,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Palliath House |3-BHK With, Living Lounge, Patio, Shared Lawn and 3 Natural Ponds | Near Andhakaranazhi Beach",
     "priceAmount": 25151,
     "origPrice": 30275,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2901,7 +2901,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Andhakaranazhy featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Andhakaranazhy featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/5_X8_A2817_2_copy_f6b8449283.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/5_X8_A1928_copy_9c4da8eecb.JPG",
@@ -2921,7 +2921,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Esh Cottages Resort Birch | Hillside 4-BHK Hideaway With Lush Garden, Common Pool, &  Gaming Zone",
     "priceAmount": 30918,
     "origPrice": 34790,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -2947,14 +2947,14 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9779_8d753f6188.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_e48476fffc.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9858_69408419e6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9851_c2114d9220.jpg",
       "images/Amenities_68c35fd95b.webp",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_complimentary_hightea_dd338493ac.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_complimentary_hightea_dd338493ac.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9969_1_1f58daabc3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9941_c4dad6aba6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9933_eb370289f3.jpg",
@@ -2967,7 +2967,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Celest | Pet-friendly 4-BHK Villa With Private Pool, Terrace & Garden Near Baga Beach",
     "priceAmount": 30927,
     "origPrice": 33374,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -2994,7 +2994,7 @@ const ALL_409_VILLAS_DATA = [
       "Workstation",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/10_99a5114bb0.webp",
       "https://d4b28jbnqso5g.cloudfront.net/PPS_09756_64d1a50240.jpg",
@@ -3014,7 +3014,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aarul Farm | 1 Acre Pet-friendly 4-BHK With Pvt Pool, Gazebos & Game Zone",
     "priceAmount": 29750,
     "origPrice": 31877,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3042,7 +3042,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_7368_55af0f4f90.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7058_HDR_d3bb5122e4.webp",
@@ -3062,7 +3062,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Valiyaveetil Mansion | 5-BHK Mansion With Private Pool, Home Theatre, Garden | Near New Marine Drive",
     "priceAmount": 36280,
     "origPrice": 39259,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3089,7 +3089,7 @@ const ALL_409_VILLAS_DATA = [
       "Home theater",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Kaloor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kaloor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/P1038840_003bdc3df0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260323181523_0364_D_jpg_b851bfff56.jpg",
@@ -3109,7 +3109,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa 39 | Serene Pet-friendly 6-BHK Getaway With Private Pool, Gaming Zone & Balcony",
     "priceAmount": 45598,
     "origPrice": 44554,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3137,7 +3137,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gaming room"
     ],
-    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07501_2_3_4_5_copy_c19113289a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07556_57_58_59_60_copy_3b558c7a1c.webp",
@@ -3157,7 +3157,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Esh Cottage Hazel | 1 Hillview Suite With Shared Pool, Lush Garden, & Restaurant",
     "priceAmount": 11938,
     "origPrice": 13872,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3183,7 +3183,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Palampur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9816_1_db67785a66.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9959_1_6bf2ae9d21.jpg",
@@ -3203,7 +3203,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "BellaVie | 3-BHK Villa With Private Pool & TV Lounge Area In A Gated Complex",
     "priceAmount": 22526,
     "origPrice": 24247,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3229,12 +3229,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_09856_69bf0b9f5e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250724153456_0766_D_53c929bf1e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250724153553_0769_D_1bc05a245b.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_09578_034e26efc2.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_09838_5e3b6ee634.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250731191108_0126_D_97063fb847.jpg",
@@ -3249,7 +3249,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Fleur De Lis | 3-BHK + Attic | Garden | Scenic views",
     "priceAmount": 23401,
     "origPrice": 26333,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3275,7 +3275,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "BBQ Grill"
     ],
-    "tagline": "Luxury private villa in Chattyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chattyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5897_HDR_2_856d29abbc.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5917_HDR_6319931c10.webp",
@@ -3295,7 +3295,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Stars and WindSongs Peaks | Garden Suite with Shared Pool, Garden, Game Zone, Restaurant, & Views | Pet-friendly",
     "priceAmount": 10325,
     "origPrice": 12241,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3322,7 +3322,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Nahan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nahan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/h1_03262ab982.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/drone_2d8a2e7e6d.JPG",
@@ -3342,7 +3342,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zenora | Pet-friendly 5-BHK Farmhouse With Pvt Pool, Garden & Terrace ",
     "priceAmount": 40352,
     "origPrice": 43239,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3370,7 +3370,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Mar_6_2026_11_43_29_AM_a77a95f96a.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04091_e74856e607.webp",
@@ -3390,7 +3390,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Konifer Rosewood | Hillside Attic Room With Balcony, Outdoor Seating & Shared Heated Pool",
     "priceAmount": 13939,
     "origPrice": 15721,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3416,12 +3416,12 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Heated pool"
     ],
-    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8477_JPG_7ccfb0a26c.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03110_6b88dbce1d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_af62ddfc8e.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_6e7b3a8be9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_3599276e05.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/4_9c0afbae9c.jpg",
@@ -3436,7 +3436,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Handa’s Gateway | Pet-friendly 3-BHK Retreat With an Attic, Pvt Pool & Garden",
     "priceAmount": 38024,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3465,7 +3465,7 @@ const ALL_409_VILLAS_DATA = [
       "Kitchen",
       "Workstation"
     ],
-    "tagline": "Luxury private villa in Sirohi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sirohi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_21_27_27_36_26_21_065d5a66a0.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_21_27_27_36_26_16_17ee42481e.webp",
@@ -3485,7 +3485,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "24 Carat | 4-BHK Villa with Private Pool, Cabana, Garden, Gazebo & Open-Air Dining",
     "priceAmount": 34032,
     "origPrice": 39449,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3511,7 +3511,7 @@ const ALL_409_VILLAS_DATA = [
       "Cabana",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Dhankya Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dhankya Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1042986_c5c50dcd5e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1042981_c7d8c6e69a.jpg",
@@ -3531,7 +3531,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Skylounge | Pet-friendly Traditional 4-Bedroom Retreat With Sauna & Garden Near Haku Temple",
     "priceAmount": 21982,
     "origPrice": 24737,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3559,7 +3559,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Sauna"
     ],
-    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Skylounge_4_45e24fe0f2.png",
       "https://d4b28jbnqso5g.cloudfront.net/Skylounge_3_3d525d4397.png",
@@ -3579,7 +3579,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Silvana | Pet-friendly 3-Bedroom Retreat With Attic, Sauna & Garden Near Haku Temple",
     "priceAmount": 18825,
     "origPrice": 21182,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3607,7 +3607,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Sauna"
     ],
-    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Narkanda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_2095_HDR_1_ff944516ca.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_2155_HDR_265db3268c.webp",
@@ -3627,7 +3627,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Energise Soul Retreat Karuna Kutir Villa | Pet-friendly 2-BHK With Kids’ Room, Garden & Spiritual Sanctuary",
     "priceAmount": 23285,
     "origPrice": 22752,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3654,7 +3654,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_6482_HDR_06ceb8ded3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Karuna_Kutir_Villa_0e02e33d56.png",
@@ -3674,7 +3674,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Energise Soul Retreat Vishuddha Villa | Pet-friendly 3-BHK With Garden,  Bonfire Pit & Shared Pool, Spiritual Sanctuary and Restro",
     "priceAmount": 31833,
     "origPrice": 31104,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3701,14 +3701,14 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Trimbakeshwar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/SP_Energise_Villa4_1_3cd9eb100e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/RNP_05322_2_76a7a0e9a0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/RNP_05378_2_5ab39ed5c0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0040_88a07510be.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Energize_featured_on_AD_1_d85901ed8e.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_complimentary_hightea_dd338493ac.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_complimentary_hightea_dd338493ac.jpeg",
       "images/Amenities_68c35fd95b.webp",
       "https://d4b28jbnqso5g.cloudfront.net/RNP_05252_2_9a1e35bdb3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/SP_Energise_Main_Pool_2_2f050ff8d5.jpg",
@@ -3721,7 +3721,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Pine View Resort | Pet-friendly Hilltop 1-Suite With Garden-Facing Balcony, Rooftop lounge, Restro & Game Zone",
     "priceAmount": 6563,
     "origPrice": 8298,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3748,7 +3748,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Kuthar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kuthar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251129174022_0214_D_2d89abae85.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_6_2026_01_02_49_PM_2b7653358f.png",
@@ -3765,10 +3765,10 @@ const ALL_409_VILLAS_DATA = [
   {
     "id": "prop_IbQu4YSZ3yyvqw",
     "slug": "kensho-marigold-3bhk-villa-with-pool",
-    "name": "Kensho Villas Marigold by ELIVAAS | Shared Pool | Serene 3-BHK With Lift; Near Popular Beaches",
+    "name": "Kensho Villas Marigold by Viral Villas | Shared Pool | Serene 3-BHK With Lift; Near Popular Beaches",
     "priceAmount": 36968,
     "origPrice": 40400,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3794,13 +3794,13 @@ const ALL_409_VILLAS_DATA = [
       "Lift",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07174_37518b4ff9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Whats_App_Image_2025_07_10_at_12_14_04_PM_f3033a0eac.png",
       "https://d4b28jbnqso5g.cloudfront.net/Kensho_e1c3313dd0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07185_Edit_2253cac810.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Whats_App_Image_2025_07_10_at_12_13_51_PM_2a6149caa4.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07197_0f58cb1e74.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07207_237829372c.jpg",
@@ -3814,7 +3814,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amber Villa | 3-BHK Retreat With Pvt Pool, Game Room & Studio Rooms",
     "priceAmount": 21811,
     "origPrice": 23371,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3840,7 +3840,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_7810_67afc74e00.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_7811_5436afc1dd.webp",
@@ -3860,7 +3860,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Elite Sereno | Luxe 4-BHK Villa With Pvt Pool & Garden",
     "priceAmount": 25997,
     "origPrice": 28384,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3886,7 +3886,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8604_HDR_e2ad986128.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8599_HDR_1_5eab20516b.webp",
@@ -3906,7 +3906,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Echoes by the Aravalli | Pet-friendly 5-BHK Villa With Private Pool, Garden, Gazebo & Scenic Aravali Views",
     "priceAmount": 28964,
     "origPrice": 33573,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -3934,7 +3934,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Siroli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siroli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0358_HDR_7fa8a60b9e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/SHU_00265_HDR_83b4431cb8.jpg",
@@ -3954,7 +3954,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Sanisa Farm |  3-BHK Farmhouse With Private Pool, Game Zone & Lush Garden",
     "priceAmount": 27161,
     "origPrice": 29923,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -3980,7 +3980,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06954_4d29676f5a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06973_7a64a1e763.webp",
@@ -4000,7 +4000,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mercara Hill | 3 BHK Pet-Friendly Retreat With Private Open-air Jacuzzi, Outdoor Seating, Verandah Sit Out & Garden",
     "priceAmount": 51643,
     "origPrice": 55387,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4026,7 +4026,7 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Outdoor Furniture"
     ],
-    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1041559_3f29735dc3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A8328_1_2_0300517ad9.jpg",
@@ -4046,7 +4046,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aamy Villa | Charming Pet-friendly 3-BHK Villa With Private Pool, Garden & Balconies ",
     "priceAmount": 23224,
     "origPrice": 22691,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -4073,7 +4073,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JGK_1697_8_9_copy_a6f912d43b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Feb_23_2026_03_08_19_PM_37b1bbd8cf.png",
@@ -4093,7 +4093,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kavya Villa | 4-BHK Pet-friendly Villa With Lounge, Game Zone, Sit-Out Areas & Panoramic Views in Kasauli Hills",
     "priceAmount": 31202,
     "origPrice": 35109,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -4120,7 +4120,7 @@ const ALL_409_VILLAS_DATA = [
       "Private patio",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260313183626_0551_D_8f452ebedf.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02034_1714e519e3.jpg",
@@ -4140,7 +4140,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Cliff Side Villa | 3-BHK + Attic | Garden | Gazebo | Balconies | Scenic Views",
     "priceAmount": 37552,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4167,7 +4167,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Chattyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chattyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7174_HDR_411bd6e9f0.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6934_HDR_6fe93c7755.webp",
@@ -4187,7 +4187,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Dilli House | 3-BHK Rooftop Villa with Private Plunge Pool, Jacuzzi, and Gym",
     "priceAmount": 30399,
     "origPrice": 33913,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4213,7 +4213,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0134_7bce1a0c64.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0175_d584fe9324.JPG",
@@ -4233,7 +4233,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Palliath House | 1-Pond-facing Room with Shared Lawn, Patio and Ponds | Proximity to the Beach, Ocean, and Estuary",
     "priceAmount": 5493,
     "origPrice": 8274,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4259,7 +4259,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Andhakaranazhy featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Andhakaranazhy featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/5_X8_A1922_copy_6464bb95c0.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06266_e5b9e99e1e.JPG",
@@ -4279,7 +4279,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa llios | Country-Style 3-BHK Villa with Private pool, Gazebo and Landscaped Garden",
     "priceAmount": 22183,
     "origPrice": 24419,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4305,7 +4305,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1036450_88760ea110.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1036373_249c169c50.jpg",
@@ -4325,7 +4325,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amber Royale | Heritage 3-BHK Villa With Private Pool, Garden & Terrace",
     "priceAmount": 27054,
     "origPrice": 29537,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4351,7 +4351,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Viyal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Viyal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A6784_HDR_a4c3156666.webp",
       "https://d4b28jbnqso5g.cloudfront.net/6_2_5f3de85d0a.jpg",
@@ -4371,7 +4371,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Panchvati Veloraa | Spacious Pet-Friendly 6-BHK Apartment | Scenic Views & Sit-Out Area",
     "priceAmount": 34038,
     "origPrice": 38302,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -4399,7 +4399,7 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260428190715_0806_D_e39e4ed6f7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1_7_19dcdd0e96.jpg",
@@ -4419,7 +4419,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Konifer Greyvine | Hillside 9-BHK Retreat with Attic, Scenic Views, Heated Pool, Garden & Outdoor Seating",
     "priceAmount": 59749,
     "origPrice": 67383,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4446,12 +4446,12 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Heated pool"
     ],
-    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250612183038_0729_D_86b6dbbb30.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03110_6b88dbce1d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8477_JPG_7ccfb0a26c.jpeg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_af62ddfc8e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_3599276e05.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/7_27b0794c16.jpg",
@@ -4466,7 +4466,7 @@ const ALL_409_VILLAS_DATA = [
     "name": " Esh | Charming Pet-friendly 6-BHK Villa With Private Pool & Garden",
     "priceAmount": 63375,
     "origPrice": 69821,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -4499,7 +4499,7 @@ const ALL_409_VILLAS_DATA = [
       "Kitchen",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Manesar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Manesar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_21_27_27_15_943a4dfd53.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_21_27_27_10_d3f1aa223d.webp",
@@ -4519,7 +4519,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Meraki | Country-Style 3-BHK Villa with Private pool, Gazebo and Landscaped Garden",
     "priceAmount": 20021,
     "origPrice": 22587,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4545,7 +4545,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A7123_74ae9fd025.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A7089_5061bd0ceb.jpg",
@@ -4556,7 +4556,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A6903_32a8943c6e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A6605_266b370647.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5698_502902c23e.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg"
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg"
     ]
   },
   {
@@ -4565,7 +4565,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Cloud 7 Waves | 4-BHK With Private Pool",
     "priceAmount": 38921,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4591,7 +4591,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_36_79813451fd.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_21_38_f736e98a76.webp",
@@ -4611,7 +4611,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Festiva Mansion | Luxe 3-BHK Villa With Pvt Pool & Garden",
     "priceAmount": 29689,
     "origPrice": 32705,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4637,7 +4637,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9532_d102bdeb0e.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9423_ff3629b2af.webp",
@@ -4657,7 +4657,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Tiger Cave Suite | Pet-friendly Room with Shared Pool & Garden on Main Ranthambore Road",
     "priceAmount": 16408,
     "origPrice": 17861,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -4684,7 +4684,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kutalpura Maliya featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kutalpura Maliya featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260223183154_0090_D_303109304a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1035804_acc5ff2b33.jpg",
@@ -4704,7 +4704,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Antarmann Casa Nova | 4-BHK | Terrace | Balcony | Lake View",
     "priceAmount": 40329,
     "origPrice": 44361,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4731,7 +4731,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A8708_HDR_eee85b21b8.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_36_59fcd9670c.webp",
@@ -4751,7 +4751,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Viola | 3-BHK Villa with Private Pool, Garden & Panoramic 360° hill view",
     "priceAmount": 20193,
     "origPrice": 22048,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4777,7 +4777,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2151_d2ee80dd06.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2181_38c4e529af.jpg",
@@ -4797,7 +4797,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shreya Blossom Retreat | 8-BHK Retreat With Private Pool, Gazebo, Garden, Bar & Scenic Aravali Views",
     "priceAmount": 60165,
     "origPrice": 66277,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4824,7 +4824,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Tulsigarh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tulsigarh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7466_8466eb0fff.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7461_87fc57a030.jpg",
@@ -4844,7 +4844,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "The Nakshatra | 3-BHK Villa With Lounge & Sit-Out Area Near Kainchi Dham & Other Popular Attractions",
     "priceAmount": 13879,
     "origPrice": 15959,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4870,7 +4870,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Bhowali featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhowali featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9867_b3531fad47.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9629_dcef1e62cf.jpg",
@@ -4890,7 +4890,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Sylvaara Meadow | Suite with Common Glasshouse Dining, Garden & Unique Experiences like Thrilling Jungle Safaris",
     "priceAmount": 7466,
     "origPrice": 9547,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4916,7 +4916,7 @@ const ALL_409_VILLAS_DATA = [
       "Outdoor Furniture",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8336_7744396bc9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8565_fc64ea55f0.jpg",
@@ -4936,7 +4936,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Lakeview Manor | Charming 5-BHK Lakeside Retreat With Garden & Balconies",
     "priceAmount": 32616,
     "origPrice": 37503,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -4963,7 +4963,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9389_HDR_cebdc10bff.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9614_HDR_3b24fe02d6.webp",
@@ -4979,11 +4979,11 @@ const ALL_409_VILLAS_DATA = [
   },
   {
     "id": "prop_tqP2nXlHPQUqWH",
-    "slug": "elivaas-lakeview-manor-3-bhk",
+    "slug": "viral villas-lakeview-manor-3-bhk",
     "name": "Lakeview Manor | Stunning 3-BHK Lakeside Getaway With Balconies & A Garden",
     "priceAmount": 30830,
     "origPrice": 33913,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5009,7 +5009,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_9331_HDR_43b2327362.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9614_HDR_3b24fe02d6.webp",
@@ -5029,7 +5029,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "The Kimadi House | 4-BHK English-Style Villa With Rooftop, Pool & Mussoorie Views",
     "priceAmount": 28453,
     "origPrice": 32716,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5055,7 +5055,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Galajiwari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Galajiwari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DH_4_A2059_54223402ec.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DH_4_A2137_8b0d3d8670.jpg",
@@ -5075,7 +5075,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Godan Terra Estate | 10-BHK Riverside Retreat with Pool, Garden, Elevated Gazebo in Nature & Mountain Views",
     "priceAmount": 63814,
     "origPrice": 69673,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5102,7 +5102,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Copy_of_1769704844636_70b13b37dd.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1769705341914_fb69e88bcb.jpg",
@@ -5122,7 +5122,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Godan Terra Cove | 6-BHK Retreat with Private Pool, Garden & Elevated Gazebo, featuring Stunning Hill & River Views",
     "priceAmount": 47900,
     "origPrice": 52297,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5149,7 +5149,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Copy_of_K81_A7104_1_defcac834b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Copy_of_P1022703_7e46d5ae26.jpg",
@@ -5169,7 +5169,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mandovar Mountain Valley Retreat | 4 Room Pet-friendly Suite In a Private Estate with Shared Pool, Garden, Restaurant & Hill Views",
     "priceAmount": 23871,
     "origPrice": 26062,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -5196,7 +5196,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/K81_A0985_459a284602.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1036106_ba6bdbfba9.jpg",
@@ -5216,7 +5216,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Bliss | 1 Premium Room Featuring Shared Pool, Gym & Restaurant With Hill Views",
     "priceAmount": 21422,
     "origPrice": 23563,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5242,7 +5242,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7463_HDR_224621730a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/P1038636_f58f518ebb.jpg",
@@ -5251,7 +5251,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/P1038670_685ab89230.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1038622_dfb921a57e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5702_c3da3db869.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7398_HDR_fdb023db3d.webp",
       "https://d4b28jbnqso5g.cloudfront.net/why_choose_us_2_72ef15dc18.webp"
     ]
@@ -5262,7 +5262,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Heaven | 1-Hillview Room with Common Pool, Gym & On-Site Restaurant",
     "priceAmount": 21422,
     "origPrice": 23563,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5288,7 +5288,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1038636_f58f518ebb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7483_HDR_47cae04854.webp",
@@ -5308,7 +5308,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Eden | 3-BHK | Pvt Pool & Garden | Scenic Views",
     "priceAmount": 19275,
     "origPrice": 21044,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5334,7 +5334,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Umarda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Umarda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_0504_HDR_e957576df9.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_0494_HDR_8c70a7f43e.webp",
@@ -5354,7 +5354,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Classic Hut | Scenic Hill Getaway With Pool, Gym & Restaurant",
     "priceAmount": 10887,
     "origPrice": 11975,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5380,13 +5380,13 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1376_533abdafdc.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7483_HDR_47cae04854.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08457_79016ce88f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7553_HDR_132be9d51c.webp",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08484_fe3af71115.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7548_a027409482.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08450_515de5d2f4.webp",
@@ -5400,7 +5400,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Vaikunth Villa | 3-BHK Getaway with Rooftop Pool, Sit-out Area, Jacuzzi, Scenic Lake & Hill Views",
     "priceAmount": 24666,
     "origPrice": 26930,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5426,7 +5426,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Amberi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Amberi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A4449_2cf81cc1fa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251126124535_0147_D_a6e76fb37f.jpg",
@@ -5446,7 +5446,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Imperial | Luxury Tent on Hills With Pool, Gazebo, Tea House & Dining",
     "priceAmount": 13609,
     "origPrice": 14970,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5472,12 +5472,12 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7473_HDR_94b638d25a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7381_607647a29c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08457_79016ce88f.webp",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08396_a2e6ccd2f3.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08401_db2f31f1be.webp",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1456_ff322daf6f.webp",
@@ -5492,7 +5492,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mihirika’s Nirvana | 5-BHK With Garden, Gazebo, Bonfire Pit & Scenic Views; Near Karnataka Garden",
     "priceAmount": 45351,
     "origPrice": 49074,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5519,7 +5519,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Nanjanad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nanjanad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JJE_01081_HDR_fc4bae1355.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/TWO_69b6fd210e.jpg",
@@ -5539,7 +5539,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Twin Chalets | 4-BHK  Pet-friendly Escape With Valley-facing lawn, Terrace & 2 Living Rooms",
     "priceAmount": 38085,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -5567,7 +5567,7 @@ const ALL_409_VILLAS_DATA = [
       "Terrace",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Bhumiadhar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhumiadhar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9850_f9e24a4f03.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Twin_Chalets_5a5e4a79b5.png",
@@ -5584,10 +5584,10 @@ const ALL_409_VILLAS_DATA = [
   {
     "id": "prop_HSj5rLEatqETwJ",
     "slug": "malai-1-room",
-    "name": "Mallai by ELIVAAS | 1 Suite With Private Garden, Sit out, & Plunge Pool | 15 Mins from Panch Ratnas",
+    "name": "Mallai by Viral Villas | 1 Suite With Private Garden, Sit out, & Plunge Pool | 15 Mins from Panch Ratnas",
     "priceAmount": 20422,
     "origPrice": 24893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5613,7 +5613,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Mahabalipuram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Mahabalipuram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251128172605_0344_D_6381796530_HDR_037af9ecfa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07100_HDR_f4b4de4fd2.jpg",
@@ -5633,7 +5633,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Jamun Farms | 2-BHK Retreat With Pvt Pool, Garden & Balcony",
     "priceAmount": 16676,
     "origPrice": 19330,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5659,7 +5659,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Amber featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Amber featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09260_HDR_2224c0ec09.webp",
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09187_HDR_copy_d73523dbee.webp",
@@ -5679,7 +5679,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Blushing Pines Retreat | Pet-friendly 3-BHK Hillside Villa with Attic & Outdoor lounge",
     "priceAmount": 27064,
     "origPrice": 31120,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -5706,7 +5706,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Bhimtal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhimtal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0837_f502b39c09.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0793_2_8090179567.jpg",
@@ -5726,7 +5726,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Sierra | 2-BHK Hillside Villa With Common Pool, Gym & Restro",
     "priceAmount": 44105,
     "origPrice": 48514,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5752,7 +5752,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1492_0c22d2f217.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08432_318ee879be.webp",
@@ -5772,7 +5772,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Nirvana Farms |  Heritage-Style 5-BHK Farmhouse with Private Pool, Lounge Area and Garden",
     "priceAmount": 35109,
     "origPrice": 40696,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5799,7 +5799,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Bagru featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bagru featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1430_6b7520b5dd.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1743_04e7cd936b.jpg",
@@ -5819,7 +5819,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Celesta | Charming Hilltop 3-BHK Villa With Private Pool, Garden & Terrace",
     "priceAmount": 27619,
     "origPrice": 30155,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5845,7 +5845,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Private Garden"
     ],
-    "tagline": "Luxury private villa in Morwaniya featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Morwaniya featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Feb_26_2026_12_13_06_PM_0f2f0ef18b.png",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Feb_26_2026_12_22_40_PM_350e7b5bd9.png",
@@ -5865,7 +5865,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Antarmann Casa Zenith | 6-BHK | Terrace | Balcony | Lake View",
     "priceAmount": 60326,
     "origPrice": 66358,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5892,7 +5892,7 @@ const ALL_409_VILLAS_DATA = [
       "Scenic View",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in TRC Road  featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in TRC Road  featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/FACADE_1_BHK_3ea491d431.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8303_5ed15f4af3.webp",
@@ -5912,7 +5912,7 @@ const ALL_409_VILLAS_DATA = [
     "name": " Antarmann Casa Ember | 2-BHK | Terrace | Lake View",
     "priceAmount": 20819,
     "origPrice": 23938,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5938,7 +5938,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in TRC Road  featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in TRC Road  featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8303_5ed15f4af3.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A8435_1e371e8bb2.jpg",
@@ -5958,7 +5958,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Gaula | 4-BHK Cottage with  Lawn and Outdoor Sit-Out | 20 mins away from Bhimtal Lake | Pet-friendly",
     "priceAmount": 27760,
     "origPrice": 31918,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -5984,7 +5984,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Gaming room"
     ],
-    "tagline": "Luxury private villa in Bhowali Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhowali Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_1458d286a6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_4a714df17a.jpg",
@@ -6004,7 +6004,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Tuscan Villa | 5-BHK Pet-Friendly Retreat with Private Pool and Garden",
     "priceAmount": 51413,
     "origPrice": 59593,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -6032,7 +6032,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Tilora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tilora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1024744_b94af7b41f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1024719_b381ce80b3.jpg",
@@ -6052,7 +6052,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Zenna | 3-BHK | Pvt Pool & Garden | Terrace | Scenic Views",
     "priceAmount": 17187,
     "origPrice": 18765,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6078,7 +6078,7 @@ const ALL_409_VILLAS_DATA = [
       "Chef on Call",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Umarda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Umarda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_6908_HDR_379a54e766.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_7031_HDR_0c79d07f08.webp",
@@ -6098,7 +6098,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Riveira Hills |  3-BHK Pet-friendly Cottage with Lush Garden, Private Pool ",
     "priceAmount": 23170,
     "origPrice": 26859,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -6125,7 +6125,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Sheetal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sheetal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9564_a6d6832e8c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_1_a9de43cfa9.webp",
@@ -6133,7 +6133,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_5_b67fad8013.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9596_8c536adfa4.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5587_HDR_74ed6dff38.webp",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9601_067d4a6086.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5546_31e535fd5e.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5655_HDR_4e9c8e0c5e.webp"
@@ -6145,7 +6145,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aranya Library Aria | 3-BHK Villa With Kids’ Room, Private Pool, Sit-out Area, Common Lounge & Garden With Forest Views",
     "priceAmount": 28037,
     "origPrice": 32237,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6171,7 +6171,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260522212055_0401_D_4627c39b68.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0170_35f1dcd10a.jpg",
@@ -6188,10 +6188,10 @@ const ALL_409_VILLAS_DATA = [
   {
     "id": "prop_gR3B3M4Jzkh7EW",
     "slug": "malai-2-room-suite",
-    "name": "Mallai by ELIVAAS |  Pet-friendly 2-Room Suite With  Private Garden, Sit out, & Plunge Pool | 15 Mins from Panch Ratnas",
+    "name": "Mallai by Viral Villas |  Pet-friendly 2-Room Suite With  Private Garden, Sit out, & Plunge Pool | 15 Mins from Panch Ratnas",
     "priceAmount": 25463,
     "origPrice": 29509,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -6218,7 +6218,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Mahabalipuram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Mahabalipuram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251128172442_0334_D_6381796530_HDR_69b33e4841.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07100_HDR_f4b4de4fd2.jpg",
@@ -6238,7 +6238,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Kumaon Cottage | Hillside Retreat With Common Pool, Gym & Restaurant",
     "priceAmount": 17011,
     "origPrice": 18712,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6264,12 +6264,12 @@ const ALL_409_VILLAS_DATA = [
       "Gym",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08343_234c5b0096.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08346_82ce806e7a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7523_HDR_5334d295ec.webp",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7483_HDR_47cae04854.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08486_83b62398df.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08344_40479f0d81.webp",
@@ -6284,7 +6284,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aranya Library Zuri | 3-BHK Villa With Private Pool, Reading Lounge, Common Lounge & Garden With Forest Views",
     "priceAmount": 25260,
     "origPrice": 29045,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6310,7 +6310,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260522211404_0391_D_a315de0308.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9939_9bc8bf9628.jpg",
@@ -6330,7 +6330,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Lakemount | 2-BHK Getaway with Private Pool, Open-Air Gazebo & Terrace At Fatehsagar Lake",
     "priceAmount": 21483,
     "origPrice": 23456,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6356,7 +6356,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Fatehsagar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Fatehsagar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7297_1_4d35fc1a9d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7292_1_e8e064e22b.jpg",
@@ -6376,7 +6376,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Lush Haven | Chic 4-BHK Retreat with Private Pool, Terrace & Landscaped Garden | Pet-friendly",
     "priceAmount": 23405,
     "origPrice": 27130,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6402,7 +6402,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Sitapura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sitapura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Lush_Haven_Drone_ceff512a3a.png",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0612_a18aeae8c0.jpg",
@@ -6422,7 +6422,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mandovar Mountain Valley Retreat | 1-Pet-friendly Suite In a Private Estate with Shared Pool, Garden, Restaurant & Hill Views ",
     "priceAmount": 10178,
     "origPrice": 11827,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -6449,7 +6449,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Thoor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "images/K81_A1159_37b37c0f6c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260225184851_0118_D_fd6fb8ffcb.jpg",
@@ -6469,7 +6469,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "The Meadow | Elegant 3-BHK Hill Retreat With Entertainment Lounge & Terrace",
     "priceAmount": 38057,
     "origPrice": 35109,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6495,7 +6495,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Dharampur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dharampur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5801_7f1e5fcc92.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5673_HDR_476527173b.webp",
@@ -6515,7 +6515,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Tiger Cave Suite | 1-Room with Private Pool, Sit-out area, Shared Pool & Garden on Main Ranthambore Road | Pet-Friendly",
     "priceAmount": 18264,
     "origPrice": 20094,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -6542,7 +6542,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Kutalpura Maliya featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kutalpura Maliya featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A0552_cb4fc54604.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260223183154_0090_D_303109304a.jpg",
@@ -6562,7 +6562,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Athena | 3-BHK Villa With Swimming Pool & Terrace",
     "priceAmount": 22097,
     "origPrice": 24125,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6588,7 +6588,7 @@ const ALL_409_VILLAS_DATA = [
       "Terrace",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A6320_0e25426706.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Shourya_Villa_jpg_d99001ae79.jpeg",
@@ -6608,7 +6608,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Godan Terra Nook | 1-Room Suite With Private Balcony In an Expansive Estate",
     "priceAmount": 11236,
     "origPrice": 13057,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6634,7 +6634,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in udaipur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260127184553_0267_D_8a09a4c68e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1769704734229_08862c0862.jpg",
@@ -6654,7 +6654,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Radhyam | Charming 2–BHK Escape With Private Pool, Garden & Aravalli Hill Views",
     "priceAmount": 15771,
     "origPrice": 17374,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6680,7 +6680,7 @@ const ALL_409_VILLAS_DATA = [
       "Workstation",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Khumanpura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Khumanpura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_3438_39_40_41_42_c07260f21a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_3371_2_3_4_5_copy_a0f13eb0d2.webp",
@@ -6700,7 +6700,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Classic Tent | Hillview Haven With Pool, Gym & Restaurant",
     "priceAmount": 11466,
     "origPrice": 12614,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6726,12 +6726,12 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7452_0c0f735e66.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7458_HDR_0c06336710.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7408_HDR_f151f51db8.webp",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7483_HDR_47cae04854.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7488_HDR_8d6907b136.webp",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1299_e8b87c2598.webp",
@@ -6746,7 +6746,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Palazao | Country-Style 3-BHK Villa with Private pool, Gazebo and Landscaped Garden",
     "priceAmount": 20688,
     "origPrice": 22587,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6772,7 +6772,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dhinkli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1036484_409fa6c0dd.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1036473_f3911d50be.jpg",
@@ -6792,7 +6792,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shreya Blossom Retreat | 4-BHK Villa With Private Pool, Gazebo, Garden, Bar & Scenic Aravali Views",
     "priceAmount": 25781,
     "origPrice": 28147,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6819,7 +6819,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Tulsigarh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tulsigarh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7466_8466eb0fff.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7587_4af1b820a3.jpg",
@@ -6839,7 +6839,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Sylvaara Maple | Room with Private Balcony, Restaurant, Garden & Unique Experiences like Thrilling Jungle Safaris",
     "priceAmount": 5972,
     "origPrice": 7637,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6865,7 +6865,7 @@ const ALL_409_VILLAS_DATA = [
       "Welcome basket",
       "Outdoor Furniture"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8630_8f1ee85160.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8626_b55ef4688c.jpg",
@@ -6885,7 +6885,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Antarmann Casa Mirage | 3-BHK | Terrace | Lake View",
     "priceAmount": 31366,
     "origPrice": 34501,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6911,7 +6911,7 @@ const ALL_409_VILLAS_DATA = [
       "Scenic View",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in June Estate featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20240909151208_0216_D_237eb74e9f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A8582_HDR_8dc7870c2c.webp",
@@ -6931,7 +6931,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Stoneva | Peaceful Mountain Retreat With Pool, Gym & Dining",
     "priceAmount": 17011,
     "origPrice": 18712,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -6957,7 +6957,7 @@ const ALL_409_VILLAS_DATA = [
       "Gym",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08386_a304c1c91a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7542_78756e49fc.webp",
@@ -6977,7 +6977,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Utopia | 1 Premium Room Featuring Shared Pool, Gym & Restaurant With Hill Views",
     "priceAmount": 21422,
     "origPrice": 23563,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7003,7 +7003,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1038637_7c8dde1ce7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1038633_79ffe080d9.jpg",
@@ -7013,7 +7013,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/P1038666_b57fabdc8f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5682_1129ca1055.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5702_c3da3db869.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg",
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1038612_30c195a91a.jpg"
     ]
   },
@@ -7023,7 +7023,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Zephyr Timberhill | Tranquil Hilltop Escape with Pool, Tea House & Dining",
     "priceAmount": 17011,
     "origPrice": 18712,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7049,7 +7049,7 @@ const ALL_409_VILLAS_DATA = [
       "Gym",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhediyana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7488_HDR_8d6907b136.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08459_dc8f062490.webp",
@@ -7069,7 +7069,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amayah Rasa | Pet-friendly 4-BHK Opulent Villa With Steam Room, Open Shower, Private Pool & a Lift",
     "priceAmount": 24597,
     "origPrice": 26475,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -7097,13 +7097,13 @@ const ALL_409_VILLAS_DATA = [
       "Lift",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02555_dd3aae0168.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02564_fd9f087428.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/5_60cb262e95.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_08a5494ebb.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/6_375d581b2a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/7_82e329d7a2.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_361118922c.jpg",
@@ -7117,7 +7117,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kamerios Maris | 1-BHK | Jacuzzi | Common Rooftop Pool | Lift ",
     "priceAmount": 9925,
     "origPrice": 11534,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7143,7 +7143,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08424_HDR_8d733f9ea3.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00555_a125c0edab.webp",
@@ -7163,7 +7163,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "House of Neptune | 1-BHK Boutique Hut | Open Kitchen | Sit-out area | 10 Meters from Ashwem Beach",
     "priceAmount": 20995,
     "origPrice": 22944,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7189,7 +7189,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Ashwem featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ashwem featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08846_ee2fc8b230.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08839_91d284dee7.webp",
@@ -7209,7 +7209,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "House of Neptune | 1-BHK Cottage | 10 mtrs from Ashwem Beach",
     "priceAmount": 13109,
     "origPrice": 15232,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7235,7 +7235,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Ashwem featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ashwem featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_2_58a78c70ca.webp",
       "https://d4b28jbnqso5g.cloudfront.net/House_of_Neptune_Location_787c4680cd.webp",
@@ -7255,7 +7255,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Orion | 3-BHK Villa With Private Pool & Terrace; Near Popular Restaurants",
     "priceAmount": 25430,
     "origPrice": 27372,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7281,11 +7281,11 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07650_86b9fed330.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07542_236f843cb9.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07593_90eaf6b40f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07654_d824b6257e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07551_Edit_ef05f2bccd.jpg",
@@ -7328,7 +7328,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_27_1_94_17_18_18_18_6e69f03d47.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_27_1_94_17_18_18_25_ad6825e285.webp",
@@ -7376,7 +7376,7 @@ const ALL_409_VILLAS_DATA = [
       "Airconditioning ",
       "Jacuzzi"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02980_HDR_e0d2d2d364.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04175_d919ba9810.webp",
@@ -7424,7 +7424,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_5_68_27_1_94_17_18_18_31_15_22_16_6c7c2709b5.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04387_598b2b543b.webp",
@@ -7444,7 +7444,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mirai Taurus |  3-BHK | Pvt Pool | Skylights",
     "priceAmount": 26466,
     "origPrice": 28487,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7470,7 +7470,7 @@ const ALL_409_VILLAS_DATA = [
       "Private Pool",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Pool_Side_1_0ffc23df36.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Living_Area_1_1_edfc99eff9.jpg",
@@ -7518,7 +7518,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1042372_JPG_7e75e655ef.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/ASK_farms_b8f881b2b1.png",
@@ -7535,10 +7535,10 @@ const ALL_409_VILLAS_DATA = [
   {
     "id": "prop_zhimU8dlRKdvrS",
     "slug": "kensho-hibiscus-3bhk-villa-with-pool",
-    "name": "Kensho Villas Hibiscus by ELIVAAS | Plunge Pool, Serene 3-BHK With Shared Pool & Lift; Near Popular Beaches",
+    "name": "Kensho Villas Hibiscus by Viral Villas | Plunge Pool, Serene 3-BHK With Shared Pool & Lift; Near Popular Beaches",
     "priceAmount": 36968,
     "origPrice": 40400,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7564,12 +7564,12 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Whats_App_Image_2025_07_10_at_12_13_51_PM_2a6149caa4.png",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0527_Edit_f1f9b76dfa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_1775_Edit_ef608b6ad8.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Whats_App_Image_2025_07_10_at_12_14_04_PM_f3033a0eac.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_1784_Edit_5f85d6a846.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_1586_Edit_69b8ee0c8c.jpg",
@@ -7584,7 +7584,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mirai Leo | Exquisite 3-BHK Villa Near Vagator Beach With Private Pool",
     "priceAmount": 28025,
     "origPrice": 30164,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7610,7 +7610,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_6_876165ee6b.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03732_Pano_fcaaf4d767.webp",
@@ -7658,7 +7658,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00280_d5a7b9ed51.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_09292_HDR_b8c19fe141.webp",
@@ -7678,7 +7678,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amayah Tattva | 3- BHK Escape With Steam Room, Open-to-Sky Shower & Private Pool",
     "priceAmount": 27258,
     "origPrice": 29338,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -7704,13 +7704,13 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06452_HDR_d03b8e1a6c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_1_e32c8787e9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/70_319711bb4c.png",
       "https://d4b28jbnqso5g.cloudfront.net/3_6272a4470a.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07902_1_b4068aafee.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/4_1f61674406.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/5_69a368af61.jpg",
@@ -7750,7 +7750,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1722_HDR_95859f0b31.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1810_HDR_b5452c9141.jpg",
@@ -7796,7 +7796,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7781_db3f20de4e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7688_787bfbfa02.jpg",
@@ -7842,7 +7842,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08835_d8ea1359e7.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08951_03c27c7e9a.webp",
@@ -7888,7 +7888,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/NS_01789_302e15c386.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Feb_26_2026_12_37_42_PM_cfed0ea38b.png",
@@ -7934,7 +7934,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03899_1_97a7e7aed8.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04316_1_c855a3e223.webp",
@@ -7980,7 +7980,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08835_d8ea1359e7.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_5_356d52b549.webp",
@@ -8026,7 +8026,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1487_HDR_7f110aed63.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1810_HDR_b5452c9141.jpg",
@@ -8072,7 +8072,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7781_db3f20de4e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7743_da67a05925.jpg",
@@ -8118,7 +8118,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7695_f1de623d6d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A7743_da67a05925.jpg",
@@ -8164,7 +8164,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04244_1_82881c80d9.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04316_1_af7bc9ffdb.webp",
@@ -8211,7 +8211,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_6_8fef8312c6.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_5_356d52b549.webp",
@@ -8257,7 +8257,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4727_HDR_Edit_copy_f8da4d4394.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4742_HDR_Edit_copy_2_fc76fd2c92.jpg",
@@ -8303,7 +8303,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Greater Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Greater Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3464_HDR_Edit_copy_847d0140e6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3410_HDR_Edit_copy_00e60cc0c1.jpg",
@@ -8350,7 +8350,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9571_d68a7eabaf.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1024858_a2bf88e709.jpg",
@@ -8396,7 +8396,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Cavalo_hero_6bbbd7ac98.png",
       "https://d4b28jbnqso5g.cloudfront.net/cavalo_living_38eb0b0752.png",
@@ -8443,7 +8443,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Board games"
     ],
-    "tagline": "Luxury private villa in Dabolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dabolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_a6ac7c9c1f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_e68f85378f.jpg",
@@ -8489,7 +8489,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1750_HDR_a2a1882a58.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1714_HDR_13e143e7f4.jpg",
@@ -8536,7 +8536,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Nerul featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nerul featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Untitled_design_633e07354e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08606_HDR_9d63db9f78.webp",
@@ -8582,7 +8582,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A0545_f1ce957179.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A0260_ed8f067f69.jpg",
@@ -8629,7 +8629,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Sohna featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sohna featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3461_2_3_4_5_Optimizer02_Optimizer_copy_2_0c62ae7de3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3141_2_3_4_5_Optimizer08_Balancer_copy_96d72dbf0c.jpg",
@@ -8675,7 +8675,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03986_03e626b383.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04289_2_f60e531a92.webp",
@@ -8722,7 +8722,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04462_fadf05f39f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04465_9f6f00b39c.webp",
@@ -8768,7 +8768,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A9175_6_7_Optimizer_copy_26990f0afc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A9349_50_51_copy_2_0b643b7f5a.jpg",
@@ -8814,7 +8814,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Banquet Hall"
     ],
-    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4161_2_3_4_5_copy_2_ab3c11801b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3921_2_3_4_5_copy_2_7a6cad3069.jpg",
@@ -8861,7 +8861,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9561_a8c0c616ed.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1024858_a2bf88e709.jpg",
@@ -8907,7 +8907,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03986_03e626b383.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04297_1_95ba809c35.webp",
@@ -8954,7 +8954,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A3137_HDR_copy_ff86853710.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_d9af3b982f.jpg",
@@ -8999,7 +8999,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5647_f796e2c635.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6297_HDR_c8e8d96f69.webp",
@@ -9049,7 +9049,7 @@ const ALL_409_VILLAS_DATA = [
       "Geyser",
       "Mini fridge"
     ],
-    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5630_dc7a176bd6.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5750_HDR_4d03de4b32.webp",
@@ -9094,7 +9094,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Karol Bagh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5638_7f0cb730cf.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6247_HDR_1e881839f3.webp",
@@ -9140,7 +9140,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Varca featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1613_HDR_a38936a6dc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/92_13185ec1a1.png",
@@ -9186,7 +9186,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A0353_1_2_7395d42bf2.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A0357_1_2_3a1822d780.jpg",
@@ -9232,7 +9232,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Banquet Hall"
     ],
-    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Noida featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4161_2_3_4_5_copy_2_ab3c11801b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/0_A0_A4186_87_88_89_90_copy_2_c991afd11b.jpg",
@@ -9278,7 +9278,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Chotta Shimla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chotta Shimla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_6580_1_3b70ea0238.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_6616_e78a6fc698.webp",
@@ -9325,7 +9325,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_0329_HDR_1_f35c514017.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03684_74fa23e8b8.webp",
@@ -9371,7 +9371,7 @@ const ALL_409_VILLAS_DATA = [
       "Private Garden",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Sohna featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sohna featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5572_HDR_80b073952e.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5572_HDR_1_172da36c86.webp",
@@ -9418,7 +9418,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in Shoghi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Shoghi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1731_21fb38db90.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1708_HDR_8595d4d3fd.webp",
@@ -9464,7 +9464,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A5810_e3b9fa59ff.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5977_23c6bb20e5.webp",
@@ -9511,7 +9511,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Hanumanahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hanumanahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05761_HDR_98e90f620a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05894_HDR_c93707826f.jpg",
@@ -9557,7 +9557,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Chotta Shimla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chotta Shimla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Baljees_1_bac91a3a8f.png",
       "https://d4b28jbnqso5g.cloudfront.net/Baljees_2_d56bbd5764.png",
@@ -9603,7 +9603,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Facade_7_54a092d8f6.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_6_2026_12_51_01_PM_682aa6c25b.png",
@@ -9623,7 +9623,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Luxe | 3-BHK | Private Pool | Gazebo | Jacuzzi",
     "priceAmount": 22526,
     "origPrice": 24247,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -9649,7 +9649,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Jacuzzi"
     ],
-    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06863_b1c075812c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06898_HDR_d6c21b1d94.webp",
@@ -9695,7 +9695,7 @@ const ALL_409_VILLAS_DATA = [
       "Gym",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A9626_HDR_b7951e81fb.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Veera_Marina_2_bhk_58fd1d0b30.png",
@@ -9743,7 +9743,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Village Chattyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Village Chattyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_2_0310f57bcd.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A4559_1b64fde7be.webp",
@@ -9789,7 +9789,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1037820_39e672ab2c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_1d7c90c068.png",
@@ -9837,7 +9837,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8674_HDR_1_0e154696e8.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8609_HDR_1_e287d78e98.webp",
@@ -9883,7 +9883,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Jagjit Nagar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jagjit Nagar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A5661_47840e4568.webp",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8019_8adbdecd7a.webp",
@@ -9929,7 +9929,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1037820_39e672ab2c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_dfa18cc07f.png",
@@ -9977,7 +9977,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A2885_3_33fdd62095.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A2878_8c4b18b06b.jpg",
@@ -10024,7 +10024,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/09_d42192a28c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00029_a8e09703bb.JPG",
@@ -10072,7 +10072,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Panchgaon featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Panchgaon featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9675a_HDR_c8bd7233e9.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02011_92585cd42b.webp",
@@ -10118,7 +10118,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260526165738_0800_D_30a1ed55f7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06958_831d35a6cd.jpg",
@@ -10164,7 +10164,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Dharmpur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0158_cf21805c31.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/03_Copy_d0d1d6ed37.jpg",
@@ -10210,7 +10210,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Lift"
     ],
-    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00164_HDR_080d5b0653.webp",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A9938_HDR_b0a7139167.webp",
@@ -10257,7 +10257,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Ponga featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ponga featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/18_3af97291a4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/58962_294e377fca.png",
@@ -10303,7 +10303,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Solan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_2300_1_2_3_4_f9eed3c940.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_2580_1_2_3_4_97eeb49281.webp",
@@ -10350,7 +10350,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Doddaballapura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Doddaballapura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/MG_6805_HDR_4d7f752a18.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/MG_6814_HDR_fbd52121ac.jpg",
@@ -10397,7 +10397,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Shoghi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Shoghi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1805_caf0405dbe.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_1708_HDR_8595d4d3fd.webp",
@@ -10443,7 +10443,7 @@ const ALL_409_VILLAS_DATA = [
       "Airconditioning ",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1040712_800a317f68.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1040750_ad694ef898.jpg",
@@ -10490,7 +10490,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Manesar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Manesar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_8288_89_90_91_92_copy_1_1cd8dd0fef.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_8343_4_5_6_7_copy_4ed599a001.webp",
@@ -10537,7 +10537,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/012_dd06af2405.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20240918033307_0494_D_b25e8d7666.JPG",
@@ -10584,7 +10584,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Gaming room"
     ],
-    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20240918041107_0503_D_28bdca995d.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/05_7327aad8d4.jpg",
@@ -10630,7 +10630,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Penthouse_5c79b76bc8.png",
       "https://d4b28jbnqso5g.cloudfront.net/Living_room_51762329b8.png",
@@ -10677,7 +10677,7 @@ const ALL_409_VILLAS_DATA = [
       "Kitchen",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kumarhatti featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260526165738_0800_D_30a1ed55f7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06933_b9c67cffeb.jpg",
@@ -10724,7 +10724,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Ponga featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ponga featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/18_1e32b753c9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_035b0fe57b.jpg",
@@ -10771,7 +10771,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Gandhi Gram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gandhi Gram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260314182939_0521_D_c9d5ae83be.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260314182955_0522_D_d569ce992a.jpg",
@@ -10817,7 +10817,7 @@ const ALL_409_VILLAS_DATA = [
       "Airconditioning ",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1040712_1_a9bb52091e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1040750_1_0aebb52ad3.jpg",
@@ -10863,7 +10863,7 @@ const ALL_409_VILLAS_DATA = [
       "Lift",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Bilekahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bilekahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07117_18_19_20_21_copy_3_787eacf4f3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07122_3_4_5_6_copy_2_1c9ff9662f.jpg",
@@ -10909,7 +10909,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Ayiroor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ayiroor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JJE_00377_HDR_2_2c6e9cf016.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250819062309_0092_D_HDR_d088d45252.jpg",
@@ -10955,7 +10955,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Loungers"
     ],
-    "tagline": "Luxury private villa in HSR featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in HSR featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/L2_fb3a601be8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/hall_69aa8fa5f1.jpg",
@@ -11001,7 +11001,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gym"
     ],
-    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00887_HDR_4301505b94.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00971_HDR_f6d303ff75.webp",
@@ -11047,7 +11047,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Hygiene kit"
     ],
-    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kodagu featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1040751_851220785e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260425175013_0567_D_4ed844f187.jpg",
@@ -11094,7 +11094,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251114135740_0044_D_aaabad0874.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/09_1_5ab4c97468.jpg",
@@ -11140,7 +11140,7 @@ const ALL_409_VILLAS_DATA = [
       "Lift",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Bilekahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bilekahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07117_18_19_20_21_copy_3_787eacf4f3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JJE_07452_3_4_5_6_copy_c992954974.jpg",
@@ -11187,7 +11187,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1773906784868_d8dd5a4eb4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9176_14ac94e51f.jpg",
@@ -11234,7 +11234,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Mandi road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Mandi road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Pine_view_cottage_55db14b8d4.png",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A6523_ae5c536fae.webp",
@@ -11280,7 +11280,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Baldeyan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A6285_7a4d202023.webp",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A6296_HDR_bcf1fde247.webp",
@@ -11326,7 +11326,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Hullegaudanahalli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hullegaudanahalli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1041544_0deb49c074.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1041542_f4f5c101e9.jpg",
@@ -11372,7 +11372,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Jacuzzi"
     ],
-    "tagline": "Luxury private villa in Palwal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Palwal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6522_HDR_affc57cabb.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6517_HDR_0c0f8ebdbe.webp",
@@ -11418,7 +11418,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Virajpet featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1037820_39e672ab2c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_dfa18cc07f.png",
@@ -11464,7 +11464,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5985_c2325ec934.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9818_e0ec0ef391.webp",
@@ -11510,7 +11510,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1773906784868_fe2ba3a398.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A2082_bb915bf18a.jpg",
@@ -11556,7 +11556,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Domlur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1037318_96ce73369e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260307170614_0204_D_9659c15ad4.jpg",
@@ -11603,7 +11603,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Kundera featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kundera featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Bagh_Sarai_Final_pix_29_cae13279d8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/enhanced_bright_green_7217fabfd4.png",
@@ -11649,7 +11649,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_5130_HDR_c66f2acb51.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Ansh_Villa_4b11002362.png",
@@ -11695,7 +11695,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Kotagiri featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kotagiri featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/MSD_0909_10_11_12_13_copy_2a97977a5b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Cleft_8915c424ff.jpg",
@@ -11741,7 +11741,7 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_6531_a86147029a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_6370_b419b9455b.jpg",
@@ -11787,7 +11787,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Ubeshwarji featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ubeshwarji featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260528205731_0475_D_60af53dda5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A9087_1ff35ef81f.jpg",
@@ -11834,7 +11834,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Tungali featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tungali featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_4222_HDR_6dbfeb7c98.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_4049_HDR_7e8e4f8e59.jpg",
@@ -11881,7 +11881,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Padli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Padli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1039319_5a5c22b8d9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1039382_1_831fcafabe.jpg",
@@ -11927,7 +11927,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Loungers"
     ],
-    "tagline": "Luxury private villa in Janakpuri featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Janakpuri featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/003_A5003_93329af0f0.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A4759_fc57dc1894.jpg",
@@ -11974,7 +11974,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Valval  featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Valval  featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_17251ed00d.webp",
       "https://d4b28jbnqso5g.cloudfront.net/JGK_8178_79_80_copy_3_1_8ccd5cd635.webp",
@@ -12020,7 +12020,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/ARP_00050_HDR_9906d3fbc0.webp",
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09704_HDR_4785e924c2.webp",
@@ -12066,7 +12066,7 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1828_HDR_84cca4eb0f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1924_HDR_7a5cc0c7b3.webp",
@@ -12113,7 +12113,7 @@ const ALL_409_VILLAS_DATA = [
       "Pet friendly",
       "Games"
     ],
-    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_5_2026_06_51_27_PM_1370ed8450.png",
       "https://d4b28jbnqso5g.cloudfront.net/Villa_2_balocny_FF_1_2_2ee2b78378.webp",
@@ -12159,7 +12159,7 @@ const ALL_409_VILLAS_DATA = [
       "Airconditioning ",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_6370_b419b9455b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_5553_ab2bb45af6.jpg",
@@ -12206,7 +12206,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Tungarli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tungarli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_935db25d03.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_a1bb27f2df.webp",
@@ -12252,7 +12252,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Tungarli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Tungarli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Frenders_cb45f9c69c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_7_2026_03_57_43_PM_403f7c72ad.png",
@@ -12298,7 +12298,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8311_65e4548f4f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8283_1ae59b1976.jpg",
@@ -12345,7 +12345,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Nagaon featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nagaon featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0428_ce9ff38633.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_04772_b51f6d34f5.jpg",
@@ -12391,7 +12391,7 @@ const ALL_409_VILLAS_DATA = [
       "Terrace",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Laxminarayanpura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Laxminarayanpura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9007_4bae9241c8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8939_71a68f66b9.jpg",
@@ -12437,7 +12437,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Janakpuri featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Janakpuri featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/003_A5003_93329af0f0.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/P1020559_4da47c72b8.jpg",
@@ -12483,7 +12483,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1803_HDR_3094209ffb.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1848_HDR_9bc280e1eb.webp",
@@ -12530,7 +12530,7 @@ const ALL_409_VILLAS_DATA = [
       "Pet friendly",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Villa_1_Bedroom_4_3_e8b3cf02a8.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Villa_1_Bedroom_4_3_1_0fe487f8e4.webp",
@@ -12573,7 +12573,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Viyal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Viyal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20251031173419_0039_D_copy_2_6c6e375e8e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_4012_copy_2_5914382752.jpg",
@@ -12619,7 +12619,7 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8316_476d0ca71f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8354_3f1ecfe348.jpg",
@@ -12666,7 +12666,7 @@ const ALL_409_VILLAS_DATA = [
       "Indoor games",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Villa_1_Bedroom_1_1_1_b36586fa37.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_5_2026_05_10_06_PM_f6d461e316.png",
@@ -12686,7 +12686,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Vintage Retreat | 5-BHK Riverfront Heritage Villa With Private Pool And  Cultural-Themed Rooms Near Malayattoor",
     "priceAmount": 23476,
     "origPrice": 29444,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -12713,7 +12713,7 @@ const ALL_409_VILLAS_DATA = [
       "Gym",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Malayattoor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Malayattoor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/12596_ead1efac4e.png",
       "https://d4b28jbnqso5g.cloudfront.net/P1039168_ce350d9ae4.jpg",
@@ -12759,7 +12759,7 @@ const ALL_409_VILLAS_DATA = [
       "Loungers",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Jagannath Pura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jagannath Pura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/FC_3_a59cba3fdb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/SP_3_6142f95e09.jpg",
@@ -12806,7 +12806,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Badgaon featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Badgaon featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_9425_f9d59efe45.webp",
       "https://d4b28jbnqso5g.cloudfront.net/wmremove_transformed_1_bf582eb88d.png",
@@ -12852,7 +12852,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Ayiroor featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ayiroor featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250818181542_0550_D_6381796530_HDR_490abeb769.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JJE_00382_HDR_4070b29925.jpg",
@@ -12899,7 +12899,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Kundera featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kundera featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Bagh_Sarai_Final_pix_9_176802f947.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Bagh_Sarai_Final_pix_11_faea542058.jpg",
@@ -12945,7 +12945,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Gold Valley featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gold Valley featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03476_c6c9b6d24c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03416_1be605d70a.jpg",
@@ -12991,7 +12991,7 @@ const ALL_409_VILLAS_DATA = [
       "Private patio",
       "Workstation"
     ],
-    "tagline": "Luxury private villa in Chaul featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chaul featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_4f9caa768e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7757_3d2e9dbe68.jpg",
@@ -13037,7 +13037,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Valvan featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Valvan featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/JPG_5277_HDR_copy_a899b5c9bb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/JPG_4853_HDR_copy_8e0126430b.jpg",
@@ -13083,7 +13083,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0059_c26963b392.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0005_644a272ab9.jpg",
@@ -13130,7 +13130,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/ARP_09704_HDR_758575621b.webp",
       "https://d4b28jbnqso5g.cloudfront.net/pic_3_02d0a00ae5.webp",
@@ -13178,7 +13178,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Bhagwanpura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhagwanpura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1024392_6a5de0c7a9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9193_8d5a371684.jpg",
@@ -13224,7 +13224,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Bhankrota featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhankrota featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0680_1_e05fcbb3b5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0637_778b6042ed.jpg",
@@ -13270,7 +13270,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Ugrasen Nagar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ugrasen Nagar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A5713_4a94954b62.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A5950_ad34439064.jpg",
@@ -13317,7 +13317,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girdhar Marg featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/pic_1_328421dcb2.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_2_49e2589c24.webp",
@@ -13363,7 +13363,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jambrung featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0005_644a272ab9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_6370_b419b9455b.jpg",
@@ -13410,7 +13410,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Padli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Padli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Timber_Premium_1_49b54bd91e.png",
       "https://d4b28jbnqso5g.cloudfront.net/P1039382_1_831fcafabe.jpg",
@@ -13456,7 +13456,7 @@ const ALL_409_VILLAS_DATA = [
       "Terrace",
       "Outdoor Furniture"
     ],
-    "tagline": "Luxury private villa in Hirewadi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hirewadi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1039647_96f1a3b9e3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6897_c73d281909.jpg",
@@ -13502,7 +13502,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Girwa featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1798_HDR_459b2cf23b.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A1813_HDR_4f4bf46e01.webp",
@@ -13548,7 +13548,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ramgarh Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8375_4476219b70.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8354_3f1ecfe348.jpg",
@@ -13595,7 +13595,7 @@ const ALL_409_VILLAS_DATA = [
       "Pet friendly",
       "Outdoor Furniture"
     ],
-    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Naina Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Amara_Hero_6b949e7d46.png",
       "https://d4b28jbnqso5g.cloudfront.net/Villa_3_Balcony_2_49cab40c0f.webp",
@@ -13641,7 +13641,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Shahapur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Shahapur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0167_HDR_0cde8004dc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/OMI_08550_HDR_32d85c69cb.jpg",
@@ -13689,7 +13689,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Jamwa Ramgarh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jamwa Ramgarh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_8064_HDR_c2a4a58d1c.webp",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_5_24772d2b72.webp",
@@ -13737,7 +13737,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01608_HDR_a3de027057.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/20_0ab847e384.jpg",
@@ -13783,7 +13783,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kulri Bazar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kulri Bazar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8187_5f1c6f4f2c.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8156_8ab3f4fe4a.jpeg",
@@ -13829,7 +13829,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0101_b0ea07c14a.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260523213530_0430_D_5b51776d46.jpg",
@@ -13876,7 +13876,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Fram_cfd44f4fe6.png",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A9012_41e2d299cc.webp",
@@ -13923,7 +13923,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0506_fd78e71519.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0486_0a9bd33de8.JPG",
@@ -13970,7 +13970,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Loungers"
     ],
-    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0471_7298204801.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06396_3595e38a4e.JPG",
@@ -14016,7 +14016,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Chander Lok Colony featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chander Lok Colony featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9135_f2e22b9c84.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A9564_3ee6fed62e.jpg",
@@ -14063,7 +14063,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02663_c843881b56.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/1_0e3f5ee4d5.jpg",
@@ -14109,7 +14109,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0106_5a87ad4ae4.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Jun_24_2026_03_12_06_PM_1762f58457.png",
@@ -14155,7 +14155,7 @@ const ALL_409_VILLAS_DATA = [
       "Private Garden",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Bhowali featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhowali featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9729_HDR_2_5bfd168daf.webp",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9809_HDR_9ea8c08e03.webp",
@@ -14202,7 +14202,7 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Pet friendly"
     ],
-    "tagline": "Luxury private villa in Kulri Bazar featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kulri Bazar featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0044_aa31bbf559.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A9873_ba9a8fedfb.jpg",
@@ -14248,7 +14248,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Lawn"
     ],
-    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02242_c29df81e6c.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/The_Urban_Escape_8d13de6c2b.png",
@@ -14294,7 +14294,7 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Chander lok colony featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Chander lok colony featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9135_f2e22b9c84.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A9653_f10353e047.jpg",
@@ -14340,7 +14340,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in Bhimtal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhimtal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5194_HDR_3_6b6fb07bc2.webp",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_5279_HDR_2_7afe0a84a2.webp",
@@ -14387,7 +14387,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Ram Niwas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ram Niwas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A3798_99d00ae21a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A4214_89a6bb5067.webp",
@@ -14433,7 +14433,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260525214528_0467_D_fc075614e3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1060_d9ffb6c0f3.jpg",
@@ -14480,7 +14480,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Bar"
     ],
-    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Trio_s_6c753dd788.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0486_0a9bd33de8.JPG",
@@ -14527,7 +14527,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Majhkali featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Majhkali featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Snowpeak_d7589a05b5.png",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_5_2026_06_38_36_PM_0e0c98f1a1.png",
@@ -14573,7 +14573,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4771_HDR_8e2a9b3600.webp",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4909_HDR_152c2d3d5b.webp",
@@ -14620,7 +14620,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Bhagwantpur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bhagwantpur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0978_HDR_528f338300.webp",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0808_9551b63ba5.webp",
@@ -14667,7 +14667,7 @@ const ALL_409_VILLAS_DATA = [
       "Private patio",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8701_f978f6a9d5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8362_9b314e71e5.jpg",
@@ -14713,7 +14713,7 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Airconditioning "
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1019_b2ce1169e9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1027_7590bfcf8f.jpg",
@@ -14759,7 +14759,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in  South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in  South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4925_HDR_8514e45435.webp",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4909_HDR_a41cab5a4c.webp",
@@ -14805,7 +14805,7 @@ const ALL_409_VILLAS_DATA = [
       "Welcome basket",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Melville Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Melville Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0948_11029828d5.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01163_cce462edc4.webp",
@@ -14852,7 +14852,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Johri Gaon featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Johri Gaon featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_5_2026_06_23_44_PM_926c2a6ab5.png",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A3123_0054c7d644.webp",
@@ -14899,7 +14899,7 @@ const ALL_409_VILLAS_DATA = [
       "Indoor games",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8877_0fd1c1f996.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A8890_3d1a22bb6f.jpg",
@@ -14946,7 +14946,7 @@ const ALL_409_VILLAS_DATA = [
       "Private patio",
       "Workstation"
     ],
-    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Saitoli featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8671_1f5d93c33d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8633_e472fda25b.jpg",
@@ -14992,7 +14992,7 @@ const ALL_409_VILLAS_DATA = [
       "Lawn",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jangalia Gaon Ganja featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02250_4c3a151ea7.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260523212853_0421_D_92e5d7dea2.jpg",
@@ -15039,7 +15039,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Games"
     ],
-    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in South Gola Range featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4893_HDR_82cb81a3d6.webp",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A4779_HDR_7c2eef6f26.webp",
@@ -15086,7 +15086,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Village Daniyon ka Danda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0015_b4f01b2912.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/1_0e3f5ee4d5.jpg",
@@ -15106,7 +15106,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Solace Teal | Charming Pet-friendly 5-BHK Getaway With Private Pool | Grand Dining & 2 living spaces",
     "priceAmount": 38921,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -15134,7 +15134,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08303_07f53458d2.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07941_c6e61c33b9.webp",
@@ -15154,7 +15154,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Anasa | 4-BHK | Pvt Pool | Garden | Outdoor Sitting Area",
     "priceAmount": 30781,
     "origPrice": 33133,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15180,7 +15180,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00232_988c0cce99.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00300_a04a93b12a.webp",
@@ -15200,7 +15200,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Da Sol | 3-BHK Villa with Private Pool, Lounge Space & Balconies; in a Gated Complex",
     "priceAmount": 21078,
     "origPrice": 22688,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15226,7 +15226,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A3385_HDR_e6b50f3bf1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260520150624_0178_D_daf91469c6.jpg",
@@ -15246,7 +15246,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "PUro Sol | 3-BHK Villa In a Gated Complex With Private Pool & Bathtub | Near Popular Beaches",
     "priceAmount": 25751,
     "origPrice": 28085,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15272,7 +15272,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07467_HDR_47c53d6e98.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_May_11_2026_05_56_17_PM_06e5cf3e97.png",
@@ -15292,7 +15292,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Boa Vida | Luxe 4-BHK Villa Near Candolim Beach With Private Pool, Terrace & Bar",
     "priceAmount": 34678,
     "origPrice": 37326,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15318,7 +15318,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Candolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1304_HDR_8d1e1095fd.webp",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A1873_HDR_8d26289297.webp",
@@ -15338,7 +15338,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Maison 10 | Luxe 4-BHK Villa With Pvt Pool, Garden & Portuguese Charm",
     "priceAmount": 26778,
     "origPrice": 28822,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15365,7 +15365,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/096_A0422_copy_e58f88e10f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Maison_Hero_114016f5d6.png",
@@ -15385,7 +15385,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kensho Villas Daisy with Private Pool | Serene 5-BHK With Shared Pool & Lift; Near Popular Beaches",
     "priceAmount": 54426,
     "origPrice": 59478,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15412,13 +15412,13 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Majorda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Whats_App_Image_2025_07_10_at_12_14_04_PM_f3033a0eac.png",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0541_Edit_a06b4c7704.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07324_Edit_d223c63960.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07298_a7a7b05b6a.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Kensho_e1c3313dd0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07339_ed6d5d44aa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07235_dfe25d74ae.jpg",
@@ -15432,7 +15432,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Lumin | 4-BHK | Pvt Pool | Garden | Bar",
     "priceAmount": 30825,
     "origPrice": 33179,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15459,7 +15459,7 @@ const ALL_409_VILLAS_DATA = [
       "Chef on Call",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00160_d2ddb42d9f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00086_HDR_0e5101a9e7.webp",
@@ -15479,7 +15479,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Ritzy | Indo-Portuguese 5-BHK Villa With Private Pool & Lift Near Popular Beaches",
     "priceAmount": 65258,
     "origPrice": 71315,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15506,7 +15506,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06099_c09206cea7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06158_5fe9a4c2b5.jpg",
@@ -15514,7 +15514,7 @@ const ALL_409_VILLAS_DATA = [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06134_735fff5138.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06374_3b23ed919e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06103_be9a5e2dd5.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/New_Project_a6bcd7fab7.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05978_7306643ed9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06172_HDR_b157885ead.jpg"
@@ -15526,7 +15526,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mirai Villa Sukoon | 3-BHK | Pvt Pool | Proximity To Popular Beaches",
     "priceAmount": 28103,
     "origPrice": 30249,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15552,7 +15552,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03489_73271d8bc2.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03461_HDR_1874b863e4.webp",
@@ -15572,7 +15572,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Euphoria | 4-BHK | Pvt Pool | Ent. Lounge",
     "priceAmount": 33560,
     "origPrice": 36676,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15599,7 +15599,7 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06092_2_f6c78bdedf.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05827_HDR_975c4dd998.webp",
@@ -15619,7 +15619,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Verdea | 4-BHK Villa With Private Pool & Lift; Near Popular Restaurants",
     "priceAmount": 32366,
     "origPrice": 34838,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15646,7 +15646,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Loungers"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07207_9835cee50d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07236_HDR_be3015f90f.jpg",
@@ -15666,7 +15666,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Mirai Gemini | 3-BHK | Pvt Pool| Skylights | Near Party Hotspots",
     "priceAmount": 24909,
     "origPrice": 26811,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15692,7 +15692,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Vagator featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03489_23420ba70f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_03436_HDR_6a0be796ea.webp",
@@ -15712,7 +15712,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Monforte Ayada | 3-BHK | Pvt. Pool & Garden",
     "priceAmount": 31216,
     "origPrice": 33599,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15738,7 +15738,7 @@ const ALL_409_VILLAS_DATA = [
       "Private Garden",
       "Wifi"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05663_HDR_264599defa.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_05673_HDR_bbf4d1426a.webp",
@@ -15758,7 +15758,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Valley View | 5-BHK Villa With Private Pool, Sit-out Areas, TT Table, Pool Table, Bar & Scenic Views",
     "priceAmount": 38752,
     "origPrice": 41712,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15785,7 +15785,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_23eea49a5d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Untitled_design_26646ecc14.jpg",
@@ -15805,7 +15805,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Purple Coral | Luxe 5-BHK Villa With Two Private Pools & Lift Near Chapora Fort",
     "priceAmount": 56257,
     "origPrice": 61478,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15832,12 +15832,12 @@ const ALL_409_VILLAS_DATA = [
       "Lift",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Website_c5b674b540.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07664_f543436b63.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07770_e275701d51.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07552_60c066552f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07576_25653c8b70.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_07669_af22db2b2b.jpg",
@@ -15852,7 +15852,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Vacasa | 5-BHK | Pvt Pool & Lift | Pet-friendly",
     "priceAmount": 39699,
     "origPrice": 42730,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -15880,7 +15880,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Calangute featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_08362_HDR_aec53cec6f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06874_HDR_d8b13734d7.webp",
@@ -15900,7 +15900,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Bonita | 4-BHK with Private Pool, Gazebo, and Patio Area| Close to Candolim Beach",
     "priceAmount": 30514,
     "origPrice": 32844,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15927,7 +15927,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Pilerne featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/OMI_05013_HDR_971aaecc61.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/OMI_05733_HDR_16ace76b6b.jpg",
@@ -15947,7 +15947,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Bauhinia | 5-BHK Villa With Private Pool, Garden,Gazebo & Entertainment Lounge",
     "priceAmount": 38921,
     "origPrice": 41893,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -15978,7 +15978,7 @@ const ALL_409_VILLAS_DATA = [
       "CCTV",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/10_15614c2181.webp",
       "https://d4b28jbnqso5g.cloudfront.net/dining_7c4fa688dc.webp",
@@ -15998,7 +15998,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Shai | 4-BHK | Pvt Pool | Gazebo | Entertainment Lounge",
     "priceAmount": 30628,
     "origPrice": 32967,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16025,7 +16025,7 @@ const ALL_409_VILLAS_DATA = [
       "Private Pool",
       "Kitchen"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Shai_84db72126f.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01825_HDR_491c89cdfa.webp",
@@ -16045,7 +16045,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Valerie | Pet-friendly 3-BHK Villa Near Popular Attractions With Pvt Pool & Bar",
     "priceAmount": 20918,
     "origPrice": 22515,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -16072,7 +16072,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "BBQ Grill"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06813_HDR_7d107cc79a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06487_HDR_77f63d5600.webp",
@@ -16092,7 +16092,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Bogenvilla | Luxe 3-BHK Villa Near Popular Beaches With Private Pool",
     "priceAmount": 24096,
     "origPrice": 26213,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16118,7 +16118,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Pool"
     ],
-    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06512_7592ceac42.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06437_6bb56ffe9d.webp",
@@ -16138,7 +16138,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "PinkSky | 4-BHK | Pvt. Pool, Bar & Gazebo",
     "priceAmount": 30825,
     "origPrice": 33179,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16165,7 +16165,7 @@ const ALL_409_VILLAS_DATA = [
       "Pool",
       "BBQ Grill"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/PS_16_822f555325.webp",
       "https://d4b28jbnqso5g.cloudfront.net/PS_11_e307ea2514.webp",
@@ -16185,7 +16185,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Del Mar | Elegant 4-BHK Villa with Pool, Bars, TV Lounge, Gazebo & Terraces",
     "priceAmount": 30826,
     "origPrice": 33180,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16212,7 +16212,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Anjuna featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01075_8e490e3f3b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01105_2042bb9e3d.jpg",
@@ -16232,7 +16232,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Lotus | 3-BHK Villa with Private Pool, Cosy Nook, Balconies; in a Gated Complex",
     "priceAmount": 21240,
     "origPrice": 22861,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16258,12 +16258,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/PASSAGE_3_d72d795cac.png",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_20251008_WA_0002_9c8831daaa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/L1_5953f1722c.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/4_R0_A9881_HDR_7faaca2a45.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_20251008_WA_0001_65f94ecd30.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/D3_9fa52fda74.jpg",
@@ -16278,7 +16278,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Del Mundo | Luxe Pet-friendly 4-BHK Villa With Pvt Pool, Bar, Lift & Scenic Hill Vistas",
     "priceAmount": 32366,
     "origPrice": 34838,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -16306,7 +16306,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/OMI_04423_HDR_761604cb8a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/OMI_04383_HDR_0293b9a47a.jpg",
@@ -16326,7 +16326,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Elysee | 3-BHK Villa With Private Pool, Gazebo & Balcony",
     "priceAmount": 24940,
     "origPrice": 26844,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16352,7 +16352,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Private Pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/OMI_03443_HDR_5ddf64e9f9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/OMI_03328_HDR_ab88604a87.jpg",
@@ -16372,7 +16372,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amayah Vayu | Two 3-BHKs Indo-Portuguese Escape With Common Pool",
     "priceAmount": 32366,
     "origPrice": 34838,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16399,13 +16399,13 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Common pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02788_66ac09cf27.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_57f9a1733a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_717edb06d9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_128d43bacb.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/4_4a5b12ae2f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/5_fc0d800271.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/6_55f68a717d.jpg",
@@ -16419,7 +16419,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Amayah Neer | Serene 3-BHK Heritage Villa Near Assagao's Finest",
     "priceAmount": 14481,
     "origPrice": 15588,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16445,13 +16445,13 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02787_66dbd2fbdc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_0e69c21900.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_0a95b8f9c2.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_3661d842a7.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/4_ce7700e021.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/5_2cbc6cd37b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/6_e36c3b1247.jpg",
@@ -16465,7 +16465,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Frienders | Indo-Portuguese 5-BHK Villa With Private Pool & Lift Near Popular Beaches",
     "priceAmount": 41614,
     "origPrice": 44792,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -16493,12 +16493,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Assagao featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Frenders_f1bc309a00.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02197_7c279cf7ef.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02082_8fec5498db.webp",
-      "https://d4b28jbnqso5g.cloudfront.net/ELIVAAS_CARD_25be846f0f.jpg",
+      "https://d4b28jbnqso5g.cloudfront.net/Viral Villas_CARD_25be846f0f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02224_7632c063b2.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02196_ff3cd0a777.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02089_9dfbd3cfe0.webp",
@@ -16513,7 +16513,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Villa Judiline | Elegant Pet-friendly 3-BHK Villa With Pvt Pool, Indoor Bar & Outdoor Sitting",
     "priceAmount": 20918,
     "origPrice": 22515,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": true,
     "isNew": false,
@@ -16540,7 +16540,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "BBQ Grill"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06813_HDR_7d107cc79a.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_06723_HDR_Edit_1_8d7d805dfb.webp",
@@ -16586,7 +16586,7 @@ const ALL_409_VILLAS_DATA = [
       "Chef on Call",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Sariska featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sariska featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260617181346_0066_D_edaeee347a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Aug_8_2026_02_32_49_PM_cb4a9863a7.png",
@@ -16606,7 +16606,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Florencia | 2 Exotic 3-BHK Retreats In a Secluded Estate With Private Pools, & Lounge Spaces | Near Siolim Sunset Point",
     "priceAmount": 40227,
     "origPrice": 43299,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16633,12 +16633,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Siolim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/4_R0_A0095_HDR_9e9b6b4b66.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A3385_HDR_e6b50f3bf1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/L2_24c89445f9.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A3373_HDR_f9cf689be5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_20251008_WA_0002_9c8831daaa.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A3239_HDR_a168535377.jpg",
@@ -16679,7 +16679,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Dining Table"
     ],
-    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260730142514_0839_D_1_255cf74e31.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02010_1_a03c448449.jpg",
@@ -16699,7 +16699,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aaraa Vilas | 4-BHK Luxury Villa with Private Pool, Home Theatre & Panoramic Hill",
     "priceAmount": 35728,
     "origPrice": 34910,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16726,13 +16726,13 @@ const ALL_409_VILLAS_DATA = [
       "Parking",
       "Bar"
     ],
-    "tagline": "Luxury private villa in Sangvi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sangvi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260703172214_0033_D_eb687c62ba.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Jul_9_2026_05_03_09_PM_b3fb7a4a02.png",
       "https://d4b28jbnqso5g.cloudfront.net/P1044116_2588bdff7a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1044020_bbef8e731b.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1044100_8bb4dfe8ac.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/IMG_0229_2aef342b72.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/P1044054_f11a412e92.jpg",
@@ -16772,7 +16772,7 @@ const ALL_409_VILLAS_DATA = [
       "Indoor games",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Rajakkad featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Rajakkad featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/AKC_02263_HDR_eeab3aec76.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260725212655_0246_D_00f18139ec.jpg",
@@ -16792,7 +16792,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kosh Villa Glenhaven | 3- BHK Villa with Private Balconies & Panoramic 360 Mountain Views",
     "priceAmount": 21131,
     "origPrice": 23778,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16818,12 +16818,12 @@ const ALL_409_VILLAS_DATA = [
       "Eco-friendly hygiene kit",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Garkha featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkha featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Jul_8_2026_06_06_16_PM_b9ab8bed84.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01554_08031d3b2d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01777_882cec527e.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01529_30b2273eeb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260626194922_0832_D_0c477df748.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01539_6c340638cd.jpg",
@@ -16838,7 +16838,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Horizon | 6-BHK Villa with Private Pool, Spacious Lawn, Terrace & Poolside Gazebo",
     "priceAmount": 35840,
     "origPrice": 41544,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16865,12 +16865,12 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Bagrana featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bagrana featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7471_61fd052454.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045915_eec204b7a0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7348_408b22a6a3.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045766_0_f5cb979b68.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1046038_6c18890c96.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1046066_95144cf3f1.jpg",
@@ -16885,7 +16885,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Hathnoda Bagh Lagoon | Cottage within a Mini Resort with Bathtub, Shared Pool, Restaurant, Sit Out & Garden",
     "priceAmount": 6893,
     "origPrice": 8980,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16911,7 +16911,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Restaurant"
     ],
-    "tagline": "Luxury private villa in Hathnoda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hathnoda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1045105_cb6c8fca9f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Lagoon_Hero_e238d4d293.png",
@@ -16931,7 +16931,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raj Villas Alvora | Pet-Friendly 1-Room Hotel Suite with Aravalli Hill Views",
     "priceAmount": 6570,
     "origPrice": 9343,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -16957,12 +16957,12 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7139_14b40fadae.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7160_1_c7be8507bd.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045667_1_bd3379ddb2.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250131072418_0624_D_ec042ee9a0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045657_1_778436e4e4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7172_1_a8036b7096.jpg",
@@ -16977,7 +16977,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Hathnoda Bagh Cascade | Cottage within a Mini Resort with Open Shower, Shared Pool, Restaurant, Sit Out & Garden",
     "priceAmount": 6572,
     "origPrice": 8561,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17003,7 +17003,7 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Hathnoda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hathnoda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1045234_ef5fbad1b1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045241_f68978e62a.jpg",
@@ -17023,7 +17023,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Vilson |  3-BHK Villa With Private Pool, Indoor Bar, Bathtub and Courtyard ",
     "priceAmount": 21885,
     "origPrice": 23557,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17049,7 +17049,7 @@ const ALL_409_VILLAS_DATA = [
       "Bar",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Porvorim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Porvorim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A5920_HDR_ff9e381fac.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Casa_Eden_Hero_1806450548.png",
@@ -17069,7 +17069,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Earthstone | 4-BHK Stone Retreat with Private Pool, Garden, Gazebo, Terrace, & Open-Air Dining ",
     "priceAmount": 35481,
     "origPrice": 41127,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -17095,7 +17095,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Rojda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Rojda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260530162045_0028_D_fdc5635267.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9870_ca38168c08.jpg",
@@ -17115,7 +17115,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Sakura Villa | Japanese-Themed 4-BHK Villa with Private Pool, Open Terrace, Garden & Mountain-View Balcony",
     "priceAmount": 41981,
     "origPrice": 41020,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17141,13 +17141,13 @@ const ALL_409_VILLAS_DATA = [
       "Terrace",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Khandala featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9971_7eab444f35.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9901_06f894cc6c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_0869_cca02bffe1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9701_17e4c446d8.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9922_14352ff3f3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9900_0e31045807.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_9743_f1c326b611.jpg",
@@ -17187,7 +17187,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02088_683ffa0607.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01530_98d8b6ce2e.jpg",
@@ -17207,7 +17207,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raj Villas Astera  | Pet-Friendly 1 room suite in a resort with pool and Aravalli Hills view",
     "priceAmount": 7640,
     "origPrice": 10864,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17233,12 +17233,12 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Hygiene kit"
     ],
-    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1045630_6ade6f2bc1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7126_de3299534d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7033_81a6e25bb9.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250131072418_0624_D_ec042ee9a0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7116_72c1784405.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045623_5efe9e2202.jpg",
@@ -17253,7 +17253,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Gerry’s by the sea- ECR | Chic 4-BHK Escape with Lounge, Pool, Sit-out and Terrace",
     "priceAmount": 31746,
     "origPrice": 34351,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17279,12 +17279,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Panaiyur featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Panaiyur featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/05_c9feec56c6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/06_6b213485c4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/02_ai_adf89b05da.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/02_f184d85cb8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/04_3_3fd3bc1be5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/05_016527176e.jpg",
@@ -17299,7 +17299,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Fernwood | 6-BHK Stone-Clad Estate with Bamboo Cottages, Private Pool, Gazebo & Terrace Garden",
     "priceAmount": 51846,
     "origPrice": 60097,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": false,
@@ -17326,7 +17326,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Rojda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Rojda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260530162045_0028_D_fdc5635267.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A9919_a39d87f4c9.jpg",
@@ -17372,7 +17372,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Jaisinghpura featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jaisinghpura featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5838_48b212389f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5843_204af98612.jpg",
@@ -17418,7 +17418,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Bankrota featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bankrota featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3359_a997d5b19c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3066_2c1a6d3f4b.jpg",
@@ -17438,7 +17438,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "SK Villa | 4-BHK Retreat with Private Pool, Sit-Out & 360° Panoramic Views, Near Korigad Fort",
     "priceAmount": 39301,
     "origPrice": 38401,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17465,12 +17465,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Ambey Valley featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ambey Valley featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6941_HDR_18a717c774.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6698_HDR_78a8c38b60.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6662_HDR_901f98289b.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260622173308_0270_D_6967eeff7e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6686_HDR_48439f71f3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6516_HDR_d460cbff5b.jpg",
@@ -17511,7 +17511,7 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Indoor games"
     ],
-    "tagline": "Luxury private villa in Hirewadi featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Hirewadi featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260702183156_0024_D_110ef664a6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1044178_49265c9b6e.jpg",
@@ -17531,7 +17531,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Peace & Calm | Room with River-View Balconies, Terrace , Garden & Alfresco Dining",
     "priceAmount": 9005,
     "origPrice": 9863,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17557,12 +17557,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Terrace"
     ],
-    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Morjim featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Jul_7_2026_11_09_55_AM_02c09c2f89.png",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A8334_HDR_bdb171c499.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A7934_HDR_4b0bd8e701.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A8211_HDR_2931487bde.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260626181816_0319_D_f26165947f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A8104_HDR_e052174e4a.jpg",
@@ -17577,7 +17577,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Shourya Aravalli | 4 BHK Villa with Private Pool, Garden Sit-Out & Aravalli Hill Views",
     "priceAmount": 27326,
     "origPrice": 29835,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17603,13 +17603,13 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Welcome basket"
     ],
-    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kaladwas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1045476_c7a91ab26f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6703_ea7825d8f7.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6992_967bd65b29.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6856_88a857df38.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045532_06d7b6573e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6982_6e400bfbfc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6946_3fcc50a6de.jpg",
@@ -17623,7 +17623,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Angelo’s Farm | Pet-Friendly 8-BHK Villa with Private Pool, Garden, Terrace & Hill Views",
     "priceAmount": 51200,
     "origPrice": 59347,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17650,13 +17650,13 @@ const ALL_409_VILLAS_DATA = [
       "Eco-friendly hygiene kit",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Kukas featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kukas featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250128015803_0599_D_c5b5c56101.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6632_autopilot_de9f5a0eac.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6616_1_c411c8dfed.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045363_ab2c92956f.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "images/K81_A6641_fb4b544b78.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6657_14d00fd0af.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A6583_ea5e95bb4d.jpg",
@@ -17696,7 +17696,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Sun Loungers"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260623215153_0181_D_8a19b7db5c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Royal_Green_ceacd6668a.png",
@@ -17742,7 +17742,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Sariska featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Sariska featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260617174819_0044_D_b1e38d028d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/hf_20260620_221350_5b361e66_7b97_44e3_aed6_eeba58d32448_4479d97fda.png",
@@ -17788,7 +17788,7 @@ const ALL_409_VILLAS_DATA = [
       "Housekeeping staff",
       "Hygiene kit"
     ],
-    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02088_683ffa0607.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02108_9b72e31516.jpg",
@@ -17808,7 +17808,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "RK Villa | 4-BHK Hideaway with Private Pool, Sit-Out & 360° Panoramic Views, Close to Korigad Fort",
     "priceAmount": 39301,
     "origPrice": 38401,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17835,12 +17835,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Ambey Valley featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Ambey Valley featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/RK_Villa_26af8595a9.png",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6363_HDR_c5582e69fe.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6769_HDR_3fa048cf76.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260622173348_0272_D_73f6b26875.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6516_HDR_d460cbff5b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/3_S7_A6933_HDR_aaa48c58a0.jpg",
@@ -17855,7 +17855,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Beyond the Curb | 3- BHK Villa with Private Jacuzzi, Open-air Terrace & Hill Views",
     "priceAmount": 20281,
     "origPrice": 22821,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -17881,13 +17881,13 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Khajret featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Khajret featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260626100109_0811_D_0eca55e9b4.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/Beyond_the_Curb_7df835516d.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01195_ed83ec756f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01251_440aa8a9ff.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01019_c3c60223fb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01185_d564bf8e4f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00844_fba3598ae9.jpg",
@@ -17927,7 +17927,7 @@ const ALL_409_VILLAS_DATA = [
       "Air Conditioning",
       "Caregiver"
     ],
-    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Gurugram featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A0469_f1c7054ed9.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/1_H7_A0489_64d464434b.jpg",
@@ -17973,7 +17973,7 @@ const ALL_409_VILLAS_DATA = [
       "Dining Table",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Manjapra featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Manjapra featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/AKC_02008_HDR_d60665458c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Mangaly_Heritage_ba91efbf03.png",
@@ -17993,7 +17993,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Casa Amore | 4-BHK Portuguese-Inspired Twin Villas In a Secluded Estate with Private Pools & Mini Bars | Close to Calangute & Baga Beach",
     "priceAmount": 55268,
     "origPrice": 59488,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18020,13 +18020,13 @@ const ALL_409_VILLAS_DATA = [
       "Chef on Call",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Arpora featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02640_HDR_2d498dac51.webp",
       "https://d4b28jbnqso5g.cloudfront.net/Amore_4a5df679e4_baf9352c48.webp",
       "https://d4b28jbnqso5g.cloudfront.net/pool_1_44ea9e0934_3528bbc855.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00022_HDR_eb5db6a0f2.webp",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00160_d2ddb42d9f.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_00086_HDR_0e5101a9e7.webp",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02616_HDR_58b4466956.webp",
@@ -18040,7 +18040,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kosh Villa | 5-BHK Villa With Rooftop Terrace, Pool Table & Mountain Views",
     "priceAmount": 34747,
     "origPrice": 39100,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18067,7 +18067,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Scenic View"
     ],
-    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkhal featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260626183034_0819_D_a5960854c8.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/Kosh_Villa_0a9d4e9188.png",
@@ -18087,7 +18087,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Belvedere Villa | Chic 4-BHK Retreat with Pool, Bar & Landscaped Garden",
     "priceAmount": 24137,
     "origPrice": 27978,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18114,13 +18114,13 @@ const ALL_409_VILLAS_DATA = [
       "Swimming pool",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Nayla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nayla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260625214554_0307_D_d8058f00ee.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2970_f688794f14.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2556_b5096856d1.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2751_288cc2673f.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260625214301_0304_D_0e37eabd8a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260625184237_0271_D_4f9bd66700.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2935_e8a12cbd37.jpg",
@@ -18134,7 +18134,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Kosh Villa Pinevale | 2- BHK Villa With Pool Table, Terrace Lounge & 360 Panoramic Mountain Views",
     "priceAmount": 14040,
     "origPrice": 15799,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18160,13 +18160,13 @@ const ALL_409_VILLAS_DATA = [
       "Indoor games",
       "Balcony"
     ],
-    "tagline": "Luxury private villa in Garkha featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Garkha featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260626183103_0821_D_0e898970e7.JPG",
       "https://d4b28jbnqso5g.cloudfront.net/Chat_GPT_Image_Jul_9_2026_11_28_02_AM_8f69647139.png",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01494_434d08bfd6.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/Kosh_Villa_Pinevale_c210753516.png",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01481_a097fa9202.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01720_be49bfd47a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_01556_e2d1cc3d54.jpg",
@@ -18206,7 +18206,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Faridabad, featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Faridabad, featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260628191710_0040_D_3457b492a8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1043876_15aef5c44d.jpg",
@@ -18226,7 +18226,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "El Bosque | Spacious 4-BHK Villa With Private Pool, Garden & Open-air theater setup",
     "priceAmount": 28928,
     "origPrice": 33532,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18252,12 +18252,12 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Kankroda featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Kankroda featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3976_ff5807a2f5.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3712_19ad50748d.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3643_e9043c5644.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3821_7da9768407.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A3676_7d5ccfe5a3.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A4033_2_c1850da4a4.jpg",
@@ -18272,7 +18272,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Raj Villas Aurelia | Pet-Friendly 1-Room Hotel Suite with Jacuzzi & Aravalli Hill Views",
     "priceAmount": 7028,
     "origPrice": 9995,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18298,18 +18298,18 @@ const ALL_409_VILLAS_DATA = [
       "Balcony",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Nadra featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/P1045699_8a558983fc.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7160_4f32e3932f.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045657_8ef6f4dd2b.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20250131072418_0624_D_ec042ee9a0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/P1045667_4e9603be5b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7172_896ce9169a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7182_88ba786419.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A7177_8436e050e7.jpg",
-      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_ELIVAAS_jpg_f3b1bb93f6.jpeg"
+      "https://d4b28jbnqso5g.cloudfront.net/Crafted_Exclusively_for_Viral Villas_jpg_f3b1bb93f6.jpeg"
     ]
   },
   {
@@ -18344,7 +18344,7 @@ const ALL_409_VILLAS_DATA = [
       "Caretaker",
       "Parking"
     ],
-    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Bharari featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02088_683ffa0607.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/DSC_02093_1_6eea8472d5.jpg",
@@ -18390,7 +18390,7 @@ const ALL_409_VILLAS_DATA = [
       "Jacuzzi",
       "Chef on Call"
     ],
-    "tagline": "Luxury private villa in Mussoorie featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Mussoorie featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2444_fab5f3cb1e.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A2018_0e631a89f6.jpg",
@@ -18410,7 +18410,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Puvalgarh Farms| British Style 4-BHK Villa with Pool, Patio",
     "priceAmount": 28453,
     "origPrice": 32716,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18436,13 +18436,13 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Private patio"
     ],
-    "tagline": "Luxury private villa in Puvalgarh featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Puvalgarh featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0176_d7f859e854.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0161_7e58395030.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0432_69e7d727d0.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0221_7aa0ffb0e1.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0066_257905827a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0318_ca70a5e875.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0433_8106a3c7fa.jpg",
@@ -18456,7 +18456,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Puvalgarh Farms Thistle | Cottage-style Suite with Shared, Pool, Dining, Garden & Outdoor Sit-out | Near Sitabani Gate",
     "priceAmount": 7797,
     "origPrice": 10076,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18482,13 +18482,13 @@ const ALL_409_VILLAS_DATA = [
       "Common pool",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260618211332_0073_D_50fe130b8b.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0591_3dc655f17c.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0438_f175d139d4.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0578_4773b17057.jpg",
-      "images/ELIVAAS_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
+      "images/Viral Villas_Guest_Experience_that_you_deserve_jpg_7a32ee45fe.jpeg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0143_b00a081e91.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0220_00fdeb9ae8.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0460_52d6bdfbe4.jpg",
@@ -18528,7 +18528,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1439_757292ae2a.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1143_241f0caeb7.jpg",
@@ -18575,7 +18575,7 @@ const ALL_409_VILLAS_DATA = [
       "Restaurant",
       "Housekeeping staff"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A1070_dece7add84.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A8408_63ee663875.jpg",
@@ -18621,7 +18621,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Gazebo"
     ],
-    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A0967_c3a34fdb06.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1407_c02965c949.jpg",
@@ -18667,7 +18667,7 @@ const ALL_409_VILLAS_DATA = [
       "Indoor games",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Wilson Hill Road featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Wilson Hill Road featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5401_7c2c1d0791.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/K81_A5435_079f5addb1.jpg",
@@ -18687,7 +18687,7 @@ const ALL_409_VILLAS_DATA = [
     "name": "Aranya Library Maison | 6-BHK Villa With kid’s room, Private Pool, Reading Lounge, Common Lounge & Garden With Forest Views",
     "priceAmount": 42333,
     "origPrice": 48675,
-    "brand": "ELIVAAS",
+    "brand": "Viral Villas",
     "isPrive": false,
     "isPetFriendly": false,
     "isNew": true,
@@ -18714,7 +18714,7 @@ const ALL_409_VILLAS_DATA = [
       "Wifi",
       "Swimming pool"
     ],
-    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Jim Corbett featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/DJI_20260522211504_0392_D_aa81ea6ecb.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/2_V7_A9939_9bc8bf9628.jpg",
@@ -18760,7 +18760,7 @@ const ALL_409_VILLAS_DATA = [
       "Gazebo",
       "Caretaker"
     ],
-    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized ELIVAAS concierge service.",
+    "tagline": "Luxury private villa in Talla featuring dedicated staff, private pool, and personalized Viral Villas concierge service.",
     "images": [
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1446_41d06db732.jpg",
       "https://d4b28jbnqso5g.cloudfront.net/8_G9_A1352_c1a01429fa.jpg",
