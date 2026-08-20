@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Admin Master Console — 410 Luxury Estates & Guest Passport | Viral Villas</title>
+  <link rel="icon" href="https://d4b28jbnqso5g.cloudfront.net/faviconelivaas_dbf00961c0.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --viral-red: #801426;
+      --viral-red-hover: #9c1c33;
+      --viral-copper: #c57d56;
+      --viral-gold: #d4af37;
+      --viral-bg-warm: #fdfbf7;
+      --viral-card-bg: #ffffff;
+      --viral-border: #ede4db;
+      --viral-border-light: #f5eee7;
+      --viral-text-main: #121212;
+      --viral-text-muted: #6b7280;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-logo: 'Cinzel', serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--viral-bg-warm);
+      color: var(--viral-text-main);
+      display: flex;
+      min-height: 100vh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; }
+    input, select, textarea { font-family: inherit; outline: none; }
+
+    /* 1. SIDEBAR NAVIGATION */
+    .admin-sidebar-clean {
+      width: 280px;
+      background: #ffffff;
+      border-right: 1px solid var(--viral-border);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 100;
+    }
+    @media (max-width: 1024px) {
+      .admin-sidebar-clean {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        transform: translateX(-100%);
+        box-shadow: 10px 0 30px rgba(0,0,0,0.1);
+      }
+      .admin-sidebar-clean.open {
+        transform: translateX(0);
+      }
+    }
+
+    .sidebar-brand-box {
+      padding: 24px 22px 20px;
+      border-bottom: 1px solid var(--viral-border);
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .brand-top-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-v-icon-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--viral-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(128, 20, 38, 0.3);
+    }
+    .brand-title-cinzel {
+      font-family: var(--font-logo);
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--viral-red);
+      line-height: 1;
+    }
+    .brand-tag-copper {
+      font-size: 0.58rem;
+      letter-spacing: 0.24em;
+      color: var(--viral-copper);
+      font-weight: 700;
+      margin-left: 46px;
+      text-transform: uppercase;
+    }
+
+    .btn-return-home-clean {
+      margin: 14px 16px 6px;
+      background: #faf7f2;
+      border: 1px solid var(--viral-border);
+      color: var(--viral-text-main);
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+    .btn-return-home-clean:hover {
+      background: var(--viral-red);
+      color: #ffffff;
+      border-color: var(--viral-red);
+    }
+
+    .sidebar-menu-list {
+      padding: 16px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+      overflow-y: auto;
+    }
+    .menu-category-title {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #8c827a;
+      padding: 14px 14px 6px;
+      font-weight: 800;
+    }
+    .sidebar-menu-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 16px;
+      border-radius: 12px;
+      color: #4b5563;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      width: 100%;
+      text-align: left;
+    }
+    .sidebar-menu-btn:hover {
+      background: #faf7f2;
+      color: var(--viral-red);
+    }
+    .sidebar-menu-btn.active {
+      background: var(--viral-red);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(128, 20, 38, 0.25);
+    }
+    .sidebar-menu-btn.active i { color: #ffffff !important; }
+    .sidebar-menu-btn i { font-size: 1rem; width: 22px; text-align: center; color: var(--viral-copper); }
+    .badge-counter-pill {
+      margin-left: auto;
+      background: #f1f5f9;
+      color: #334155;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .sidebar-menu-btn.active .badge-counter-pill {
+      background: rgba(255,255,255,0.25);
+      color: #ffffff;
+    }
+
+    /* 2. MAIN VIEWPORT */
+    .admin-main-viewport {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      overflow-y: auto;
+    }
+
+    /* Topbar */
+    .admin-top-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--viral-border);
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 90;
+    }
+    .topbar-left-box {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .topbar-search-input {
+      width: 340px;
+      padding: 9px 16px 9px 38px;
+      border: 1px solid var(--viral-border);
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      background: #faf7f2;
+    }
+    @media (max-width: 800px) { .topbar-search-input { display: none; } }
+
+    .topbar-right-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-topbar-pill {
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-topbar-live {
+      background: #fdf2f2;
+      border: 1px solid #fecaca;
+      color: var(--viral-red);
+    }
+    .btn-topbar-live:hover { background: var(--viral-red); color: #ffffff; }
+
+    /* Content Body */
+    .admin-content-body {
+      padding: 32px;
+      max-width: 1540px;
+    }
+
+    /* Welcome Header */
+    .welcome-header-card {
+      background: #ffffff;
+      border: 1px solid var(--viral-border);
+      border-radius: 24px;
+      padding: 30px 34px;
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+    }
+    .welcome-title-serif {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--viral-text-main);
+      margin-bottom: 4px;
+    }
+    .welcome-title-serif em {
+      font-style: italic;
+      color: var(--viral-red);
+    }
+
+    /* KPI Cards */
+    .kpi-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 1200px) { .kpi-cards-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .kpi-cards-grid { grid-template-columns: 1fr; } }
+
+    .kpi-card-box {
+      background: #ffffff;
+      border: 1px solid var(--viral-border);
+      border-radius: 20px;
+      padding: 24px 22px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.02);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .kpi-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; color: var(--viral-muted); letter-spacing: 0.05em; margin-bottom: 6px; }
+    .kpi-val { font-family: var(--font-serif); font-size: 2rem; font-weight: 700; color: #121212; line-height: 1; margin-bottom: 6px; }
+    .kpi-trend { font-size: 0.78rem; font-weight: 700; color: #16a34a; display: flex; align-items: center; gap: 4px; }
+    .kpi-icon-circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: #fdf2f2;
+      color: var(--viral-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+    }
+
+    /* Control Filter Bar */
+    .villas-filter-control-bar {
+      background: #ffffff;
+      border: 1px solid var(--viral-border);
+      border-radius: 18px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+    .filter-group-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .filter-select-box {
+      padding: 9px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--viral-border);
+      background: #faf7f2;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #374151;
+    }
+
+    /* Table Container */
+    .table-card-container {
+      background: #ffffff;
+      border: 1px solid var(--viral-border);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+      margin-bottom: 28px;
+    }
+    .table-card-header {
+      padding: 20px 26px;
+      border-bottom: 1px solid var(--viral-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .table-card-heading {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #121212;
+    }
+
+    .btn-viral-pill-action {
+      background: var(--viral-red);
+      color: #ffffff;
+      padding: 9px 22px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(128, 20, 38, 0.25);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .btn-viral-pill-action:hover {
+      background: var(--viral-red-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Tables */
+    .table-responsive-box { overflow-x: auto; }
+    table.viral-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+    table.viral-table th {
+      background: #faf7f2;
+      padding: 14px 20px;
+      font-weight: 700;
+      color: #4b5563;
+      border-bottom: 1px solid var(--viral-border);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    table.viral-table td {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--viral-border-light);
+      color: #374151;
+      vertical-align: middle;
+    }
+    table.viral-table tr:hover td { background: #fdfbf7; }
+
+    /* Status Badges */
+    .status-chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .status-chip.confirmed { background: #dcfce7; color: #15803d; }
+    .status-chip.pending { background: #fef3c7; color: #b45309; }
+    .status-chip.cancelled { background: #fee2e2; color: #b91c1c; }
+    .status-chip.live-available { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+    .status-chip.occupied { background: #e0e7ff; color: #4338ca; border: 1px solid #c7d2fe; }
+    .status-chip.blocked { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+    /* Villa Visual Grid */
+    .villas-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      padding: 24px;
+    }
+    @media (max-width: 1180px) { .villas-card-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 720px) { .villas-card-grid { grid-template-columns: 1fr; } }
+
+    .villa-item-card {
+      background: #ffffff;
+      border: 1px solid var(--viral-border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.02);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .villa-item-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.07);
+    }
+    .villa-item-img {
+      height: 210px;
+      position: relative;
+      overflow: hidden;
+      background: #f1f5f9;
+    }
+    .villa-item-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .villa-item-card:hover .villa-item-img img {
+      transform: scale(1.04);
+    }
+    .villa-item-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .amenity-chip-tag {
+      background: #faf7f2;
+      color: #6b7280;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      border: 1px solid var(--viral-border-light);
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.65); backdrop-filter: blur(4px);
+      z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-overlay.active { display: flex !important; }
+
+    .tab-section-panel { display: none; }
+    .tab-section-panel.active { display: block; }
+  </style>
+</head>
+<body>
+
+  <!-- 1. SIDEBAR -->
+  <aside class="admin-sidebar-clean" id="adminSidebar">
+    
+    <div class="sidebar-brand-box">
+      <div class="brand-top-row">
+        <div class="logo-v-icon-badge">
+          <svg viewBox="0 0 28 28" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 2L2 9L5 22L14 26L23 22L26 9L14 2Z" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" fill="rgba(255,255,255,0.08)"/>
+            <path d="M8 10L14 21L20 10" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="14" cy="7" r="1.5" fill="#ffd700"/>
+          </svg>
+        </div>
+        <div class="brand-title-cinzel">VIRAL VILLAS</div>
+      </div>
+      <div class="brand-tag-copper">MASTER ADMIN CONSOLE</div>
+    </div>
+
+    <!-- Return to Website -->
+    <a href="index.html" class="btn-return-home-clean" title="Return to Customer Homepage">
+      <span style="display:flex; align-items:center; gap:8px;">
+        <i class="fa-solid fa-arrow-left"></i> Live Website
+      </span>
+      <i class="fa-solid fa-house"></i>
+    </a>
+
+    <!-- Navigation Menu -->
+    <nav class="sidebar-menu-list">
+      <div class="menu-category-title">Operations</div>
+      <button class="sidebar-menu-btn active" onclick="switchAdminTab('overview', this)">
+        <i class="fa-solid fa-chart-pie"></i> Executive Overview
+      </button>
+      <button class="sidebar-menu-btn" onclick="switchAdminTab('villas', this)">
+        <i class="fa-solid fa-hotel"></i> All 410 Villas & Passport <span class="badge-counter-pill" id="sidebarVillasBadge">410</span>
+      </button>
+      <button class="sidebar-menu-btn" onclick="switchAdminTab('bookings', this)">
+        <i class="fa-solid fa-calendar-check"></i> Customer Bookings <span class="badge-counter-pill" id="sidebarBookingsBadge">142</span>
+      </button>
+
+      <div class="menu-category-title">Leads & Promos</div>
+      <button class="sidebar-menu-btn" onclick="switchAdminTab('leads', this)">
+        <i class="fa-solid fa-champagne-glasses"></i> Event & Offsite Leads <span class="badge-counter-pill" style="background:#fee2e2; color:#b91c1c;" id="sidebarInquiriesBadge">18</span>
+      </button>
+      <button class="sidebar-menu-btn" onclick="switchAdminTab('promos', this)">
+        <i class="fa-solid fa-tags"></i> Bank Offers & Promos
+      </button>
+      <button class="sidebar-menu-btn" onclick="switchAdminTab('financials', this)">
+        <i class="fa-solid fa-coins"></i> Financial Reports
+      </button>
+    </nav>
+
+    <div style="padding:16px 22px; border-top:1px solid var(--viral-border); font-size:0.78rem; color:var(--viral-muted);">
+      Logged in as: <strong>Admin Superuser</strong>
+    </div>
+  </aside>
+
+  <!-- 2. MAIN VIEWPORT -->
+  <div class="admin-main-viewport">
+    
+    <!-- Topbar -->
+    <header class="admin-top-header">
+      <div class="topbar-left-box">
+        <button onclick="document.getElementById('adminSidebar').classList.toggle('open')" style="display:none; font-size:1.2rem; cursor:pointer;" id="menuToggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div style="position:relative;">
+          <i class="fa-solid fa-magnifying-glass" style="position:absolute; left:14px; top:50%; transform:translateY(-50%); color:#9ca3af;"></i>
+          <input type="text" id="topbarSearchInput" placeholder="Search across all 410 villas, guests, cities..." oninput="handleUniversalSearch(this.value)" class="topbar-search-input">
+        </div>
+      </div>
+
+      <div class="topbar-right-controls">
+        <button onclick="openRegisterVillaModal()" class="btn-viral-pill-action" style="padding:8px 18px; font-size:0.82rem;">
+          <i class="fa-solid fa-plus"></i> Register New Villa
+        </button>
+        <a href="index.html" class="btn-topbar-pill btn-topbar-live">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Website
+        </a>
+        <a href="dashboard.html" class="btn-topbar-pill" style="background:#fef3c7; color:#b45309;">
+          <i class="fa-solid fa-user"></i> Customer View
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Content Body -->
+    <main class="admin-content-body">
+      
+      <!-- Welcome Header -->
+      <div class="welcome-header-card">
+        <div>
+          <span style="background:#fdf2f2; color:var(--viral-red); border:1px solid #fecaca; padding:4px 12px; border-radius:9999px; font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.1em;">Master Control Suite</span>
+          <h1 class="welcome-title-serif" style="margin-top:8px;">All <em>410 Villa Estates</em> Directory</h1>
+          <p style="color:var(--viral-muted); font-size:0.95rem; max-width:680px;">Complete inventory status, nightly rates, live availability toggles, and dedicated stay passports for every single estate.</p>
+        </div>
+        <div style="display:flex; gap:12px;">
+          <button onclick="openRegisterVillaModal()" class="btn-viral-pill-action" style="padding:12px 24px;">
+            <i class="fa-solid fa-hotel"></i> + Register New Villa
+          </button>
+        </div>
+      </div>
+
+      <!-- KPI Row -->
+      <div class="kpi-cards-grid">
+        <div class="kpi-card-box">
+          <div>
+            <div class="kpi-label">Gross Revenue (MTD)</div>
+            <div class="kpi-val">₹4.82 Cr</div>
+            <div class="kpi-trend"><i class="fa-solid fa-arrow-up"></i> +18.4% YoY Growth</div>
+          </div>
+          <div class="kpi-icon-circle"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+        </div>
+
+        <div class="kpi-card-box">
+          <div>
+            <div class="kpi-label">Active Bookings</div>
+            <div class="kpi-val" id="activeBookingsCount">142</div>
+            <div class="kpi-trend"><i class="fa-solid fa-calendar-check"></i> +28 today</div>
+          </div>
+          <div class="kpi-icon-circle"><i class="fa-solid fa-calendar-check"></i></div>
+        </div>
+
+        <div class="kpi-card-box">
+          <div>
+            <div class="kpi-label">Portfolio Occupancy</div>
+            <div class="kpi-val">82.4%</div>
+            <div class="kpi-trend"><i class="fa-solid fa-percent"></i> Peak festive season</div>
+          </div>
+          <div class="kpi-icon-circle"><i class="fa-solid fa-percent"></i></div>
+        </div>
+
+        <div class="kpi-card-box">
+          <div>
+            <div class="kpi-label">Total Live Estates</div>
+            <div class="kpi-val" id="totalVillasCount">410</div>
+            <div style="font-size:0.78rem; color:var(--viral-muted); margin-top:4px;">Across 26 Destinations</div>
+          </div>
+          <div class="kpi-icon-circle"><i class="fa-solid fa-hotel"></i></div>
+        </div>
+      </div>
+
+      <!-- 1. OVERVIEW TAB -->
+      <section class="tab-section-panel active" id="tab-overview">
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <div>
+              <h3 class="table-card-heading">Realtime Customer Reservations</h3>
+              <p style="font-size:0.82rem; color:var(--viral-muted);">Latest check-in orders confirmed on the platform</p>
+            </div>
+            <a href="index.html" class="btn-topbar-pill" style="background:#f3f4f6; color:#374151;">
+              <i class="fa-solid fa-globe"></i> View Live Site
+            </a>
+          </div>
+
+          <div class="table-responsive-box">
+            <table class="viral-table">
+              <thead>
+                <tr>
+                  <th>Booking Ref</th>
+                  <th>VIP Guest</th>
+                  <th>Villa Estate</th>
+                  <th>Check-In & Out</th>
+                  <th>Total Amount</th>
+                  <th>Status</th>
+                  <th>Admin Action</th>
+                </tr>
+              </thead>
+              <tbody id="adminBookingsTbody">
+                <!-- Rendered dynamically from ViralStore -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. ALL 410 VILLAS & PASSPORT TAB -->
+      <section class="tab-section-panel" id="tab-villas">
+        
+        <!-- Filter Controls -->
+        <div class="villas-filter-control-bar">
+          <div class="filter-group-item">
+            <span style="font-size:0.82rem; font-weight:700; color:var(--viral-muted);">Search Villa:</span>
+            <input type="text" id="villaFilterSearch" placeholder="Filter by name, location, ID..." oninput="applyVillaFilters()" style="padding:9px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; font-size:0.85rem; width:220px;">
+          </div>
+
+          <div class="filter-group-item">
+            <span style="font-size:0.82rem; font-weight:700; color:var(--viral-muted);">Destination:</span>
+            <select id="villaFilterCity" onchange="applyVillaFilters()" class="filter-select-box">
+              <option value="ALL">All 26 Destinations</option>
+              <option value="Goa">Goa</option>
+              <option value="Bengaluru">Bengaluru</option>
+              <option value="Udaipur">Udaipur</option>
+              <option value="Lonavala">Lonavala</option>
+              <option value="Kochi">Kochi / Kerala</option>
+              <option value="Kasauli">Kasauli / Himachal</option>
+              <option value="Alibaug">Alibaug</option>
+              <option value="Coorg">Coorg</option>
+              <option value="Mussoorie">Mussoorie / Dehradun</option>
+              <option value="Delhi">Delhi NCR / Gurgaon</option>
+              <option value="Jaipur">Jaipur</option>
+              <option value="Ooty">Ooty</option>
+            </select>
+          </div>
+
+          <div class="filter-group-item">
+            <span style="font-size:0.82rem; font-weight:700; color:var(--viral-muted);">Bedrooms (BHK):</span>
+            <select id="villaFilterBhk" onchange="applyVillaFilters()" class="filter-select-box">
+              <option value="ALL">All BHKs</option>
+              <option value="1-2">1–2 BHK</option>
+              <option value="3-4">3–4 BHK</option>
+              <option value="5+">5+ BHK (Large Estates)</option>
+            </select>
+          </div>
+
+          <div class="filter-group-item">
+            <span style="font-size:0.82rem; font-weight:700; color:var(--viral-muted);">Live Status:</span>
+            <select id="villaFilterStatus" onchange="applyVillaFilters()" class="filter-select-box">
+              <option value="ALL">All Statuses</option>
+              <option value="Available">● Live Available</option>
+              <option value="Occupied">● Occupied</option>
+              <option value="Blocked">● Maintenance / Blocked</option>
+            </select>
+          </div>
+
+          <div class="filter-group-item" style="margin-left:auto;">
+            <span style="font-size:0.84rem; font-weight:800; color:var(--viral-red);" id="filteredVillasCountDisplay">Showing 410 Estates</span>
+          </div>
+        </div>
+
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <div>
+              <h3 class="table-card-heading">Complete 410 Luxury Estates Directory</h3>
+              <p style="font-size:0.82rem; color:var(--viral-muted);">Full pricing, ratings, guest capacities, and stay history passports</p>
+            </div>
+            <button onclick="openRegisterVillaModal()" class="btn-viral-pill-action">+ Register New Villa</button>
+          </div>
+
+          <div class="villas-card-grid" id="adminVillasGrid">
+            <!-- 410 Villa Cards rendered dynamically with complete details -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. BOOKINGS TAB -->
+      <section class="tab-section-panel" id="tab-bookings">
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <h3 class="table-card-heading">Master Bookings Control</h3>
+            <button onclick="alert('Exporting reservations to CSV...')" class="btn-topbar-pill" style="background:#f3f4f6; color:#374151;">
+              <i class="fa-solid fa-download"></i> Export Data
+            </button>
+          </div>
+          <div class="table-responsive-box">
+            <table class="viral-table">
+              <thead>
+                <tr>
+                  <th>Booking Ref</th>
+                  <th>Guest Details</th>
+                  <th>Villa Estate</th>
+                  <th>Dates</th>
+                  <th>Amount Paid</th>
+                  <th>Status</th>
+                  <th>Admin Action</th>
+                </tr>
+              </thead>
+              <tbody id="adminBookingsTbody2">
+                <!-- Syncs with ViralStore -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. EVENTS & LEADS CRM -->
+      <section class="tab-section-panel" id="tab-leads">
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <div>
+              <h3 class="table-card-heading">Event, Wedding & Corporate Inquiries</h3>
+              <p style="font-size:0.82rem; color:var(--viral-muted);">Incoming inquiries from Event, Corporate, Birthday, and Wellness pages</p>
+            </div>
+            <span style="font-size:0.82rem; color:#16a34a; font-weight:700;"><i class="fa-solid fa-bolt"></i> Realtime Sync</span>
+          </div>
+
+          <div class="table-responsive-box">
+            <table class="viral-table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Client / Organization</th>
+                  <th>Location & Guests</th>
+                  <th>Dates</th>
+                  <th>Status</th>
+                  <th>Workflow Action</th>
+                </tr>
+              </thead>
+              <tbody id="adminInquiriesTbody">
+                <!-- Rendered from ViralStore -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. PROMOS & OFFERS -->
+      <section class="tab-section-panel" id="tab-promos">
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <h3 class="table-card-heading">Active Bank Partnerships & Promo Coupons</h3>
+            <button onclick="openNewPromoModal()" class="btn-viral-pill-action">+ Create Promo Code</button>
+          </div>
+          <div style="padding:26px;">
+            <div id="adminPromosGrid" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. FINANCIALS -->
+      <section class="tab-section-panel" id="tab-financials">
+        <div class="table-card-container">
+          <div class="table-card-header">
+            <h3 class="table-card-heading">Regional Financial Analytics (FY 2026–27)</h3>
+            <span style="color:var(--viral-red); font-weight:800; font-size:1.1rem;">₹4.82 Cr Total Gross</span>
+          </div>
+          <div style="padding:28px;">
+            <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;">
+              <div style="background:#faf7f2; padding:24px; border-radius:18px; border:1px solid var(--viral-border);">
+                <div style="font-size:0.78rem; color:var(--viral-copper); text-transform:uppercase; font-weight:700;">Goa Luxury Belt</div>
+                <div style="font-size:1.8rem; font-weight:800; color:var(--viral-red); margin:6px 0;">₹1.84 Cr</div>
+                <div style="font-size:0.78rem; color:#16a34a; font-weight:700;"><i class="fa-solid fa-arrow-trend-up"></i> +24% YoY</div>
+              </div>
+              <div style="background:#faf7f2; padding:24px; border-radius:18px; border:1px solid var(--viral-border);">
+                <div style="font-size:0.78rem; color:var(--viral-copper); text-transform:uppercase; font-weight:700;">Udaipur & Rajasthan</div>
+                <div style="font-size:1.8rem; font-weight:800; color:var(--viral-red); margin:6px 0;">₹1.26 Cr</div>
+                <div style="font-size:0.78rem; color:#16a34a; font-weight:700;"><i class="fa-solid fa-arrow-trend-up"></i> +19% YoY</div>
+              </div>
+              <div style="background:#faf7f2; padding:24px; border-radius:18px; border:1px solid var(--viral-border);">
+                <div style="font-size:0.78rem; color:var(--viral-copper); text-transform:uppercase; font-weight:700;">Lonavala & Maharashtra</div>
+                <div style="font-size:1.8rem; font-weight:800; color:var(--viral-red); margin:6px 0;">₹98.4 Lakh</div>
+                <div style="font-size:0.78rem; color:#16a34a; font-weight:700;"><i class="fa-solid fa-arrow-trend-up"></i> +14% YoY</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- 1. VILLA REGISTRATION WIZARD MODAL -->
+  <div class="modal-overlay" id="registerVillaModal" onclick="if(event.target===this) closeRegisterVillaModal();">
+    <div style="background:#ffffff; border:1px solid var(--viral-border); border-radius:24px; width:100%; max-width:620px; max-height:90vh; overflow-y:auto; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.25);">
+      <button onclick="closeRegisterVillaModal()" style="position:absolute; top:20px; right:20px; font-size:1.3rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      <span style="color:var(--viral-copper); font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.14em;">Villa Onboarding Wizard</span>
+      <h3 style="font-family:var(--font-serif); font-size:1.75rem; color:#121212; margin:6px 0 16px;">Register New Luxury Estate</h3>
+      
+      <form onsubmit="handleAdminRegisterVilla(event)">
+        <div style="margin-bottom:12px;">
+          <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Estate Title *</label>
+          <input type="text" id="regVillaName" placeholder="e.g. Royal Azure Waterfront Villa" required style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">City / Destination *</label>
+            <select id="regVillaCity" required style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+              <option value="Goa">Goa (North & South)</option>
+              <option value="Udaipur">Udaipur, Rajasthan</option>
+              <option value="Lonavala">Lonavala / Khandala</option>
+              <option value="Kochi">Kochi / Alappuzha, Kerala</option>
+              <option value="Kasauli">Kasauli / Shimla</option>
+              <option value="Alibaug">Alibaug, Maharashtra</option>
+              <option value="Coorg">Coorg, Karnataka</option>
+              <option value="Delhi NCR">Delhi NCR / Gurgaon</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Price Per Night (₹) *</label>
+            <input type="number" id="regVillaPrice" placeholder="e.g. 48000" required style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Bedrooms (BHK) *</label>
+            <input type="number" id="regVillaBhk" placeholder="e.g. 5" required style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+          </div>
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Max Guest Capacity *</label>
+            <input type="number" id="regVillaGuests" placeholder="e.g. 14" required style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Estate Owner / Host Name</label>
+            <input type="text" id="regVillaHost" placeholder="e.g. Harshvardhan Kapoor" style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+          </div>
+          <div>
+            <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Host Contact Mobile</label>
+            <input type="tel" id="regVillaHostPhone" placeholder="+91 98000 12345" style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+          </div>
+        </div>
+
+        <div style="margin-bottom:18px;">
+          <label style="font-size:0.8rem; font-weight:700; color:#374151; display:block; margin-bottom:4px;">Featured Cover Image URL</label>
+          <input type="url" id="regVillaImg" placeholder="https://..." value="images/P1038840_003bdc3df0.jpg" style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--viral-border); background:#faf7f2; color:#121212; font-size:0.9rem;">
+        </div>
+
+        <button type="submit" class="btn-viral-pill-action" style="width:100%; justify-content:center; padding:14px; font-size:0.95rem;">
+          Publish & Activate Villa on Live Platform 🚀
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 2. VILLA PASSPORT & GUEST HISTORY MODAL -->
+  <div class="modal-overlay" id="villaPassportModal" onclick="if(event.target===this) closeVillaPassportModal();">
+    <div style="background:#ffffff; border:1px solid var(--viral-border); border-radius:24px; width:100%; max-width:860px; max-height:90vh; overflow-y:auto; padding:36px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.3);">
+      <button onclick="closeVillaPassportModal()" style="position:absolute; top:20px; right:20px; font-size:1.3rem; color:#9ca3af;"><i class="fa-solid fa-xmark"></i></button>
+      
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:14px; margin-bottom:20px; padding-bottom:18px; border-bottom:1px solid var(--viral-border);">
+        <div>
+          <span style="background:#fdf2e9; color:var(--viral-copper); padding:3px 10px; border-radius:9999px; font-size:0.75rem; font-weight:800; text-transform:uppercase;">Estate Passport & History</span>
+          <h2 style="font-family:var(--font-serif); font-size:1.85rem; color:#121212; margin:4px 0 2px;" id="passportVillaTitle">Valiyaveetil Mansion</h2>
+          <p style="color:var(--viral-muted); font-size:0.88rem;" id="passportVillaLocation"><i class="fa-solid fa-location-dot" style="color:var(--viral-red);"></i> Kochi, Kerala • 5 BHK • Up to 12 Guests</p>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:1.5rem; font-weight:800; color:var(--viral-red);" id="passportVillaRate">₹35,907/night</div>
+          <span style="background:#dcfce7; color:#15803d; font-size:0.75rem; font-weight:800; padding:3px 8px; border-radius:4px;" id="passportVillaStatus">● LIVE AVAILABLE</span>
+        </div>
+      </div>
+
+      <!-- Passport Tabs -->
+      <div style="display:flex; gap:12px; margin-bottom:20px; border-bottom:1px solid var(--viral-border);">
+        <button class="passport-tab-btn active" onclick="switchPassportSubTab('stays', this)" style="padding:10px 18px; font-weight:700; color:var(--viral-red); border-bottom:2.5px solid var(--viral-red);">
+          <i class="fa-solid fa-user-check"></i> Guest Stays & Check-ins (<span id="passportStaysCount">0</span>)
+        </button>
+        <button class="passport-tab-btn" onclick="switchPassportSubTab('inquiries', this)" style="padding:10px 18px; font-weight:700; color:#64748b; border-bottom:2.5px solid transparent;">
+          <i class="fa-solid fa-envelope"></i> Specific Inquiries & Leads (<span id="passportInqsCount">0</span>)
+        </button>
+      </div>
+
+      <!-- 1. Stays Tab -->
+      <div id="passportStaysTab">
+        <div class="table-responsive-box">
+          <table class="viral-table">
+            <thead>
+              <tr>
+                <th>Booking ID</th>
+                <th>Guest Name & Contact</th>
+                <th>Stay Dates</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Special Notes</th>
+              </tr>
+            </thead>
+            <tbody id="passportStaysTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 2. Inquiries Tab -->
+      <div id="passportInquiriesTab" style="display:none;">
+        <div class="table-responsive-box">
+          <table class="viral-table">
+            <thead>
+              <tr>
+                <th>Inquiry ID</th>
+                <th>Occasion</th>
+                <th>Client Name</th>
+                <th>Guests</th>
+                <th>Proposed Dates</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="passportInquiriesTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="villas-data.js"></script>
+  <script src="viral-store.js"></script>
+  <script>
+    let ALL_MERGED_VILLAS = [];
+    let VILLA_STATUS_MAP = {}; // Map of villa ID -> custom status override
+
+    function initVillasData() {
+      const customVillas = ViralStore.getCustomVillas();
+      const dataset = typeof ALL_409_VILLAS_DATA !== 'undefined' ? ALL_409_VILLAS_DATA : [];
+      
+      // Merge custom registered villas + all 409 properties
+      ALL_MERGED_VILLAS = [...customVillas, ...dataset];
+
+      // Load status overrides from localStorage
+      const savedStatus = localStorage.getItem('vv_villa_status_map');
+      if (savedStatus) {
+        try { VILLA_STATUS_MAP = JSON.parse(savedStatus); } catch(e) {}
+      }
+
+      // Default sample statuses for visual fullness
+      ALL_MERGED_VILLAS.forEach((v, idx) => {
+        if (!VILLA_STATUS_MAP[v.id]) {
+          if (idx % 7 === 1) VILLA_STATUS_MAP[v.id] = 'Occupied';
+          else if (idx % 19 === 0) VILLA_STATUS_MAP[v.id] = 'Blocked';
+          else VILLA_STATUS_MAP[v.id] = 'Available';
+        }
+      });
+    }
+
+    function renderAdminData() {
+      // 1. Render Bookings
+      const bookings = ViralStore.getBookings();
+      const tbody = document.getElementById('adminBookingsTbody');
+      const tbody2 = document.getElementById('adminBookingsTbody2');
+      const countEl = document.getElementById('activeBookingsCount');
+      if (countEl) countEl.innerText = bookings.length;
+
+      const badgePill = document.getElementById('sidebarBookingsBadge');
+      if (badgePill) badgePill.innerText = bookings.length;
+
+      const html = bookings.map(b => {
+        return '<tr>' +
+          '<td><strong style="color:var(--viral-red);">#' + b.id + '</strong></td>' +
+          '<td><strong>' + b.guestName + '</strong><br><small style="color:var(--viral-muted);">' + b.guestPhone + ' • ' + (b.guestEmail || '') + '</small></td>' +
+          '<td>' + b.villaName + '<br><small style="color:var(--viral-muted);">' + (b.villaCity || '') + '</small></td>' +
+          '<td>' + b.checkIn + ' to ' + b.checkOut + '<br><small style="color:var(--viral-muted);">' + (b.guests || 2) + ' Guests • ' + (b.nights || 1) + ' Nights</small></td>' +
+          '<td><strong style="color:var(--viral-red);">₹' + (b.totalAmount || 0).toLocaleString('en-IN') + '</strong></td>' +
+          '<td><span class="status-chip ' + (b.status === 'Confirmed' ? 'confirmed' : (b.status === 'Cancelled' ? 'cancelled' : 'pending')) + '">' + (b.status === 'Confirmed' ? '<i class="fa-solid fa-check"></i> Confirmed' : b.status) + '</span></td>' +
+          '<td><div style="display:flex; gap:8px; align-items:center;">' +
+            (b.status !== 'Confirmed' ? '<button onclick="adminApproveBooking(\'' + b.id + '\')" style="background:#15803d; color:#fff; padding:6px 12px; border-radius:6px; font-weight:700; font-size:0.75rem; cursor:pointer;">Approve ✅</button>' : '<button onclick="adminPrintVoucher(\'' + b.id + '\')" style="background:#fdf2f2; border:1px solid #fecaca; color:var(--viral-red); padding:6px 10px; border-radius:6px; font-weight:700; font-size:0.75rem; cursor:pointer;">Voucher</button>') +
+            (b.status !== 'Cancelled' ? '<button onclick="adminCancelBooking(\'' + b.id + '\')" style="color:#ef4444; font-size:0.75rem; font-weight:600; padding:6px; cursor:pointer;">Cancel</button>' : '') +
+          '</div></td>' +
+        '</tr>';
+      }).join('');
+
+      if (tbody) tbody.innerHTML = html;
+      if (tbody2) tbody2.innerHTML = html;
+
+      // 2. Render Inquiries
+      const inqs = ViralStore.getInquiries();
+      const inqTbody = document.getElementById('adminInquiriesTbody');
+      const inqBadge = document.getElementById('sidebarInquiriesBadge');
+      if (inqBadge) inqBadge.innerText = inqs.length;
+
+      if (inqTbody) {
+        inqTbody.innerHTML = inqs.map(iq => {
+          return '<tr>' +
+            '<td><span style="background:#fdf2e9; color:var(--viral-copper); padding:3px 10px; border-radius:9999px; font-weight:700; font-size:0.75rem;">' + iq.type + '</span></td>' +
+            '<td><strong>' + iq.clientName + '</strong><br><small style="color:var(--viral-muted);">' + iq.contact + ' • ' + (iq.email || '') + '</small></td>' +
+            '<td>' + (iq.villaName ? '<strong>' + iq.villaName + '</strong><br>' : '') + iq.location + '<br><small style="color:var(--viral-muted);">' + iq.guests + ' Guests</small></td>' +
+            '<td>' + (iq.dates || 'TBD') + '</td>' +
+            '<td><span class="status-chip ' + (iq.status === 'Closed Won' ? 'confirmed' : 'pending') + '">' + iq.status + '</span></td>' +
+            '<td><select onchange="adminUpdateLeadStatus(\'' + iq.id + '\', this.value)" style="background:#faf7f2; color:#121212; border:1px solid var(--viral-border); padding:5px 8px; border-radius:6px; font-size:0.78rem;">' +
+              '<option ' + (iq.status === 'New Lead' ? 'selected' : '') + '>New Lead</option>' +
+              '<option ' + (iq.status === 'Contacted' ? 'selected' : '') + '>Contacted</option>' +
+              '<option ' + (iq.status === 'Proposal Sent' ? 'selected' : '') + '>Proposal Sent</option>' +
+              '<option ' + (iq.status === 'Closed Won' ? 'selected' : '') + '>Closed Won</option>' +
+            '</select></td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      // 3. Render 410 Villas Master Grid
+      renderVillasMasterGrid(ALL_MERGED_VILLAS);
+
+      // 4. Render Promos
+      const promos = ViralStore.getPromos();
+      const promoGrid = document.getElementById('adminPromosGrid');
+      if (promoGrid) {
+        promoGrid.innerHTML = promos.map(pr => {
+          return '<div style="background:#faf7f2; border:1px solid var(--viral-border); border-radius:16px; padding:22px;">' +
+            '<div style="color:var(--viral-copper); font-size:0.75rem; font-weight:700; text-transform:uppercase;">Coupon Code</div>' +
+            '<h4 style="font-family:var(--font-serif); font-size:1.3rem; margin:6px 0; color:var(--viral-red);">' + pr.code + '</h4>' +
+            '<p style="font-size:0.84rem; color:var(--viral-text-main); margin-bottom:4px;"><strong>' + pr.title + '</strong></p>' +
+            '<p style="font-size:0.78rem; color:var(--viral-muted); margin-bottom:12px;">Min. Booking: ₹' + (pr.minBooking || 0).toLocaleString('en-IN') + '</p>' +
+            '<span class="status-chip confirmed">' + pr.status + '</span>' +
+          '</div>';
+        }).join('');
+      }
+    }
+
+    function renderVillasMasterGrid(villasList) {
+      const totalCount = ALL_MERGED_VILLAS.length;
+      const totCountEl = document.getElementById('totalVillasCount');
+      if (totCountEl) totCountEl.innerText = totalCount;
+      const sideBadge = document.getElementById('sidebarVillasBadge');
+      if (sideBadge) sideBadge.innerText = totalCount;
+
+      const dispCount = document.getElementById('filteredVillasCountDisplay');
+      if (dispCount) dispCount.innerText = 'Showing ' + villasList.length + ' of ' + totalCount + ' Estates';
+
+      const grid = document.getElementById('adminVillasGrid');
+      if (!grid) return;
+
+      if (villasList.length === 0) {
+        grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:60px; color:var(--viral-muted); font-size:1.1rem;">No villas matching your filter criteria.</div>';
+        return;
+      }
+
+      grid.innerHTML = villasList.map(v => {
+        const status = VILLA_STATUS_MAP[v.id] || 'Available';
+        const price = v.priceAmount || v.price || 45000;
+        const bhk = (v.metrics && v.metrics.bedrooms) ? v.metrics.bedrooms : (v.bhk || 4);
+        const guests = (v.metrics && v.metrics.guests) ? v.metrics.guests : (v.guests || 10);
+        const img = (v.images && v.images[0]) ? v.images[0] : (v.img || 'images/P1038840_003bdc3df0.jpg');
+        const city = v.city || 'India';
+        const location = v.location ? (v.location + ', ' + city) : city;
+        const rating = v.rating || 4.9;
+        const reviewsCount = v.reviewsCount || 24;
+        const brand = v.brand || 'Viral Villas';
+
+        let statusClass = 'live-available';
+        let statusText = '● LIVE AVAILABLE';
+        if (status === 'Occupied') {
+          statusClass = 'occupied';
+          statusText = '● OCCUPIED (GUEST CHECKED IN)';
+        } else if (status === 'Blocked') {
+          statusClass = 'blocked';
+          statusText = '● MAINTENANCE / BLOCKED';
+        }
+
+        const safeTitle = (v.name || 'Luxury Estate').replace(/'/g, "\'");
+        const safeLocation = location.replace(/'/g, "\'");
+
+        return '<div class="villa-item-card" id="card_' + v.id + '">' +
+          '<div class="villa-item-img">' +
+            '<img src="' + img + '" alt="' + safeTitle + '" loading="lazy">' +
+            '<span style="position:absolute; top:12px; left:12px; background:rgba(0,0,0,0.85); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.72rem; font-weight:700;">' + brand.toUpperCase() + '</span>' +
+            '<span class="status-chip ' + statusClass + '" style="position:absolute; bottom:12px; left:12px; font-size:0.72rem; box-shadow:0 2px 8px rgba(0,0,0,0.3);">' + statusText + '</span>' +
+          '</div>' +
+          '<div class="villa-item-body">' +
+            '<div>' +
+              '<div style="font-size:0.75rem; color:var(--viral-copper); font-weight:700; text-transform:uppercase; margin-bottom:2px;">' + location + '</div>' +
+              '<h4 style="font-family:var(--font-serif); font-size:1.15rem; margin:2px 0 6px; color:#121212; line-height:1.3;">' + v.name + '</h4>' +
+              '<div style="font-size:0.82rem; color:var(--viral-muted); margin-bottom:10px;">' + bhk + ' BHK • ' + guests + ' Max Guests • ID: <span style="font-family:monospace; color:#6b7280;">' + v.id + '</span></div>' +
+              '<div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;">' +
+                (v.topAmenities ? v.topAmenities.slice(0, 3).map(a => '<span class="amenity-chip-tag">' + a.trim() + '</span>').join('') : '<span class="amenity-chip-tag">Private Pool</span><span class="amenity-chip-tag">Wifi</span>') +
+              '</div>' +
+            '</div>' +
+            '<div>' +
+              '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; padding-top:10px; border-top:1px solid var(--viral-border-light);">' +
+                '<div style="font-size:1.25rem; font-weight:800; color:var(--viral-red);">₹' + price.toLocaleString('en-IN') + ' <small style="font-size:0.75rem; color:var(--viral-muted); font-weight:400;">/ night</small></div>' +
+                '<span style="font-size:0.84rem; font-weight:700; color:#16a34a;">⭐ ' + rating + ' (' + reviewsCount + ')</span>' +
+              '</div>' +
+              '<div style="display:grid; grid-template-columns:1fr auto; gap:8px;">' +
+                '<button onclick="openVillaPassport(\'' + safeTitle + '\', \'' + safeLocation + '\', ' + price + ', ' + bhk + ', ' + guests + ', \'' + status + '\', \'' + v.id + '\')" class="btn-viral-pill-action" style="justify-content:center; font-size:0.78rem; padding:8px 10px;">' +
+                  '<i class="fa-solid fa-passport"></i> Passport & Stays' +
+                '</button>' +
+                '<select onchange="adminChangeVillaStatus(\'' + v.id + '\', this.value)" style="padding:6px 10px; border-radius:9999px; border:1px solid var(--viral-border); background:#faf7f2; font-size:0.75rem; font-weight:700; color:#374151;">' +
+                  '<option value="Available" ' + (status === 'Available' ? 'selected' : '') + '>Live</option>' +
+                  '<option value="Occupied" ' + (status === 'Occupied' ? 'selected' : '') + '>Occupied</option>' +
+                  '<option value="Blocked" ' + (status === 'Blocked' ? 'selected' : '') + '>Block</option>' +
+                '</select>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+    }
+
+    // Filter Logic
+    window.applyVillaFilters = function() {
+      const q = (document.getElementById('villaFilterSearch')?.value || '').toLowerCase().trim();
+      const city = document.getElementById('villaFilterCity')?.value || 'ALL';
+      const bhk = document.getElementById('villaFilterBhk')?.value || 'ALL';
+      const status = document.getElementById('villaFilterStatus')?.value || 'ALL';
+
+      const filtered = ALL_MERGED_VILLAS.filter(v => {
+        // Search text
+        const matchQ = !q || 
+          (v.name && v.name.toLowerCase().includes(q)) || 
+          (v.city && v.city.toLowerCase().includes(q)) || 
+          (v.location && v.location.toLowerCase().includes(q)) || 
+          (v.id && v.id.toLowerCase().includes(q));
+
+        // City
+        const matchCity = city === 'ALL' || (v.city && v.city.toLowerCase().includes(city.toLowerCase()));
+
+        // BHK
+        const vBhk = (v.metrics && v.metrics.bedrooms) ? v.metrics.bedrooms : (v.bhk || 4);
+        let matchBhk = true;
+        if (bhk === '1-2') matchBhk = vBhk <= 2;
+        else if (bhk === '3-4') matchBhk = vBhk >= 3 && vBhk <= 4;
+        else if (bhk === '5+') matchBhk = vBhk >= 5;
+
+        // Status
+        const vStatus = VILLA_STATUS_MAP[v.id] || 'Available';
+        const matchStatus = status === 'ALL' || vStatus === status;
+
+        return matchQ && matchCity && matchBhk && matchStatus;
+      });
+
+      renderVillasMasterGrid(filtered);
+    };
+
+    window.handleUniversalSearch = function(val) {
+      if (document.getElementById('villaFilterSearch')) {
+        document.getElementById('villaFilterSearch').value = val;
+      }
+      switchAdminTab('villas', document.querySelectorAll('.sidebar-menu-btn')[1]);
+      applyVillaFilters();
+    };
+
+    window.adminChangeVillaStatus = function(villaId, newStatus) {
+      VILLA_STATUS_MAP[villaId] = newStatus;
+      localStorage.setItem('vv_villa_status_map', JSON.stringify(VILLA_STATUS_MAP));
+      applyVillaFilters();
+      alert('Estate ID ' + villaId + ' status updated to: ' + newStatus);
+    };
+
+    // 1. Villa Registration Handler
+    window.handleAdminRegisterVilla = function(e) {
+      e.preventDefault();
+      const title = document.getElementById('regVillaName').value.trim();
+      const city = document.getElementById('regVillaCity').value;
+      const price = parseInt(document.getElementById('regVillaPrice').value) || 45000;
+      const bhk = parseInt(document.getElementById('regVillaBhk').value) || 4;
+      const guests = parseInt(document.getElementById('regVillaGuests').value) || 10;
+      const host = document.getElementById('regVillaHost').value.trim();
+      const phone = document.getElementById('regVillaHostPhone').value.trim();
+      const img = document.getElementById('regVillaImg').value.trim();
+
+      const newVilla = ViralStore.registerNewVilla({
+        name: title,
+        city: city,
+        location: city + ', India',
+        price: price,
+        bhk: bhk,
+        guests: guests,
+        hostName: host,
+        hostPhone: phone,
+        img: img,
+        badge: 'NEWLY ONBOARDED'
+      });
+
+      initVillasData();
+      renderAdminData();
+      closeRegisterVillaModal();
+      alert('🎉 Success! ' + title + ' has been registered and activated on the live platform!');
+    };
+
+    // 2. Villa Passport & History Handler
+    window.openVillaPassport = function(vName, vLocation, vPrice, vBhk, vGuests, vStatus, vId) {
+      document.getElementById('passportVillaTitle').innerText = vName;
+      document.getElementById('passportVillaLocation').innerHTML = '<i class="fa-solid fa-location-dot" style="color:var(--viral-red);"></i> ' + vLocation + ' • ' + vBhk + ' BHK • Up to ' + vGuests + ' Guests • ID: ' + vId;
+      document.getElementById('passportVillaRate').innerText = '₹' + vPrice.toLocaleString('en-IN') + '/night';
+
+      const statEl = document.getElementById('passportVillaStatus');
+      if (statEl) {
+        statEl.innerText = '● ' + (vStatus || 'LIVE AVAILABLE').toUpperCase();
+        statEl.className = 'status-chip ' + (vStatus === 'Occupied' ? 'occupied' : (vStatus === 'Blocked' ? 'blocked' : 'live-available'));
+      }
+
+      // Find Stays & Inquiries
+      const searchKey = vName.split('|')[0].split('•')[0].trim();
+      const stays = ViralStore.getVillaGuestHistory(searchKey);
+      const inqs = ViralStore.getVillaInquiries(searchKey);
+
+      document.getElementById('passportStaysCount').innerText = stays.length;
+      document.getElementById('passportInqsCount').innerText = inqs.length;
+
+      const staysTbody = document.getElementById('passportStaysTbody');
+      if (staysTbody) {
+        if (stays.length === 0) {
+          staysTbody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:var(--viral-muted); padding:24px;">No past stays recorded for this estate yet.</td></tr>';
+        } else {
+          staysTbody.innerHTML = stays.map(s => {
+            return '<tr>' +
+              '<td><strong style="color:var(--viral-red);">#' + s.id + '</strong></td>' +
+              '<td><strong>' + s.guestName + '</strong><br><small style="color:var(--viral-muted);">' + s.guestPhone + '</small></td>' +
+              '<td>' + s.checkIn + ' to ' + s.checkOut + '</td>' +
+              '<td><strong>₹' + (s.totalAmount || 0).toLocaleString('en-IN') + '</strong></td>' +
+              '<td><span class="status-chip ' + (s.status === 'Confirmed' ? 'confirmed' : 'pending') + '">' + s.status + '</span></td>' +
+              '<td><small style="color:var(--viral-muted);">' + (s.specialNotes || 'Standard check-in') + '</small></td>' +
+            '</tr>';
+          }).join('');
+        }
+      }
+
+      const inqsTbody = document.getElementById('passportInquiriesTbody');
+      if (inqsTbody) {
+        if (inqs.length === 0) {
+          inqsTbody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:var(--viral-muted); padding:24px;">No dedicated leads tagged for this estate yet.</td></tr>';
+        } else {
+          inqsTbody.innerHTML = inqs.map(iq => {
+            return '<tr>' +
+              '<td><strong style="color:var(--viral-copper);">#' + iq.id + '</strong></td>' +
+              '<td>' + iq.type + '</td>' +
+              '<td><strong>' + iq.clientName + '</strong><br><small style="color:var(--viral-muted);">' + iq.contact + '</small></td>' +
+              '<td>' + iq.guests + ' Guests</td>' +
+              '<td>' + (iq.dates || 'TBD') + '</td>' +
+              '<td><span class="status-chip ' + (iq.status === 'Closed Won' ? 'confirmed' : 'pending') + '">' + iq.status + '</span></td>' +
+            '</tr>';
+          }).join('');
+        }
+      }
+
+      document.getElementById('villaPassportModal').classList.add('active');
+    };
+
+    window.closeVillaPassportModal = function() {
+      document.getElementById('villaPassportModal').classList.remove('active');
+    };
+
+    window.switchPassportSubTab = function(subTab, btn) {
+      document.querySelectorAll('.passport-tab-btn').forEach(b => {
+        b.style.color = '#64748b';
+        b.style.borderBottomColor = 'transparent';
+      });
+      btn.style.color = 'var(--viral-red)';
+      btn.style.borderBottomColor = 'var(--viral-red)';
+      document.getElementById('passportStaysTab').style.display = subTab === 'stays' ? 'block' : 'none';
+      document.getElementById('passportInquiriesTab').style.display = subTab === 'inquiries' ? 'block' : 'none';
+    };
+
+    window.adminApproveBooking = function(id) {
+      ViralStore.updateBookingStatus(id, 'Confirmed');
+      renderAdminData();
+      alert('Booking #' + id + ' has been CONFIRMED! Customer dashboard and digital stay voucher updated.');
+    };
+
+    window.adminCancelBooking = function(id) {
+      if (confirm('Are you sure you want to cancel booking #' + id + '?')) {
+        ViralStore.updateBookingStatus(id, 'Cancelled');
+        renderAdminData();
+      }
+    };
+
+    window.adminPrintVoucher = function(id) {
+      const b = ViralStore.getBookings().find(x => x.id === id);
+      if (!b) return;
+      alert('Digital Voucher #' + b.id + '\nGuest: ' + b.guestName + '\nVilla: ' + b.villaName + '\nDates: ' + b.checkIn + ' to ' + b.checkOut + '\nStatus: CONFIRMED ✅');
+    };
+
+    window.adminUpdateLeadStatus = function(id, status) {
+      ViralStore.updateInquiryStatus(id, status);
+      renderAdminData();
+      alert('Lead status updated to: ' + status);
+    };
+
+    window.switchAdminTab = function(tabKey, btn) {
+      document.querySelectorAll('.sidebar-menu-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.tab-section-panel').forEach(p => p.classList.remove('active'));
+      const target = document.getElementById('tab-' + tabKey);
+      if (target) target.classList.add('active');
+    };
+
+    window.openRegisterVillaModal = function() {
+      document.getElementById('registerVillaModal').classList.add('active');
+    };
+    window.closeRegisterVillaModal = function() {
+      document.getElementById('registerVillaModal').classList.remove('active');
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initVillasData();
+      renderAdminData();
+      window.addEventListener('vv_bookings_updated', renderAdminData);
+      window.addEventListener('vv_inquiries_updated', renderAdminData);
+      window.addEventListener('vv_villas_updated', () => {
+        initVillasData();
+        renderAdminData();
+      });
+      window.addEventListener('vv_promos_updated', renderAdminData);
+    });
+  </script>
+</body>
+</html>

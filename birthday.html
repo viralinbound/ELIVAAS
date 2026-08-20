@@ -1347,5 +1347,33 @@
       })();
     </script>
 
+<script src="viral-store.js"></script>
+
+    <script>
+      window.submitLiveInquiry = function(form, type, origin) {
+        const name = form.querySelector('input[type="text"]')?.value || 'VIP Client';
+        const phone = form.querySelector('input[type="tel"]')?.value || '+91 98000 00000';
+        const email = form.querySelector('input[type="email"]')?.value || 'client@viralvillas.com';
+        const location = form.querySelector('select')?.value || 'Goa / Udaipur';
+        const guests = parseInt(form.querySelector('input[type="number"]')?.value) || 25;
+
+        ViralStore.addInquiry({
+          type: type,
+          clientName: name,
+          contact: phone,
+          email: email,
+          location: location,
+          guests: guests,
+          status: 'New Lead',
+          origin: origin
+        });
+
+        alert('✅ Thank you, ' + name + '! Your ' + type + ' inquiry has been received. Our VIP concierge and Admin desk have received your request.');
+        if (typeof closeAllModals === 'function') closeAllModals();
+        if (typeof closeOffsiteModal === 'function') closeOffsiteModal();
+        if (typeof closeEventInquiryModal === 'function') closeEventInquiryModal();
+      };
+    </script>
+    
 </body>
 </html>

@@ -1739,5 +1739,39 @@
       })();
     </script>
 
+<script src="viral-store.js"></script>
+<script>
+    window.handleLiveVillaBooking = function() {
+      const name = prompt("Enter Primary Guest Name:", "Vikram Mehta");
+      if (!name) return;
+      const phone = prompt("Enter Contact Mobile Number:", "+91 98201 44512");
+      if (!phone) return;
+
+      const vName = document.querySelector('.villa-header-title')?.innerText || 'Luxury Villa Estate';
+      const vCity = document.querySelector('.villa-location-tag')?.innerText || 'Goa';
+      const priceText = document.querySelector('.price-main-val')?.innerText?.replace(/[^0-9]/g, '') || '45000';
+      const price = parseInt(priceText) || 45000;
+
+      const newBooking = ViralStore.addBooking({
+        guestName: name,
+        guestPhone: phone,
+        guestEmail: name.toLowerCase().replace(/\s+/g, '') + '@gmail.com',
+        villaName: vName,
+        villaCity: vCity,
+        villaImg: document.querySelector('.hero-gallery-img')?.src || 'images/P1038840_003bdc3df0.jpg',
+        checkIn: "2026-09-10",
+        checkOut: "2026-09-14",
+        nights: 4,
+        guests: 6,
+        totalAmount: price * 4,
+        status: "Confirmed",
+        paymentMethod: "Credit Card Online"
+      });
+
+      if (confirm('🎉 Booking Confirmed!\nBooking ID: #' + newBooking.id + '\nTotal: ₹' + (newBooking.totalAmount).toLocaleString('en-IN') + '\n\nWould you like to open your Customer Dashboard & Digital Stay Voucher?')) {
+        window.location.href = 'dashboard.html';
+      }
+    };
+    </script>
 </body>
 </html>
